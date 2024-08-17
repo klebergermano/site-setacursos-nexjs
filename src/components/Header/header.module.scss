@@ -1,0 +1,24 @@
+@import "../../styles/variables.module.scss";
+
+.header {
+    width: 100%;
+    background-color: $color-dark;
+    height: auto;
+
+    .header_container {
+
+        border: 1px solid magenta;
+        display: flex;
+        max-width: $width-container;
+        //justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 150px;
+
+
+        .header_sub_column {
+            border: 1px solid greenyellow;
+            flex-grow: 1;
+        }
+    }
+}

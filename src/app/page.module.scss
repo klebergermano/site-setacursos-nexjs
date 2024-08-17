@@ -1,9 +1,17 @@
+@import "../styles/variables.module.scss";
+
+.main-container {
+  width: $width-container;
+  border: 5px solid orange;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .main {
-  background-color: rgb(182, 182, 182) ;
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: space-between;
-  //align-items: center;
-  
-  min-height: 100vh;
+  width: 200px;
+  height: 200px;
+  background-color: $color-primary;
+  margin: 0px;
+
+
 }
