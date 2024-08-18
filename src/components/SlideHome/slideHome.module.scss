@@ -1,0 +1,54 @@
+@import "../../styles/variables.module.scss";
+
+#bgSlideHome {
+    background-color: #000;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    #slideHome {
+        position: relative;
+        max-height: 700px;
+        top: 0;
+        overflow: hidden;
+
+
+
+        video {
+            width: 100%;
+            max-width: 2048px;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            z-index: -1;
+        }
+
+        #infoSlide {
+            position: absolute;
+            z-index: 1;
+            height: auto;
+            color: #fff;
+            text-align: center;
+            overflow: hidden;
+            max-width: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50px 50px 0px 50px;
+            padding: 15px 15px;
+            background-color: #f8f8f8;
+
+            h1 {
+                color: #333;
+                line-height: 26px;
+                margin-top: 20px;
+                font-size: 20px;
+                max-width: 100%;
+                font-weight: normal;
+
+            }
+
+        }
+
+    }
+}

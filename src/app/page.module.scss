@@ -1,15 +1,10 @@
 @import "../styles/variables.module.scss";
 
-.main-container {
-  width: $width-container;
-  border: 5px solid orange;
-  margin: 0 auto;
-  padding: 20px;
-}
+
 
 .main {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  min-height: 800px;
   background-color: $color-primary;
   margin: 0px;
 

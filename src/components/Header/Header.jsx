@@ -8,7 +8,7 @@ import NavHeader from "./NavHeader/NavHeader"
 
 function Header() {
     return (
-        <div className={style.header}>
+        <div className={style.header} name='header'>
             <div className={style.header_container}>
                 <div className={style.header_sub_column}>
                     <figure>
