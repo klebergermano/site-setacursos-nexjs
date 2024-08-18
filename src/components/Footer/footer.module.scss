@@ -1,11 +1,11 @@
 @import "../../styles/variables.module.scss";
 
-.header {
+#footer {
     width: 100%;
     background-color: $color-dark;
     height: auto;
 
-    .header_container {
+    #footer_container {
 
         border: 1px solid magenta;
         display: flex;
@@ -15,9 +15,6 @@
         margin: 0 auto;
         height: 150px;
 
-        .header_sub_column {
-            border: 1px solid greenyellow;
-            flex-grow: 1;
-        }
+
     }
 }
