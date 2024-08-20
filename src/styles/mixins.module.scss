@@ -1,0 +1,9 @@
+@import "./variables.module.scss";
+
+@mixin border-secondary {
+    border: 1px solid $color-secondary ;
+}
+
+@mixin border-decorative {
+    border: 2px solid $color-secondary ;
+}

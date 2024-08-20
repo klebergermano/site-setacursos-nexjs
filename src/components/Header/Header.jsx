@@ -10,16 +10,29 @@ function Header() {
     return (
         <div className={style.header} name='header'>
             <div className={style.header_container}>
-                <div className={style.header_sub_column}>
-                    <figure>
+                <div className={style.h_columns} id={style.h_column_1}>
+                    <figure className={style.bg_logo}>
                         <Image
                             src={ImgLogo}
                             fit={true}
                         />
                     </figure>
                 </div>
-                <div className={style.header_sub_column}>
-                    <NavHeader />
+                <div className={style.h_columns} id={style.h_column_2}>
+                    <div className={style.sub_h_clmn}>
+                        <nav>
+                            <ul>
+                                <li>
+                                    Menu
+
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div className={style.sub_h_clmn}>
+                        <NavHeader />
+
+                    </div>
 
                 </div>
             </div>

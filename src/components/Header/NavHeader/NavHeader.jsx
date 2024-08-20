@@ -3,6 +3,7 @@ import Image from "next/image"
 import ImgLogo from "@/../public/assets/images/logo.png"
 import style from "./navHeader.module.scss"
 import Link from "next/link"
+import LinkLiCursosPage from "./_LiLinkCursosPage"
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 
 
@@ -21,9 +22,43 @@ function NavHeader() {
                     >Início
                     </LinkScroll>
                 </li>
-                <li>
-                    <Link href="./">Cursos</Link>
+                <li className={style.liCursos}>
+                    <LinkScroll
+                        activeClass="active"
+                        to="bgPainelCursos"
+                        spy={true}
+                        smooth={true}
+                        offset={-60}
+                        duration={600}
+                    >
+                        Cursos
+                    </LinkScroll>
+                    <ul className={style.subMenuHeader}>
+                        <li>
+                            <LinkScroll
+                                activeClass="active"
+                                to="bgPainelCursos"
+                                spy={true}
+                                smooth={true}
+                                offset={-60}
+                                duration={600}
+                            >
+                                Painel de Cursos
+                            </LinkScroll>
+                        </li>
+
+                        <LinkLiCursosPage />
+
+                        <li id="link_certificadosx">
+                            <a href="/certificados"> Certificados</a>
+                        </li>
+                    </ul>
+
+
                 </li>
+
+
+
                 <li>
                     <Link href="./sobre">Sobre</Link>
 
