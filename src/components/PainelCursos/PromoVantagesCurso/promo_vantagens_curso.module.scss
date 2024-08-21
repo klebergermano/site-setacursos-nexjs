@@ -1,0 +1,265 @@
+@import "../../styles/includes.module.scss";
+
+
+
+
+#vantagensCursos {
+    z-index: 2;
+    padding: 20px 10px;
+    background-color: #f0f0f0;
+    height: 100%;
+    border-radius: 5px;
+
+    #titleVantagens {
+        text-align: center;
+        color: #fff;
+        padding: 15px 0;
+        background-color: green;
+        margin: -20px -10px 10px;
+        font-weight: normal;
+        border-radius: 5px 5px 0 0;
+    }
+
+    ul {
+        list-style: none;
+
+        .a_active {
+            background-color: #ffffdd !important;
+            color: #333;
+            width: calc(100% + 10px);
+
+            .chevron {
+                // margin-right: -15px !important;
+                margin-top: 5px;
+            }
+        }
+
+        a,
+        button {
+            border: 0px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            /* Align items at the top */
+            padding: 10px 5px;
+            text-decoration: none;
+            // white-space: nowrap;
+            font-size: 14px;
+            border-bottom: 1px solid #ccc;
+            color: #333;
+            text-align: left;
+            padding-left: 10px;
+
+            .dtqTexto {
+                color: rgb(0, 121, 41);
+            }
+
+            span {
+                padding-right: 10px;
+                pointer-events: none;
+            }
+
+            &:hover {
+                color: #333;
+                background-color: #ddd;
+
+                .chevron {
+                    color: rgb(0, 177, 0);
+                }
+
+            }
+
+
+            .text {
+                flex: 1;
+            }
+
+            .chevron {
+                margin-right: -10px;
+                align-self: flex-start !important;
+                align-items: flex-start;
+                /* Align items at the top */
+                line-height: 16px;
+                font-size: 30px;
+                font-weight: bold;
+                transition: all 0.3s ease-in-out;
+                z-index: 9;
+
+
+            }
+        }
+
+        li {
+            position: relative;
+
+            list-style: none;
+
+            .liSubContent {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.5s ease-in-out;
+                font-size: 14px;
+                width: auto;
+                background-color: #eee;
+                border-bottom: 1px solid #ccc;
+                color: #111;
+                right: 0;
+                width: 0;
+                position: absolute;
+                overflow: hidden;
+
+                top: 10px;
+
+                p {
+                    opacity: 0;
+                    transition: opacity 1s ease-in;
+                }
+
+            }
+
+            .liSubContent.active {
+                top: -50px;
+                max-height: 500px;
+                min-height: 50px;
+                padding: 30px;
+                right: calc(-100% - 50px);
+                border-radius: 40px 40px 40px 0px;
+                box-shadow: 3px 2px 3px #000;
+                border-left: 0 solid green;
+                width: 300px;
+                position: absolute;
+                z-index: 3;
+                overflow-y: hidden;
+                line-height: 18px;
+
+                p {
+                    opacity: 1;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
+
+
+@media(min-width: 2048px) {}
+
+@media(max-width: 1260px) {
+
+
+    #vantagensCursos {
+        min-width: 260px;
+
+        ul {
+            li {
+
+                .liSubContent.active {
+                    right: calc(-100% - 60px) !important;
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width: 980px) {}
+
+
+@media(max-width: 800px) {
+
+
+
+
+    #vantagensCursos {
+        max-width: 290px;
+
+        ul {
+            li {
+
+                .liSubContent.active {
+                    right: calc(-100% - 50px) !important;
+
+                }
+            }
+        }
+    }
+
+
+}
+
+@media(max-width: 560px) {
+
+
+    #vantagensCursos {
+        max-width: 100%;
+        min-width: auto !important;
+
+        ul {
+            li {
+
+                .liSubContent.active {
+                    right: calc(-100% - 90px) !important;
+
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media(max-width: 520px) {}
+
+
+@media(max-width: 520px) {
+
+
+
+
+    #vantagensCursos {
+        max-width: 100%;
+        grid-column: span 2;
+
+        ul {
+
+            li {
+
+
+                position: relative;
+
+                list-style: none;
+
+                .liSubContent {}
+
+                .liSubContent.active {
+                    height: auto;
+                    max-height: 150px;
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin: 0px;
+                    box-shadow: 0px 1px 1px #333;
+                    background-color: #ffd;
+                    color: #444;
+                    position: initial;
+
+                }
+            }
+        }
+
+    }
+
+
+}

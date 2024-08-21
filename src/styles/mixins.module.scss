@@ -7,3 +7,16 @@
 @mixin border-decorative {
     border: 2px solid $color-secondary ;
 }
+
+@mixin button-primary {
+    text-decoration: none;
+    background-color: $color-primary;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+
+    &:hover {
+        background-color: lighten($color-primary, 10%);
+    }
+}

@@ -13,9 +13,13 @@ body {
 
 .container-global {
 
-  max-width: $width-container;
   min-height: 100vh;
   border: 1px solid magenta;
   margin: 0 auto;
 
+}
+
+.main {
+
+  width: 100%;
 }
