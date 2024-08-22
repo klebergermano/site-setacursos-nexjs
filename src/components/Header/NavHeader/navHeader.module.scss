@@ -29,20 +29,21 @@
                 //transition: color 0.2s;
                 cursor: pointer;
                 user-select: none;
-                min-width: 80px;
+                min-width: 85px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 background-color: rgb(14, 14, 14);
                 text-decoration: none;
                 padding: 5px;
-                font-size: 14px;
+                font-size: 12px;
                 color: $color-light;
                 width: 100%;
 
                 &:hover {
-                    background-color: lighten($color-dark, 2%) !important;
-                    color: $color-primary;
+                    //background-color: #345bdb !important;
+                    background-color: $color-primary !important;
+                    // color: $color-dark;
                 }
 
             }

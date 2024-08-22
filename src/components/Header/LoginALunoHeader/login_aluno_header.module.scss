@@ -1,0 +1,44 @@
+@import "../../../styles/includes.module.scss";
+
+
+#login_aluno_header {
+    display: flex;
+    //margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: #00000088;
+    border-radius: 0px 0px 0px 5px;
+    height: auto;
+    height: 40px;
+    padding: 5px;
+    overflow: hidden;
+    justify-content: center;
+
+    .icon {
+        width: 16px;
+        margin: -3px 7px 0px 5px;
+        fill: rgb(255, 255, 255);
+        float: left;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            color: #FFF;
+            list-style: none;
+
+            a {
+                @include button-primary;
+                //border-radius: 10px 10px 10px 10px;
+                padding: 6px 8px;
+
+            }
+        }
+    }
+}

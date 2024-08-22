@@ -8,13 +8,14 @@
     z-index: 3;
 
     .header_container {
-
+        text-transform: uppercase;
+        font-size: 12px;
         display: flex;
         max-width: $width-container;
 
 
         margin: 0 auto;
-        height: 100px;
+        height: 110px;
 
         figure.bg_logo {
 
@@ -30,26 +31,20 @@
         .h_columns {
             display: flex;
             flex-grow: 1;
-
             align-items: center;
 
             .sub_h_clmn {
-
                 flex-grow: 1;
                 justify-content: flex-end;
                 align-items: flex-end;
                 display: flex;
                 width: 100%;
-
-
             }
         }
 
         #h_column_1 {}
 
         #h_column_2 {
-
-
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -64,7 +59,7 @@
     }
 }
 
-#bg_login_header {
+#bg_login_aluno_header {
 
     margin-bottom: 30px;
 
@@ -74,7 +69,6 @@
         list-style: none;
 
         a {
-
             @include button-primary;
             //border-radius: 10px 10px 10px 10px;
 

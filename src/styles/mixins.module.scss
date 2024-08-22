@@ -9,11 +9,15 @@
 }
 
 @mixin button-primary {
+
     text-decoration: none;
     background-color: $color-primary;
     padding: 10px;
     color: #fff;
     border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
     &:hover {
