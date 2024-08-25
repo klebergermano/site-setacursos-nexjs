@@ -8,19 +8,106 @@
     border: 2px solid $color-secondary ;
 }
 
-@mixin button-primary {
+@mixin button-defaut($color) {
 
     text-decoration: none;
-    background-color: $color-primary;
+    background-color: $color;
     padding: 10px;
     color: #fff;
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+
+    border: 0px;
+    cursor: pointer;
+
+    svg {}
 
     &:hover {
-        background-color: lighten($color-primary, 10%);
+        background-color: lighten($color, 10%);
     }
 }
+
+@mixin button-primary {
+    @include button-defaut($color-primary)
+}
+
+
+@mixin button-redesocial ($color) {
+
+
+    @include button-defaut($color);
+    border-radius: 5px;
+    //min-width: 300px;
+    margin: 5px;
+    max-height: 80px;
+    min-width: 200px;
+    max-width: 250px;
+    flex-grow: 1;
+    font-size: 18px;
+
+    svg {
+        display: block;
+        fill: #fff;
+        width: 25px;
+
+        margin: 0px 7px 0px 0px;
+        //border: 1px solid #000;
+
+        // padding: 5px;
+    }
+
+
+}
+
+@mixin button-whatsapp {
+
+    @include button-redesocial(#29b61f);
+
+    min-height: 70px;
+
+
+    svg {
+
+        width: 35px;
+
+    }
+}
+
+@mixin button-facebook {
+
+    @include button-redesocial($color-primary);
+
+
+    svg {
+        width: 22px;
+    }
+
+}
+
+@mixin button-instagram {
+
+    @include button-redesocial($color-secondary);
+
+
+
+
+}
+
+
+@mixin h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    background-color: $color-dark;
+    color: $color-secondary;
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+@mixin content {}

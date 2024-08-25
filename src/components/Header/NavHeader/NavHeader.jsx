@@ -15,7 +15,7 @@ function NavHeader() {
                     <LinkScroll
                         className="a-sem-link"
                         activeClass="active"
-                        to="header"
+                        to="#header"
                         smooth={true}
                         offset={0}
                         duration={800}
@@ -25,7 +25,7 @@ function NavHeader() {
                 <li className={style.liCursos}>
                     <LinkScroll
                         activeClass="active"
-                        to="bgPainelCursos"
+                        to="painel_cursos"
                         spy={true}
                         smooth={true}
                         offset={-60}
@@ -64,7 +64,17 @@ function NavHeader() {
 
                 </li>
                 <li>
-                    <Link href="./contato">Contato</Link>
+
+                    <LinkScroll
+                        activeClass="active"
+                        to="contato"
+                        spy={true}
+                        smooth={true}
+                        offset={-60}
+                        duration={600}
+                    >
+                        Contato
+                    </LinkScroll>
                 </li>
             </ul>
         </nav>
