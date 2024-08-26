@@ -6,16 +6,17 @@ import Icon from "@/../public/assets/icons";
 import style from "./form_contato.module.scss";
 import InfoContato from "../InfoContato";
 
-function FormContato(props) {
+function Contato(props) {
 
   return (
-    <div name="contato" className={style.contato}>
+    <section
+      name="contato" className={style.contato}>
       <div className={style.content}>
         <h1>Entre em contato conosco e saiba mais!</h1>
 
-        <div className={style.block_content}>
+        <div className={style.block_content} data-aos='zoom-in'>
           <div className={style.clmn_block}>
-            <div className={style.info_contato}>
+            <div className={style.info_contato} data-aos='zoom-in-right'>
               <div className={style.row}>
                 <div className={style.clmn}>
                   <p>
@@ -85,7 +86,7 @@ function FormContato(props) {
 
 
           </div>{/*clmn_block*/}
-          <div className={style.clmn_block}>
+          <div className={style.clmn_block} data-aos='zoom-in-up'>
 
             <FormNetlify />
           </div>
@@ -93,10 +94,10 @@ function FormContato(props) {
         </div>
 
       </div>
-    </div>
+    </section>
 
   );
 }
 
 
-export default FormContato;
+export default Contato;

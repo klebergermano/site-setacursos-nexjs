@@ -134,7 +134,7 @@ function PainelCursos() {
 
 
   return (
-    <section id={style.bg_painel_cursos}>
+    <section name='painel_cursos' id={style.bg_painel_cursos}>
       <div id={style.content_painel_cursos}>
         <h1>Conheça nossos cursos</h1>
         <div id={style.sobreCursos}>

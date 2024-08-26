@@ -4,7 +4,8 @@ import globals from "@/styles/globals.scss"
 import SlideHome from "@/components/SlideHome/SlideHome.jsx";
 import PainelCursos from "@/components/PainelCursos/PainelCursos";
 import Sobre from "@/components/Sobre/Sobre";
-import FormContato from "@/components/FormContato/FormContato";
+import Contato from "@/components/Contato/Contato";
+import GoogleReview from "@/components/GoogleReview/GoogleReview";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
         <PainelCursos />
       </main>
       <Sobre />
-      <FormContato />
+      <GoogleReview />
+      <Contato />
     </>
   );
 }

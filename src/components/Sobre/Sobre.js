@@ -7,7 +7,7 @@ const Sobre = () => {
 
 
   return (
-    <div className="sessao-homepage" id={style.sobre}>
+    <section name='sobre' id={style.sobre}>
       <div id={style.content}>
         <div>
           <h1 data-aos='zoom-in' data-aos-duration='100'>Quem somos</h1>
@@ -63,7 +63,7 @@ const Sobre = () => {
           <Image src={"/assets/images/logo2.png"} width={300} height={0} alt='Seta Cursos' loading='lazy' />
         </figure>
       </div>
-    </div>
+    </section>
   );
 }
 

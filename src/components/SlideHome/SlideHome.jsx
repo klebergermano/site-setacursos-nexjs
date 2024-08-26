@@ -10,7 +10,7 @@ import Video from "next-video";
 function SlideHome() {
 
   return (
-    <div id={styles.bgSlideHome}>
+    <div name='slide_home' id={styles.bgSlideHome}>
 
       <div id={styles.slideHome}>
 
@@ -25,7 +25,7 @@ function SlideHome() {
             className="a-sem-link"
 
             activeClass="active"
-            to="contentPainelCursos"
+            to="painel_cursos"
             spy={true}
             smooth={true}
             offset={0}
