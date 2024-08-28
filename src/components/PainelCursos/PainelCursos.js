@@ -171,8 +171,13 @@ function PainelCursos() {
                       {item.nome}
                     </a>
                   </h2>
-                  <figcaption className={style.descricao}>{item.descrição}</figcaption>
+                  <div className={style.descricao}>
 
+                    <p>
+                      {item.descrição}
+                    </p>
+
+                  </div>
                   <a className={style.btn_curso} href={item.linkPage}>Saiba Mais</a>
                 </div>
               </div>

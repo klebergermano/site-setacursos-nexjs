@@ -30,6 +30,10 @@
 
         #infoSlide {
             position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             z-index: 1;
             height: auto;
             color: #fff;
@@ -64,32 +68,38 @@
             button,
             a {
 
+                @include button-primary;
+                max-width: 160px;
+                flex-direction: column;
+                border-radius: 0px 0px 8px 8px;
+                text-transform: uppercase;
+                font-size: 12px;
+
+                /*
                 text-decoration: none;
                 color: #fff;
 
                 display: block;
                 margin: 10px auto;
-                text-transform: uppercase;
                 padding: 10px 10px 25px 10px;
                 background: $color-primary;
-                font-size: 12px;
                 cursor: pointer;
-                max-width: 160px;
-                border-radius: 0px 0px 8px 8px;
                 box-shadow: 0 0.1em 0.1em #333;
-
+*/
                 span {
                     display: block;
-                    position: absolute;
-                    bottom: 10px;
+                    //position: absolute;
+
+                    margin-bottom: -15px;
+                    margin-top: -10px;
                     font-size: 40px;
-                    left: 48%;
+                    // left: 48%;
                     transform: rotate(-90deg);
 
                 }
 
-                &:hover {
-                    // background: lighten($color-dark, 5%);
+                &:active {
+                    background: darken($color-primary, 10%);
                 }
             }
         }

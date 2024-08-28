@@ -39,6 +39,7 @@
     }
 
     #sobreCursos {
+
         grid-column: 1 / -1;
         padding: 0px 20px 30px 20px;
         color: #999;
@@ -59,9 +60,9 @@
         position: relative;
         overflow: hidden;
         min-width: 150px;
-        padding-bottom: 70px;
+        padding-bottom: 90px;
         border: 1px solid #ff0062;
-        background-color: #10101cee;
+        background-color: #10101cf3;
         box-shadow: 0 0 0 #00eeff;
         animation: glow 3s ease-in-out infinite;
         border-radius: 5px;
@@ -69,8 +70,9 @@
         flex-direction: column;
 
 
+
         &:hover {
-            background-color: #0c0c0f;
+            //  background-color: #0c0c0f;
 
 
         }
@@ -86,14 +88,23 @@
 
         .b_content {
 
-            h2 {
-                margin: 0px;
 
+
+            h2 {
+                transition: all 1s;
+                position: absolute;
+                bottom: 55px;
+                width: 80%;
+                margin: 0px;
+                left: 10%;
+                border-bottom: 1px solid #222222;
                 text-align: center !important;
+                background-color: transparent;
+                z-index: 3;
 
 
                 a {
-
+                    transition: all 1s;
                     display: block;
                     text-transform: uppercase;
                     padding: 10px 0;
@@ -109,24 +120,36 @@
 
             }
 
-            figure {
-                max-width: 100%;
-
-                img {
-                    max-width: 100%;
-                    width: auto;
-                }
-            }
-
             .descricao {
+                z-index: 1;
+                transition: all 0.5s;
+                opacity: 1;
+                overflow: hidden;
+                //@include border-primary;
+                border-top: 1px solid #f0F0F0;
+                bottom: 95px;
+                position: absolute;
+                //  display: none;
                 padding: 0 10px;
                 font-size: 16px;
                 text-align: center;
+                background-color: #000000dd;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 1px;
+                opacity: 0;
+
+
+
             }
 
 
             a.btn_curso {
 
+                z-index: 3;
                 @include button-primary;
 
                 text-transform: uppercase;
@@ -135,20 +158,48 @@
                 bottom: 10px;
                 left: 50%;
                 width: 100%;
-                padding: 13px;
-                max-width: 120px;
+                padding: 5px;
+                max-width: 100px;
                 transform: translate(-50%);
-                background-color: #0051ff;
 
 
-
-                text-decoration: none;
-                font-size: 12px;
-                font-weight: bolder;
+                font-size: 11px;
 
 
             }
 
+        }
+
+        &:hover {
+            figure {
+                overflow: hidden;
+
+                img {
+                    //width: 120%;
+                }
+            }
+
+            h2 {
+                //bottom: 220px;
+                // background-color: rgba(#000a24, 0.5);
+                //left: 0%;
+                //width: 100%;
+                border-color: #f0f0f0;
+
+                a {
+                    //color: lighten($color-primary, 20%);
+                }
+            }
+
+            .descricao {
+                //top: 0;
+                opacity: 1;
+
+                height: 140px;
+
+
+
+            }
 
         }
 
