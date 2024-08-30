@@ -1,15 +1,15 @@
 'use client'
 import Image from "next/image"
 import ImgLogo from "@/../public/assets/images/logo.png"
-import style from "./navHeader.module.scss"
+import style from "./nav_header_desktop.module.scss"
 import Link from "next/link"
 import LinkLiCursosPage from "./_LiLinkCursosPage"
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 
 
-function NavHeader() {
+function NavHeaderDesktop() {
     return (
-        <nav className={style.navHeader}>
+        <nav className={style.nav_header_desktop}>
             <ul>
                 <li>
                     <LinkScroll
@@ -22,7 +22,7 @@ function NavHeader() {
                     >Início
                     </LinkScroll>
                 </li>
-                <li className={style.liCursos}>
+                <li className={style.li_cursos}>
                     <LinkScroll
                         activeClass="active"
                         to="painel_cursos"
@@ -33,7 +33,7 @@ function NavHeader() {
                     >
                         Cursos
                     </LinkScroll>
-                    <ul className={style.subMenuHeader}>
+                    <ul className={style.submenu_header}>
                         <li>
                             <LinkScroll
                                 activeClass="active"
@@ -92,4 +92,4 @@ function NavHeader() {
     )
 }
 
-export default NavHeader
+export default NavHeaderDesktop

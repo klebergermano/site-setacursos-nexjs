@@ -3,7 +3,7 @@
 import FormNetlify from "./formNetlify/_formNetlify";
 import Info from "../InfoContato";
 import Icon from "@/../public/assets/icons";
-import style from "./form_contato.module.scss";
+import style from "./contato.module.scss";
 import InfoContato from "../InfoContato";
 
 function Contato(props) {
@@ -40,7 +40,7 @@ function Contato(props) {
 
 
 
-              <p>Conheça também nossas redes sociais!</p>
+              <h4>Conheça também nossas redes sociais!</h4>
 
               <div className={style.row}>
 

@@ -3,16 +3,16 @@
 #bg_painel_cursos {
     padding: 60px 0px;
     background: #111119 url('/assets/images/img_painel_cursos-assets/img_painel_background.webp');
-    //background: #111119;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right bottom;
-    max-width: 100%;
+    width: 100%;
     color: #aaafbb !important;
     line-height: 22px;
     width: auto;
     height: auto;
     margin-top: 0;
+
 
     #content_painel_cursos {
         display: grid;
@@ -34,6 +34,7 @@
             padding: 20px 0;
             font-size: 24px;
             font-weight: normal;
+            text-align: center;
 
         }
     }
@@ -285,7 +286,7 @@
 
 @media(min-width: 2048px) {
 
-    #bgPainelCursos {
+    #bg_painel_cursos {
         background-size: 2048px;
         background-position: center;
 
@@ -297,9 +298,9 @@
 
 @media(max-width: 980px) {
 
-    #bgPainelCursos {
+    #bg_painel_cursos {
 
-        #contentPainelCursos {
+        #content_painel_cursos {
 
             grid-template-columns: 1fr 1fr 1fr;
 
@@ -311,9 +312,9 @@
 
 @media(max-width: 800px) {
 
-    #bgPainelCursos {
+    #bg_painel_cursos {
 
-        #contentPainelCursos {
+        #content_painel_cursos {
 
             grid-template-columns: 1fr 1fr;
 
@@ -333,9 +334,9 @@
 
 @media(max-width: 520px) {
 
-    #bgPainelCursos {
+    #bg_painel_cursos {
 
-        #contentPainelCursos {
+        #content_painel_cursos {
             gap: 10PX;
 
             // grid-template-columns: 1fr;

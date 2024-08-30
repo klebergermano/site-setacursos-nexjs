@@ -3,10 +3,10 @@
 
 #login_aluno_header {
     display: flex;
-    //margin-bottom: 20px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    background-color: #00000088;
+    display: none;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    // background-color: #00000021;
     border-radius: 0px 0px 0px 5px;
     height: auto;
     height: 40px;
@@ -25,13 +25,19 @@
         display: flex;
         justify-content: center;
 
+        svg {
+            fill: #9b9b9b !important;
+        }
+
         li {
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 10px;
-            color: #FFF;
+            color: #a1a1a1;
             list-style: none;
+
+
 
             a {
                 @include button-primary;

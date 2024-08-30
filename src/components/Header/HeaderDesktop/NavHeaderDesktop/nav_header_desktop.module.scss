@@ -1,6 +1,6 @@
-@import "../../../styles/includes.module.scss";
+@import "../../../../styles/includes.module.scss";
 
-.navHeader {
+.nav_header_desktop {
     height: auto;
     //flex-grow: 1;
     height: 100%;
@@ -52,18 +52,17 @@
 
         }
 
-        .liCursos {
+        .li_cursos {
 
             $size-sub-menu: 420px;
 
-            ul.subMenuHeader {
+            ul.submenu_header {
                 gap: 0px;
 
 
                 @include border-decorative;
                 border-top: 0px;
                 border-bottom: 1px solid $color-secondary;
-
 
                 //----------------------//
                 transition: all 0.8s;
@@ -104,7 +103,7 @@
             }
 
             &:hover {
-                .subMenuHeader {
+                .submenu_header {
 
                     opacity: 1;
                     height: $size-sub-menu;

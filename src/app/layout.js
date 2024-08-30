@@ -8,7 +8,16 @@ import Header from "@/components/Header/Header";
 export const metadata = {
   title: "Create Next App",
   description: "Seta home page",
+
 };
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+
+}
 
 export default function RootLayout({ children }) {
 

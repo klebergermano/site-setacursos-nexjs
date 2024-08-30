@@ -1,12 +1,8 @@
 @import "../../styles/includes.module.scss";
 
 #sobre {
-  border: 60px solid #f8feff;
 
-  border-left: 0;
-  border-right: 0px;
 
-  //background: #f0f0ff url('/img/foto-painel-de-alunos.webp');
   background: #000 url('/assets/images/foto-painel-de-alunos.webp');
   clear: both;
   width: 100%;
@@ -29,6 +25,7 @@
       h1 {
         padding: 20px 0px;
         text-align: center;
+        text-transform: uppercase;
       }
 
       p {
@@ -79,7 +76,7 @@
 }
 
 @media (max-width: 860px) {
-  #about {
+  #sobre {
 
 
     #content {
@@ -96,7 +93,8 @@
       }
 
       figure {
-        max-width: 100% !important;
+        margin: 0 auto;
+        width: 300px !important;
         text-align: center;
         padding: 0px;
 

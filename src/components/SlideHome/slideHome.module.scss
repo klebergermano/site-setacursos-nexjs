@@ -2,6 +2,8 @@
 
 
 #bgSlideHome {
+
+    margin-top: $height-header-desk;
     background-color: #000;
     height: auto;
     width: 100%;
@@ -105,4 +107,30 @@
         }
 
     }
+}
+
+@media (max-width:560px) {
+    #bgSlideHome {
+        #slideHome {
+
+            #infoSlide {
+                padding: 15px 10px;
+                border-radius: 20px 20px 0px 20px;
+                // background-color: #746464;
+
+                h1,
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-top: 0px;
+                }
+
+            }
+
+        }
+
+
+    }
+
+
 }

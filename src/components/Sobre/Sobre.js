@@ -60,7 +60,7 @@ const Sobre = () => {
 
         </div>
         <figure className={style.logo_sobre}>
-          <Image src={"/assets/images/logo2.png"} width={300} height={0} alt='Seta Cursos' loading='lazy' />
+          <Image src={"/assets/images/logo-sobre.png"} width={300} height={0} alt='Seta Cursos' loading='lazy' />
         </figure>
       </div>
     </section>
