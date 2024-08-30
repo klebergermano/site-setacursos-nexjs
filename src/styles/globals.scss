@@ -1,19 +1,35 @@
 @import "./normalize.module.scss";
 @import "./variables.module.scss";
+@import "./mixins.module.scss";
+
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 
 body {
   background-color: #ccc;
 
+  h1 {
+    margin: 0px;
+  }
 
+}
 
+.icon {
+  width: 15px;
+  margin: 0px 7px 0px 5px;
+  fill: rgb(255, 255, 255);
+  float: left;
 }
 
 .container-global {
 
-  max-width: $width-container;
   min-height: 100vh;
-  border: 1px solid magenta;
-  margin: 0 auto;
+  position: relative;
+  padding-bottom: 280px;
 
+}
+
+.main {
+
+  width: 100%;
+  border: 10px solid orangered;
 }

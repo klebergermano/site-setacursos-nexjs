@@ -1,0 +1,121 @@
+@import "../../../../styles/includes.module.scss";
+
+.nav_header_desktop {
+    height: auto;
+    //flex-grow: 1;
+    height: 100%;
+    width: auto;
+    //@include border-decorative;
+    border-radius: 10px 0px 0px 0px;
+    border-bottom: 0px;
+
+    ul {
+        display: flex;
+        z-index: 3;
+        height: 100%;
+        justify-content: flex-end;
+        gap: 3px;
+
+        li {
+            position: relative;
+            list-style: none;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+
+            a {
+                border-radius: 15px 0px 0px 0px;
+
+                //transition: color 0.2s;
+                cursor: pointer;
+                user-select: none;
+                min-width: 85px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(14, 14, 14);
+                text-decoration: none;
+                padding: 5px;
+                font-size: 12px;
+                color: $color-light;
+                width: 100%;
+
+                &:hover {
+                    //background-color: #345bdb !important;
+                    background-color: $color-primary !important;
+                    // color: $color-dark;
+                }
+
+            }
+
+
+
+        }
+
+        .li_cursos {
+
+            $size-sub-menu: 420px;
+
+            ul.submenu_header {
+                gap: 0px;
+
+
+                @include border-decorative;
+                border-top: 0px;
+                border-bottom: 1px solid $color-secondary;
+
+                //----------------------//
+                transition: all 0.8s;
+                opacity: 1;
+                height: 1px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border-radius: 0px 0px 15px 15px;
+                position: absolute;
+                width: 240px;
+                background-color: $color-dark;
+
+                bottom: -1px;
+
+                li {
+                    min-height: 40px;
+                    max-height: 50px;
+                    display: flex;
+                    align-items: center;
+
+                    a {
+                        height: 100%;
+                        border-radius: 0px;
+                    }
+
+                    &:hover {
+                        background-color: #161616;
+                    }
+                }
+
+                li:nth-child(even) {
+                    a {
+                        background-color: #101012;
+                    }
+                }
+            }
+
+            &:hover {
+                .submenu_header {
+
+                    opacity: 1;
+                    height: $size-sub-menu;
+                    bottom: -$size-sub-menu;
+                    border-bottom: 3px solid $color-secondary;
+
+                }
+            }
+
+
+        }
+
+    }
+
+}

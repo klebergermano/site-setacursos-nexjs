@@ -1,0 +1,362 @@
+@import "../../styles/includes.module.scss";
+
+#bg_painel_cursos {
+    padding: 60px 0px;
+    background: #111119 url('/assets/images/img_painel_cursos-assets/img_painel_background.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right bottom;
+    width: 100%;
+    color: #aaafbb !important;
+    line-height: 22px;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+
+
+    #content_painel_cursos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        max-width: $width-content;
+        width: auto;
+        margin: auto;
+
+        h1 {
+            text-transform: uppercase;
+            color: #ff0173;
+            border-bottom: 1px solid #ff0173;
+            width: calc(100%);
+            margin-left: 0;
+            margin-top: 0px;
+            grid-column: 1 / -1;
+            text-align: left;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: normal;
+            text-align: center;
+
+        }
+    }
+
+    #sobreCursos {
+
+        grid-column: 1 / -1;
+        padding: 0px 20px 30px 20px;
+        color: #999;
+        text-align: center;
+        font-size: 16px;
+        border-bottom: 1px solid $color-secondary;
+        border-radius: 3px;
+    }
+
+
+    .animatedBlocosCursosPainel {
+        z-index: -1;
+
+    }
+
+    .bloco_curso {
+
+        position: relative;
+        overflow: hidden;
+        min-width: 150px;
+        padding-bottom: 90px;
+        border: 1px solid #ff0062;
+        background-color: #10101cf3;
+        box-shadow: 0 0 0 #00eeff;
+        animation: glow 3s ease-in-out infinite;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+
+
+        &:hover {
+            //  background-color: #0c0c0f;
+
+
+        }
+
+        figure {
+            display: block;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .b_content {
+
+
+
+            h2 {
+                transition: all 1s;
+                position: absolute;
+                bottom: 55px;
+                width: 80%;
+                margin: 0px;
+                left: 10%;
+                border-bottom: 1px solid #222222;
+                text-align: center !important;
+                background-color: transparent;
+                z-index: 3;
+
+
+                a {
+                    transition: all 1s;
+                    display: block;
+                    text-transform: uppercase;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    color: rgb(255, 0, 132);
+                    font-weight: normal;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: rgb(255, 0, 179);
+                    }
+                }
+
+            }
+
+            .descricao {
+                z-index: 1;
+                transition: all 0.5s;
+                opacity: 1;
+                overflow: hidden;
+                //@include border-primary;
+                border-top: 1px solid #f0F0F0;
+                bottom: 95px;
+                position: absolute;
+                //  display: none;
+                padding: 0 10px;
+                font-size: 16px;
+                text-align: center;
+                background-color: #000000dd;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 1px;
+                opacity: 0;
+
+
+
+            }
+
+
+            a.btn_curso {
+
+                z-index: 3;
+                @include button-primary;
+
+                text-transform: uppercase;
+
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                width: 100%;
+                padding: 5px;
+                max-width: 100px;
+                transform: translate(-50%);
+
+
+                font-size: 11px;
+
+
+            }
+
+        }
+
+        &:hover {
+            figure {
+                overflow: hidden;
+
+                img {
+                    //width: 120%;
+                }
+            }
+
+            h2 {
+                //bottom: 220px;
+                // background-color: rgba(#000a24, 0.5);
+                //left: 0%;
+                //width: 100%;
+                border-color: #f0f0f0;
+
+                a {
+                    //color: lighten($color-primary, 20%);
+                }
+            }
+
+            .descricao {
+                //top: 0;
+                opacity: 1;
+
+                height: 140px;
+
+
+
+            }
+
+        }
+
+        /////////////////////
+
+
+
+
+
+    }
+}
+
+
+
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #0485f6;
+        // border-color: rgb(0, 242, 255, 0);
+
+    }
+
+    20% {
+        box-shadow: 0 0 10px rgb(255, 0, 128);
+        // border-color:  rgb(255, 0, 200);
+
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgb(255, 0, 89);
+        // border-color:  rgb(255, 0, 200);
+
+    }
+
+
+    80% {
+        box-shadow: 0 0 15px rgb(0, 225, 255);
+        // border-color:  rgb(255, 0, 200);
+
+    }
+
+    90% {
+        box-shadow: 0 0 20px rgb(0, 64, 255);
+        // border-color:  rgb(255, 0, 200);
+
+    }
+
+
+    0% {
+        box-shadow: 0 0 5px rgb(0, 51, 255);
+        // border-color:  rgba(0, 149, 255, 0.5);
+
+
+    }
+
+
+}
+
+
+@keyframes border-color-glow {
+    0% {
+        border-color: rgb(0, 242, 255, 0);
+    }
+
+    20% {
+        border-color: rgb(255, 0, 162);
+    }
+
+    50% {
+        border-color: rgba(0, 0, 255, 1);
+    }
+
+    80% {
+        border-color: rgb(255, 0, 200);
+    }
+
+    100% {
+        border-color: rgba(0, 149, 255, 0.5);
+    }
+
+}
+
+
+@media(min-width: 2048px) {
+
+    #bg_painel_cursos {
+        background-size: 2048px;
+        background-position: center;
+
+    }
+
+}
+
+@media(max-width: 1260px) {}
+
+@media(max-width: 980px) {
+
+    #bg_painel_cursos {
+
+        #content_painel_cursos {
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+    }
+
+}
+
+
+@media(max-width: 800px) {
+
+    #bg_painel_cursos {
+
+        #content_painel_cursos {
+
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+
+    }
+
+}
+
+@media(max-width: 560px) {}
+
+
+
+@media(max-width: 520px) {}
+
+
+@media(max-width: 520px) {
+
+    #bg_painel_cursos {
+
+        #content_painel_cursos {
+            gap: 10PX;
+
+            // grid-template-columns: 1fr;
+            .blocoCursoPainelHTML {
+                padding-bottom: 70px;
+
+                .descricao {
+                    font-size: 12px !important;
+                    line-height: normal;
+                    margin: 0px !important;
+                }
+
+                a {
+                    bottom: 5px !important;
+                }
+            }
+
+        }
+
+
+    }
+
+}

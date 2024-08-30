@@ -1,0 +1,203 @@
+@import "../../styles/includes.module.scss";
+
+.contato {
+    background-color: $color-dark;
+
+    .icon {
+        width: 15px;
+        margin: 0px 7px -2px 0px;
+    }
+
+    .content {
+        max-width: $width-content;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        position: relative;
+        background: #fff url("/assets/images/bg_email.png") no-repeat;
+        background-size: auto;
+        background-position: 50px 260px;
+
+
+        h1 {
+            @include h1;
+
+        }
+
+
+        .block_content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            p {
+                margin: 0px;
+                padding: 6px;
+            }
+
+            .clmn_block:nth-child(1) {
+                max-width: 50%;
+            }
+
+            .clmn_block {
+                padding: 60px 60px;
+                //border: 1px solid red;
+                flex-grow: 1;
+                min-height: 200px;
+
+                .row {
+                    // border: 1px solid rgb(29, 0, 0);
+
+                    display: flex;
+                    flex-direction: row;
+                    overflow: hidden;
+                    height: auto;
+                    min-height: 100px;
+                    align-items: center;
+                    padding: 0px 0px;
+
+                    .clmn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 5px;
+                        //  border: 1px solid orange;
+                        max-width: 50%;
+
+
+                        flex-grow: 1;
+                    }
+
+                    .btn_redesocial {
+
+                        min-height: 70px;
+
+                    }
+
+                    .btn_whatsapp {
+                        @include button-whatsapp;
+
+                    }
+
+                    .btn_facebook {
+                        @include button-facebook;
+                        background-color: #111;
+                    }
+
+                    .btn_instagram {
+                        @include button-instagram;
+                        background-color: #111;
+
+                    }
+
+                    p {
+                        width: 100%;
+
+                        .span_telefone {
+                            white-space: nowrap;
+                            font-weight: bold;
+                            font-size: 18px;
+                            padding-top: 5px;
+                            line-height: 28px;
+                        }
+                    }
+
+                    .bg_map {
+                        background-color: #111;
+                        width: 100%;
+                        padding: 20px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+
+                        iframe {
+                            width: 100%;
+                            height: 200px;
+                        }
+                    }
+                }
+
+                .row:nth-child(3) {
+                    background-color: rgba(148, 169, 226, 0.247);
+                    padding: 20px;
+
+                }
+
+                .row:nth-child(4) {
+                    background-color: rgba(131, 157, 214, 0.37);
+                    flex-direction: column;
+                    padding: 20px;
+                    ;
+                }
+
+            }
+
+
+        }
+    }
+
+
+}
+
+
+@media (max-width:1100px) {
+
+    .contato {
+
+
+        .content {
+            .block_content {
+
+
+                h4 {
+                    text-align: center;
+                    margin-top: 40px;
+                    margin-bottom: 0px;
+                }
+
+                .clmn_block {
+                    padding: 60px 20px;
+
+                    .row {
+                        flex-direction: column;
+
+                        .clmn {
+                            text-align: center;
+                            max-width: 100%;
+
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+
+}
+
+
+@media (max-width:700px) {
+
+    .contato {
+
+
+        .content {
+            .block_content {
+                flex-direction: column;
+
+                .clmn_block:nth-child(1) {
+
+                    max-width: 100%;
+                }
+            }
+
+        }
+
+    }
+
+}

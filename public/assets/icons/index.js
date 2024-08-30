@@ -64,15 +64,15 @@ const Icon = (props) => {
       return <Eye {...props} />;
     case "class":
       return <Class {...props} />;
-      case "class2":
-        return <Class2 {...props} />;
+    case "class2":
+      return <Class2 {...props} />;
 
     case "home":
       return <Home {...props} />;
-      case "about":
-        return <About {...props} />;
-        case "blog":
-          return <Blog {...props} />; 
+    case "about":
+      return <About {...props} />;
+    case "blog":
+      return <Blog {...props} />;
 
     case "phone":
       return <Phone {...props} />;
@@ -95,17 +95,16 @@ const Icon = (props) => {
     case "file-text2":
       return <FileText2 {...props} />;
     case "calendar":
-        return <Calendar {...props} />; 
+      return <Calendar {...props} />;
 
     case "certificate":
-    return <Certificate {...props} />; 
+      return <Certificate {...props} />;
 
     case "time-duration":
-    return <TimeDuration {...props} />; 
+      return <TimeDuration {...props} />;
     case "moeda-real":
-      return <MoedaReal {...props} />; 
+      return <MoedaReal {...props} />;
 
-     
     default:
       return "";
   }
