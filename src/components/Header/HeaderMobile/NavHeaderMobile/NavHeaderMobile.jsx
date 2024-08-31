@@ -13,17 +13,32 @@ import { SlHome } from "react-icons/sl";
 
 import { GrContact } from "react-icons/gr";
 import { FaRegBuilding } from "react-icons/fa";
+import { useEffect, useState } from "react";
+
+
+function toogleNavmenu(e) {
+    setDisplay(true)
+
+}
 
 function NavHeader() {
+    const [isModal, setIsModal] = useState(false);
+    const contentClassname = isModal ? { height: '100vh', padding: '20px' } : { height: '1px' };
+
+
     return (
-        <nav className={style.nav_header_mobile}>
-            <a id={style.btn_menu}>
+        <>
+
+
+
+            <a id={style.btn_display_nav_header} onClick={() => setIsModal(!isModal)} >
 
                 <RxHamburgerMenu id={style.svg} />
 
 
             </a>
-            <div id={style.menu_mobile}>
+
+            <nav id={style.nav_header_mobile} style={contentClassname}>
                 <ul >
                     <li>
                         <LinkScroll
@@ -31,8 +46,9 @@ function NavHeader() {
                             activeClass="active"
                             to="slide_home"
                             smooth={true}
-                            offset={0}
+                            offset={-60}
                             duration={800}
+                            onClick={() => setIsModal(!isModal)}
                         >
                             <SlHome className={style.icon} />
                             Início
@@ -43,10 +59,11 @@ function NavHeader() {
                         <LinkScroll
                             activeClass="active"
                             to="sobre"
-                            spy={true}
+
                             smooth={true}
-                            offset={0}
+                            offset={-60}
                             duration={600}
+                            onClick={() => setIsModal(!isModal)}
                         >
                             <FaRegBuilding className={style.icon} />
 
@@ -58,10 +75,11 @@ function NavHeader() {
                         <LinkScroll
                             activeClass="active"
                             to="contato"
-                            spy={true}
+
                             smooth={true}
                             offset={-60}
                             duration={600}
+                            onClick={() => setIsModal(!isModal)}
                         >
                             <GrContact className={style.icon} />
                             Contato
@@ -72,8 +90,10 @@ function NavHeader() {
                         <LinkLiCursosPage />
                     </span>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+
+        </>
+
 
     )
 }

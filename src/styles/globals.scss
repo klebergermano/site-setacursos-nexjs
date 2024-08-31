@@ -33,3 +33,10 @@ body {
   width: 100%;
   border: 10px solid orangered;
 }
+
+@media (max-width:560px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+}
