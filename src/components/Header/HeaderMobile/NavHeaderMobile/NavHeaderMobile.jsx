@@ -4,16 +4,17 @@ import ImgLogo from "@/../public/assets/images/logo.png";
 
 import style from "./nav_header_mobile.module.scss";
 
-import Link from "next/link";
+
 import LinkLiCursosPage from "./_LiLinkCursosPage";
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SlHome } from "react-icons/sl";
+import { IoChatbubblesOutline } from "react-icons/io5";
 
 
 import { GrContact } from "react-icons/gr";
 import { FaRegBuilding } from "react-icons/fa";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 function toogleNavmenu(e) {
@@ -81,7 +82,8 @@ function NavHeader() {
                             duration={600}
                             onClick={() => setIsModal(!isModal)}
                         >
-                            <GrContact className={style.icon} />
+                            {/* <GrContact className={style.icon} /> */}
+                            <IoChatbubblesOutline className={style.icon} />
                             Contato
                         </LinkScroll>
                     </li>

@@ -5,14 +5,19 @@ import Info from "../InfoContato";
 import Icon from "@/../public/assets/icons";
 import style from "./contato.module.scss";
 import InfoContato from "../InfoContato";
-
+import { IoChatbubblesOutline } from "react-icons/io5";
 function Contato(props) {
 
   return (
     <section
       name="contato" className={style.contato}>
       <div className={style.content}>
-        <h1>Entre em contato conosco e saiba mais!</h1>
+        <h1>
+          <IoChatbubblesOutline />
+
+          Fale Conosco
+
+        </h1>
 
         <div className={style.block_content} data-aos='zoom-in'>
           <div className={style.clmn_block}>
@@ -40,9 +45,9 @@ function Contato(props) {
 
 
 
-              <h4>Conheça também nossas redes sociais!</h4>
 
               <div className={style.row}>
+                <h4>Conheça também nossas redes sociais!</h4>
 
                 <a className={`${style.btn_redesocial} ${style.btn_facebook}`} id={style.btn_facebook} target="_blank" href={Info.facebook}>
                   <Icon name="facebook" className="icon facebook" />
