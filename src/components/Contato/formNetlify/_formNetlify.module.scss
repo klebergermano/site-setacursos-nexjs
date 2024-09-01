@@ -9,8 +9,15 @@
     height: auto;
     margin: 0 auto;
     margin-top: 0PX;
-    padding: 0px 0px;
+    padding: 20px 40px;
     overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #333;
+    max-width: 500px;
+
+    h4 {
+        margin-bottom: 10px;
+    }
 
     div {
         padding: 5px;
@@ -28,11 +35,15 @@
         border-radius: 5px;
         border: 1px solid #222;
         width: 100%;
-        padding: 15px 10px;
-        font-size: 18px;
+        padding: 10px 10px;
+        font-size: 16px;
         margin: 0 auto;
         margin-bottom: 5px;
 
+    }
+
+    textarea {
+        min-height: 100px;
     }
 
     input[type='submit'],

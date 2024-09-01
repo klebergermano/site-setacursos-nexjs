@@ -33,7 +33,7 @@ const Formulario = () => {
       {/*Campo oculto com o nome do formulário netlify*/}
       <input type="hidden" name="form-name" value="form" />
       {/* ----------------------*/}
-      <p>Se preferir, preencha o formulário abaixo que entraremos em contato.</p>
+      <h4>Se preferir, entre em contato conosco através do nosso formulário.</h4>
       <br />
       <div>
 

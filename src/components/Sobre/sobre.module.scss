@@ -17,15 +17,17 @@
     gap: 40px;
     max-width: $width-content;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 
     align-items: center;
 
     div {
       h1 {
-        padding: 20px 0px;
-        text-align: center;
-        text-transform: uppercase;
+        @include h1;
+        color: #111;
+        margin-bottom: 0px;
+        background-color: transparent;
+
       }
 
       p {
@@ -33,6 +35,7 @@
         font-size: 16px;
         padding: 10px 20px 10px 100px;
         line-height: 22px;
+        margin: 0px;
 
         border-radius: 10px;
 

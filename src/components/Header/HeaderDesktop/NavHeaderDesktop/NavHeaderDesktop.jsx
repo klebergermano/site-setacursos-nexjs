@@ -67,7 +67,7 @@ function NavHeaderDesktop() {
                         to="sobre"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-60}
                         duration={600}
                     >
                         Sobre
