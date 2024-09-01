@@ -5,6 +5,9 @@ import Image from "next/image"
 import ImgLogo from "@/../public/assets/images/logo.png"
 import style from "./footer.module.scss"
 
+//Icons
+import { MdPhoneIphone } from "react-icons/md";
+
 function Footer() {
     return (
         <div id={style.footer} className={style.footer} name='footer'>
@@ -30,8 +33,11 @@ function Footer() {
                 <div className={`${style.clmn_footer} ${style.clmn_f_2} `} >
 
                     <p className={style.info_contato} id={style.tel_footer}>
+                        <MdPhoneIphone className={style.icon}
+                        />
                         {InfoContato.telefone} <Icon name="whatsapp" className={style.icon} />
                     </p>
+
 
                     <p className={style.info_contato} id={style.face_footer}>
                         <Icon name="facebook" className={style.icon} />
