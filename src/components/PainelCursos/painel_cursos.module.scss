@@ -23,18 +23,16 @@
         margin: auto;
 
         h1 {
-            text-transform: uppercase;
-            color: #ff0173;
+            @include h1;
+            font-weight: normal;
+            background-color: transparent;
             border-bottom: 1px solid #ff0173;
             width: calc(100%);
             margin-left: 0;
             margin-top: 0px;
             grid-column: 1 / -1;
-            text-align: left;
-            padding: 20px 0;
-            font-size: 24px;
-            font-weight: normal;
-            text-align: center;
+
+
 
         }
     }
@@ -325,7 +323,20 @@
 
 }
 
-@media(max-width: 560px) {}
+@media(max-width: 560px) {
+    #bg_painel_cursos {
+
+        #content_painel_cursos {
+
+            h1 {
+                // background-color: #f90 !important;
+                font-size: 26px;
+                padding-top: 10px;
+            }
+        }
+    }
+
+}
 
 
 

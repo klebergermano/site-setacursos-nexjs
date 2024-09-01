@@ -109,12 +109,14 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 40px;
+    font-weight: bold;
+    padding: 60px 40px;
     background-color: $color-dark;
     color: $color-secondary;
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
-    font-weight: normal;
+    text-transform: uppercase;
+    //font-weight: normal;
 
 }
 
