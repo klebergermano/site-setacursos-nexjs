@@ -2,7 +2,7 @@
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-
+import globals from "@/styles/globals.scss"
 
 
 export const metadata = {
@@ -27,8 +27,6 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body>
         <Header />
-
-
         <div className="container-global">
           {children}
           <Footer />

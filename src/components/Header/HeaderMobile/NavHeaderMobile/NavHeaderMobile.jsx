@@ -5,7 +5,7 @@ import ImgLogo from "@/../public/assets/images/logo.png";
 import style from "./nav_header_mobile.module.scss";
 
 
-import LinkLiCursosPage from "./_LiLinkCursosPage";
+import LinkLiCursosPage from "../../_LinkLiCursosPage";
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SlHome } from "react-icons/sl";
@@ -45,7 +45,7 @@ function NavHeader() {
                         <LinkScroll
                             className="a-sem-link"
                             activeClass="active"
-                            to="slide_home"
+                            to="#slide_home"
                             smooth={true}
                             offset={-60}
                             duration={800}
@@ -59,7 +59,7 @@ function NavHeader() {
                     <li>
                         <LinkScroll
                             activeClass="active"
-                            to="sobre"
+                            to="#sobre"
 
                             smooth={true}
                             offset={-60}
@@ -75,7 +75,7 @@ function NavHeader() {
                     <li>
                         <LinkScroll
                             activeClass="active"
-                            to="contato"
+                            to="#contato"
 
                             smooth={true}
                             offset={-60}

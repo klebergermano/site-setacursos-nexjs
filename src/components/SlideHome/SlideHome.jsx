@@ -1,7 +1,7 @@
 'use client'
 
 import { Link as LinkScroll } from "react-scroll";
-import styles from "./slideHome.module.scss"
+import styles from "./slide_home.module.scss"
 
 import ReactPlayer from "react-player";
 
@@ -10,18 +10,18 @@ import Video from "next-video";
 function SlideHome() {
 
   return (
-    <div name='slide_home' id={styles.bgSlideHome}>
+    <div id='bg_slide_home  ' className={styles.bg_slide_home}>
 
-      <div id={styles.slideHome}>
+      <div id={styles.slide_home}>
 
 
-        <div id={styles.infoSlide}>
+        <div id={styles.info_slide} >
           <h1>Procurando por <strong>Cursos de Inglês</strong>, <strong>Informática</strong> e
             <strong> Profissionalizantes</strong>?</h1>
           <p>Nós podemos te ajudar!</p>
 
           <LinkScroll
-            href='#contentPainelCursos'
+
             className="a-sem-link"
 
             activeClass="active"
@@ -34,7 +34,7 @@ function SlideHome() {
             Conhecer Cursos <span>&#8249;</span>
           </LinkScroll>
         </div>
-        <div id="bgScanlines"></div>
+        <div id="bg_scanlines"></div>
 
         <ReactPlayer
           id="video_slide"

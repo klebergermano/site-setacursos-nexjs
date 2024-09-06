@@ -1,0 +1,9 @@
+@import "../../../../styles/includes.module.scss";
+
+.pages_informatica {
+
+    @include border-decorative;
+    //background-color: #fff;
+    padding: 20px;
+
+}

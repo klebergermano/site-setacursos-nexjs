@@ -13,6 +13,14 @@ body {
 
 }
 
+.pages {
+  max-width: $width-content ;
+  min-height: 100vh;
+  margin: 0 auto;
+  margin-top: $height-header-desk;
+  padding-top: 20px;
+}
+
 .icon {
   width: 15px;
   margin: 0px 7px 0px 5px;

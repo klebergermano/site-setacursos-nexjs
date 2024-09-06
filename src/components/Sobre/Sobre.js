@@ -7,7 +7,7 @@ const Sobre = () => {
 
 
   return (
-    <section name='sobre' id={style.sobre}>
+    <section name='sobre' id='sobre' className={style.sobre}>
       <div id={style.content}>
         <div>
           <h1 data-aos='zoom-in' data-aos-duration='100'>Quem somos</h1>

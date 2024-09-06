@@ -10,7 +10,7 @@ function Contato(props) {
 
   return (
     <section
-      name="contato" className={style.contato}>
+      id="contato" className={style.contato}>
       <div className={style.content}>
         <h1>
           <IoChatbubblesOutline />

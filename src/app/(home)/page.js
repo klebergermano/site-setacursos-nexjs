@@ -1,6 +1,5 @@
 
 import style from "./page.module.scss"
-import globals from "@/styles/globals.scss"
 import SlideHome from "@/components/SlideHome/SlideHome.jsx";
 import PainelCursos from "@/components/PainelCursos/PainelCursos";
 import Sobre from "@/components/Sobre/Sobre";
