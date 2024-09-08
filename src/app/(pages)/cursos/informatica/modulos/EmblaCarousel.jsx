@@ -1,0 +1,95 @@
+import React, { useCallback } from 'react'
+import { DotButton, useDotButton } from './EmblaCarouselDotButton'
+import {
+  PrevButton,
+  NextButton,
+  usePrevNextButtons
+} from './EmblaCarouselArrowButtons'
+import Autoplay from 'embla-carousel-autoplay'
+import style from "./embla.module.scss"
+import Image from 'next/image'
+
+import useEmblaCarousel from 'embla-carousel-react'
+
+const EmblaCarousel = (props) => {
+  const { slides, options } = props
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
+
+  const onNavButtonClick = useCallback((emblaApi) => {
+    const autoplay = emblaApi?.plugins()?.autoplay
+    if (!autoplay) return
+
+    const resetOrStop =
+      autoplay.options.stopOnInteraction === false
+        ? autoplay.reset
+        : autoplay.stop
+
+    resetOrStop()
+  }, [])
+
+  const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(
+    emblaApi,
+    onNavButtonClick
+  )
+
+  const {
+    prevBtnDisabled,
+    nextBtnDisabled,
+    onPrevButtonClick,
+    onNextButtonClick
+  } = usePrevNextButtons(emblaApi, onNavButtonClick)
+
+  return (
+    <section className={style.embla}>
+      <div className={style.embla__controls}>
+        <div className={style.embla__buttons}>
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        </div>
+
+        <div className="embla__dots">
+          {scrollSnaps.map((item, index) => (
+            <DotButton
+              key={index}
+              onClick={() => onDotButtonClick(index)}
+              className={'embla__dot'.concat(
+                index === selectedIndex ? ' embla__dot--selected' : ''
+              )}
+            />
+          ))}
+        </div>
+      </div>
+      <div className={style.embla__viewport} ref={emblaRef}>
+        <div className={style.embla__container}>
+          {slides.map((item, index) => (
+
+            <div className={style.embla__slide} key={index}>
+              <div className={style.embla__slide__number}>
+                <h2>{item.nome}</h2>
+                <div className={style.resumo}>
+                  <p>{item.resumo}
+
+
+                  </p>
+                  <figure>
+                    <Image width={300} height={0} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
+                  </figure>
+                </div>
+                <div className={style.c_pragmatico}>
+                  <h3>Conteúdo Pragmático</h3>
+                  <ul dangerouslySetInnerHTML={{ __html: item.c_pragmatico }} />
+
+
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
+    </section>
+  )
+}
+
+export default EmblaCarousel

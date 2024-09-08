@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
 
     return (
 
-        <div className={`${style.pages_informatica} pages`}>
-            <h1>Informática</h1>
+        <div className={`${style.container}`}>
+
             {children}
         </div>
     );

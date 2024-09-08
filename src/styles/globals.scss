@@ -15,10 +15,11 @@ body {
 
 .pages {
   max-width: $width-content ;
+  // overflow: hidden;
   min-height: 100vh;
   margin: 0 auto;
   margin-top: $height-header-desk;
-  padding-top: 20px;
+  //padding-top: 20px;
 }
 
 .icon {
@@ -36,11 +37,7 @@ body {
 
 }
 
-.main {
 
-  width: 100%;
-  border: 10px solid orangered;
-}
 
 @media (max-width:560px) {
   body {
