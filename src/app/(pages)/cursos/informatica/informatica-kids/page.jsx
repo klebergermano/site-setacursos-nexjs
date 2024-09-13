@@ -1,17 +1,29 @@
 'use client'
 import NavCursos from "../../NavCursos/NavCursos"
 import style from "../page.module.scss"
+import style_kids from "./informatica-kids.module.scss";
 import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
-import Modulo from "../modulos/Modulos"
+
 import Contato from "@/components/Contato/Contato"
-import slideObj from "./_slideObj"
-import _itemsNav from "../_itemsNavCursos"
+
+
+import IntroTecKids from "./modulos_informatica_kids/IntroTecKids.js";
+import Windows from "./modulos_informatica_kids/Windows.js";
+import InternetKids from "./modulos_informatica_kids/InternetKids.js";
+import AplicacoesCriativas from "./modulos_informatica_kids/AplicacoesCriativas.js";
+import ComponentesKids from "./modulos_informatica_kids/ComponentesKids.js";
+import JogosEducativos from "./modulos_informatica_kids/JogosEducativos.js";
+import ProgramacaoKids from "./modulos_informatica_kids/ProgramacaoKids.js";
+
+import _itemsNav from "../_itemsNavCursos";
 
 
 
-export default function Page() {
+
+
+export default function InformáticaKids() {
     return (
         <>
             <div className={`${style.pages_informatica} pages`}>
@@ -21,19 +33,25 @@ export default function Page() {
 
                     <main className={style.main}>
 
-                        <h1>Informática Essêncial</h1>
+                        <h1>Informática Kids</h1>
                         <figure className={style.bg_img_destaque}>
-                            <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
+                            <Image width={800} height={300} src={'/assets/images/cursos/informatica/curso-informatica-kids.png'} />
                         </figure>
                         <div className={style.resumo}>
-                            <p>Explore os fundamentos da informática com nosso curso essencial!
-                                Seja você um iniciante ou alguém em busca de aprimoramento,
-                                nosso curso INFORMÁTICA ESSENCIAL é projetado para atender a todos os níveis de conhecimento,
-                                tornando-o acessível e envolvente para todos.</p>
+                            <p>
+                                Criado com carinho e dedicação, nosso curso oferece as crianças uma introdução lúdica e educativa ao vasto
+                                mundo da tecnologia. Por meio de atividades interativas e jogos envolventes, as crianças explorarão conceitos
+                                fundamentais de informática, ao mesmo tempo em que desenvolvem habilidades essenciais para o século 21.</p>
+                            <p>
+                                Nosso curso "Informática Kids" é dividido em duas etapas cuidadosamente planejadas.
 
-                            <p>Nosso ambiente de aprendizado é acolhedor e prático, repleto de dicas valiosas, proporcionando a você a
-                                confiança necessária para se aventurar no mundo digital. Ao longo do curso, você terá a oportunidade de
-                                explorar e aplicar os conhecimentos adquiridos, preparando-o para enfrentar os desafios e oportunidades que a tecnologia oferece.</p>
+                                Na primeira etapa, voltada para crianças mais novas, exploramos de maneira lúdica e interativa conceitos fundamentais de informática.
+
+                                Na segunda etapa, preparamos as crianças para cursos mais avançados e profissionalizantes, oferecendo uma transição suave para um aprendizado mais aprofundado.
+
+                                Buscamos assim proporcionar uma jornada educativa completa, adaptada às diferentes fases de desenvolvimento, capacitando as crianças desde cedo e preparando-as para desafios mais complexos no campo da informática.
+
+                            </p>
                         </div>
 
                         <div className={style.visao_geral_curso}>
@@ -57,17 +75,29 @@ export default function Page() {
                             <li>
                                 <Icon name="books" className={style.icon} />
                                 Material didático incluso!
-
                             </li>
                             <li>
                                 <Icon name="moeda-real" className={style.icon} />
-                                Investimento: R$ 160,00 (mensal)
+                                Investimento: R$ 170,00 (mensal)
                             </li>
 
                         </div>
 
                         <h3>Módulos do Curso</h3>
-                        <Modulo slideObj={slideObj} />
+
+                        <div className={style_kids.modulos_informatica_kids}>
+
+
+
+                            <IntroTecKids />
+                            <Windows />
+                            <ProgramacaoKids />
+                            <AplicacoesCriativas />
+                            <ComponentesKids />
+                            <JogosEducativos />  <InternetKids />
+
+                        </div>
+
 
 
                     </main>

@@ -13,6 +13,22 @@ body {
 
 }
 
+//Menu dos cursos, torna ativo quando a página selecionada
+//Setado dinamicamente, por isso o use global e não local em modulo.
+
+.item_curso_ativo {
+  background-color: $color-secondary !important;
+  border: 2px solid $color-primary !important;
+
+  a {
+    figcaption {
+      background-color: $color-primary;
+      color: #fff !important;
+      font-weight: bold;
+    }
+  }
+}
+
 .pages {
   max-width: $width-content ;
   // overflow: hidden;
@@ -20,6 +36,7 @@ body {
   margin: 0 auto;
   margin-top: $height-header-desk;
   //padding-top: 20px;
+
 }
 
 .icon {
@@ -42,6 +59,13 @@ body {
 @media (max-width:560px) {
   body {
     overflow-x: hidden !important;
+  }
+
+  .pages {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
   }
 
 }

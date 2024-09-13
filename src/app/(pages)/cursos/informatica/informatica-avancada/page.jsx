@@ -11,7 +11,7 @@ import _itemsNav from "../_itemsNavCursos"
 
 
 
-export default function Page() {
+export default function InformáticaAvancada() {
     return (
         <>
             <div className={`${style.pages_informatica} pages`}>
@@ -21,19 +21,17 @@ export default function Page() {
 
                     <main className={style.main}>
 
-                        <h1>Informática Essêncial</h1>
+                        <h1>Informática Avançada</h1>
                         <figure className={style.bg_img_destaque}>
-                            <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
+                            <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-avancada.png'} />
                         </figure>
                         <div className={style.resumo}>
-                            <p>Explore os fundamentos da informática com nosso curso essencial!
-                                Seja você um iniciante ou alguém em busca de aprimoramento,
-                                nosso curso INFORMÁTICA ESSENCIAL é projetado para atender a todos os níveis de conhecimento,
-                                tornando-o acessível e envolvente para todos.</p>
-
-                            <p>Nosso ambiente de aprendizado é acolhedor e prático, repleto de dicas valiosas, proporcionando a você a
-                                confiança necessária para se aventurar no mundo digital. Ao longo do curso, você terá a oportunidade de
-                                explorar e aplicar os conhecimentos adquiridos, preparando-o para enfrentar os desafios e oportunidades que a tecnologia oferece.</p>
+                            <p>
+                                Aprofunde seus conhecimentos com nosso curso avançado em Informática! Se você já possui uma base sólida e está pronto para expandir suas habilidades, nosso curso de INFORMÁTICA AVANÇADA é ideal para você. Desenvolvido para profissionais e entusiastas que buscam um nível superior de expertise, este curso oferece uma imersão completa em tópicos complexos e emergentes da tecnologia.
+                            </p>
+                            <p>
+                                Nosso ambiente de aprendizado é altamente especializado e interativo, projetado para proporcionar uma experiência envolvente e enriquecedora. Com acesso a recursos avançados e suporte contínuo, você terá a oportunidade de explorar técnicas avançadas, resolver problemas desafiadores e aplicar estratégias inovadoras no campo da informática. Prepare-se para transformar seu conhecimento e enfrentar os desafios mais sofisticados que o mundo digital tem a oferecer.
+                            </p>
                         </div>
 
                         <div className={style.visao_geral_curso}>
@@ -57,11 +55,10 @@ export default function Page() {
                             <li>
                                 <Icon name="books" className={style.icon} />
                                 Material didático incluso!
-
                             </li>
                             <li>
                                 <Icon name="moeda-real" className={style.icon} />
-                                Investimento: R$ 160,00 (mensal)
+                                Investimento: R$ 170,00 (mensal)
                             </li>
 
                         </div>

@@ -49,13 +49,16 @@ const EmblaCarousel = (props) => {
 
         <div className="embla__dots">
           {scrollSnaps.map((item, index) => (
-            <DotButton
-              key={index}
-              onClick={() => onDotButtonClick(index)}
-              className={'embla__dot'.concat(
-                index === selectedIndex ? ' embla__dot--selected' : ''
-              )}
-            />
+            <>
+
+              <DotButton
+                btnTxt={props.slides[index].nome}
+                key={index}
+                onClick={() => onDotButtonClick(index)}
+                className={'embla__dot'}
+                id={index === selectedIndex ? 'embla__dot__selected' : 'falso'}
+              ></DotButton>
+            </>
           ))}
         </div>
       </div>
@@ -66,21 +69,27 @@ const EmblaCarousel = (props) => {
             <div className={style.embla__slide} key={index}>
               <div className={style.embla__slide__number}>
                 <h2>{item.nome}</h2>
-                <div className={style.resumo}>
-                  <p>{item.resumo}
-
-
-                  </p>
+                <div className={style.resumoX}>
+                  <div>
+                    <p>
+                      {item.resumo}
+                    </p>
+                  </div>
                   <figure>
-                    <Image width={300} height={0} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
+                    <Image fill={true} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
                   </figure>
                 </div>
-                <div className={style.c_pragmatico}>
-                  <h3>Conteúdo Pragmático</h3>
-                  <ul dangerouslySetInnerHTML={{ __html: item.c_pragmatico }} />
 
+                {item.c_pragmatico ?
+                  (
+                    <div className={style.c_pragmatico}>
+                      <h3>Conteúdo Pragmático</h3>
+                      <ul dangerouslySetInnerHTML={{ __html: item.c_pragmatico }} />
+                    </div>
+                  )
+                  :
+                  ''}
 
-                </div>
               </div>
             </div>
           ))}
