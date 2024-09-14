@@ -71,7 +71,9 @@ p {
 
   min-height: 100vh;
   position: relative;
-  padding-bottom: 280px;
+  padding-bottom: $height-footer;
+  //border: 20px solid blue;
+  background-color: $color-dark;
 
 }
 

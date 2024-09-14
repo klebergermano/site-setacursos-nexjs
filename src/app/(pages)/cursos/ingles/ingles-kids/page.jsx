@@ -1,5 +1,5 @@
 'use client'
-import NavCursos from "../../NavCursos/NavCursos"
+import NavCursos from "../../_NavCursos/NavCursos"
 import style from "../page.module.scss"
 import style_ig_kids from "./ingles-kids.module.scss"
 
