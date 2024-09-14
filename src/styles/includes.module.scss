@@ -1,2 +1,39 @@
 @import "./variables.module.scss";
 @import "./mixins.module.scss";
+
+
+@keyframes border-color-glow {
+    0% {
+        border-image: linear-gradient(to top, #00ff2a 0%, #000099 100%);
+        border-image-slice: 1;
+
+    }
+
+    25% {
+        border-image: linear-gradient(to left, #000099 0%, #029e0a 100%);
+        border-image-slice: 1;
+    }
+
+    50% {
+        border-image: linear-gradient(to bottom, #00ff62 0%, #000099 100%);
+        border-image-slice: 1;
+
+    }
+
+    75% {
+        border-image: linear-gradient(to right, #000099 0%, #00ff62 100%);
+        border-image-slice: 1;
+
+    }
+
+    100% {
+        border-image: linear-gradient(to top, #00ff62 0%, #000099 100%);
+        border-image-slice: 1;
+
+    }
+
+
+
+
+
+}

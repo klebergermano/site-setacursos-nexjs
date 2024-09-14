@@ -8,6 +8,7 @@ import Modulo from "../modulos/Modulos"
 import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
+import VantagensCurso from "../../ingles/Lateral/VantagensCurso"
 
 
 
@@ -69,20 +70,7 @@ export default function InformáticaAvancada() {
 
                     </main>
                     <aside className={style.aside}>
-                        <div className={style.block_lateral}>
-                            <h3>Vantagens Inclusas!</h3>
-                            <ul>
-                                <li><span className={style.icon_checked}>&#10003;</span> CERTIFICADO de Conclusão!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Material GRATUITO!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Mátricula GRATUITA!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> LIVRE de Taxas e Multas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Material atualizado!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Plantão de dúvidas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Turmas reduzidas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Professor em sala!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Preço Acessível!</li>
-                            </ul>
-                        </div>
+                        <VantagensCurso />
                     </aside>
 
                 </div>

@@ -9,7 +9,7 @@ const cursosList = [
   {
     nome: "Informática",
     imgUrl: 'img_painel_cursos-assets/curso-informatica-seta-cursos.webp',
-    linkPage: 'curso-informatica/informatica-essencial',
+    linkPage: 'cursos/informatica/informatica-essencial',
     alt: 'Cursos de Informática',
 
     descrição: `Aprenda desde o básico até habilidades avançadas em um curso prático e abrangente.`
@@ -17,7 +17,7 @@ const cursosList = [
   {
     nome: "Inglês",
     imgUrl: 'img_painel_cursos-assets/curso-ingles-seta-cursos.webp',
-    linkPage: 'curso-ingles/ingles-completo',
+    linkPage: 'cursos/ingles/ingles-completo',
     alt: 'Cursos de Inglês',
 
     descrição: `Domine o idioma inglês com cursos que vão do início ao 
@@ -28,7 +28,7 @@ const cursosList = [
   {
     nome: "Robótica",
     imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.png',
-    linkPage: 'curso-robotica',
+    linkPage: 'cursos/robotica/robotica-maker',
     alt: 'Cursos de Robótica',
 
     descrição: `Aprenda a linguagem da robótica desde os conceitos básicos até níveis mais avançados, 

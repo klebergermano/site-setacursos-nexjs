@@ -18,7 +18,7 @@ import JogosEducativos from "./modulos_informatica_kids/JogosEducativos.js";
 import ProgramacaoKids from "./modulos_informatica_kids/ProgramacaoKids.js";
 
 import _itemsNav from "../_itemsNavCursos";
-
+import VantagensCurso from "../Lateral/VantagensCurso";
 
 
 
@@ -102,20 +102,7 @@ export default function InformáticaKids() {
 
                     </main>
                     <aside className={style.aside}>
-                        <div className={style.block_lateral}>
-                            <h3>Vantagens Inclusas!</h3>
-                            <ul>
-                                <li><span className={style.icon_checked}>&#10003;</span> CERTIFICADO de Conclusão!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Material GRATUITO!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Mátricula GRATUITA!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> LIVRE de Taxas e Multas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Material atualizado!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Plantão de dúvidas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Turmas reduzidas!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Professor em sala!</li>
-                                <li><span className={style.icon_checked}>&#10003;</span> Preço Acessível!</li>
-                            </ul>
-                        </div>
+                        <VantagensCurso />
                     </aside>
 
                 </div>

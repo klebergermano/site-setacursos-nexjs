@@ -8,7 +8,7 @@ const LinkLiCursosPage = () => {
         <>
             <li> <Link className="link-cursos" href="/cursos/informatica/informatica-essencial">Informática</Link> </li>
             <li> <Link className="link-cursos" href="/cursos/ingles/ingles-completo">Inglês</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/robotica">Robótica</Link> </li>
+            <li> <Link className="link-cursos" href="/cursos/robotica/robotica-maker">Robótica</Link> </li>
             {/* <li> <Link className="link-cursos" href="/cursos/manutencao">Espanhol</Link> </li> */}
             <li> <Link className="link-cursos" href="/cursos/manutencao">Administração</Link> </li>
             <li> <Link className="link-cursos" href="/cursos/manutencao">Desenvolvimento Web</Link> </li>
