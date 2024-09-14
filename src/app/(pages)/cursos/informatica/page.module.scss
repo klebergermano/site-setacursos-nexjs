@@ -23,16 +23,19 @@
     padding: 0px 40px 60px 40px;
     background: #f8f8f8;
 
-    .bg_img_destaque {
+    figure.bg_img_destaque {
 
+        margin-bottom: 10px;
         width: 100%;
         overflow: hidden;
         max-height: 400px;
-        background-color: #333;
+        padding: 0px;
+        //background-color: #333;
 
         img {
             width: 100%;
             height: auto;
+            object-fit: cover;
 
         }
     }

@@ -16,7 +16,7 @@ function SlideHome() {
 
 
         <div id={styles.info_slide} >
-          <h1>Procurando por <strong>Cursos de Inglês</strong>, <strong>Informática</strong> e
+          <h1>Procurando por cursos de <br /> <strong>Inglês</strong>, <strong>Informática</strong> e
             <strong> Profissionalizantes</strong>?</h1>
           <p>Nós podemos te ajudar!</p>
 
@@ -47,7 +47,7 @@ function SlideHome() {
         ></ReactPlayer>
 
       </div>
-    </div>
+    </div >
   );
 
 };

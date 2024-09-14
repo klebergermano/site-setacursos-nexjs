@@ -2,15 +2,36 @@
 @import "./variables.module.scss";
 @import "./mixins.module.scss";
 
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+span {
+  font-family: "Arimo", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
 
 body {
   background-color: #ccc;
 
-  h1 {
-    margin: 0px;
-  }
 
+}
+
+p {
+  line-height: 20px;
 }
 
 //Menu dos cursos, torna ativo quando a página selecionada
@@ -62,7 +83,6 @@ body {
   }
 
   .pages {
-
     padding-left: 0px;
     padding-right: 0px;
 
