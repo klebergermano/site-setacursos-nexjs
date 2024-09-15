@@ -1,13 +1,13 @@
 'use client'
 import Image from "next/image"
-import ImgLogo from "@/../public/assets/images/logo.png"
+
 import style from "./nav_header_desktop.module.scss"
 import Link from "next/link"
 import LinkLiCursosPage from "../../_LinkLiCursosPage"
-import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react"
 
-import { useRouter, usePathname } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 
 
@@ -15,11 +15,15 @@ function NavHeaderDesktop() {
 
     const pathname = usePathname()
 
-    const [linkHome, setLinkHome] = useState('./')
+
+
     const isHomePage = pathname === '/';
 
     useEffect(() => {
-        isHomePage ? setLinkHome('./') : setLinkHome('aaaaaaaaaa')
+        if (isHomePage) {
+
+
+        }
     }, [])
     // Check if the current path is the homepage
 
@@ -34,8 +38,7 @@ function NavHeaderDesktop() {
                             <LinkScroll
                                 className="a-sem-link"
                                 activeClass="active"
-                                to="#slide_home"
-                                href='./'
+                                to="slide_home"
                                 smooth={true}
                                 offset={0}
                                 duration={800}
@@ -45,7 +48,7 @@ function NavHeaderDesktop() {
                         <li className={style.li_cursos}>
                             <LinkScroll
                                 activeClass="active"
-                                to="#painel_cursos"
+                                to="painel_cursos"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
@@ -57,7 +60,7 @@ function NavHeaderDesktop() {
                                 <li>
                                     <LinkScroll
                                         activeClass="active"
-                                        to="#bg_painel_cursos"
+                                        to="painel_cursos"
                                         spy={true}
                                         smooth={true}
                                         offset={-60}
@@ -76,9 +79,6 @@ function NavHeaderDesktop() {
 
 
                         </li>
-
-
-
                         <li>
 
 
@@ -108,7 +108,8 @@ function NavHeaderDesktop() {
                         </li>
                     </ul>
                     : //CONDICIONAL
-                    //////////////// Nav para multiplas páginas
+
+                    // Nav para multiplas páginas
                     <ul>
                         <li>
                             <Link
@@ -140,24 +141,13 @@ function NavHeaderDesktop() {
 
 
                         </li>
-
-
-
                         <li>
-
-
-                            <Link
-                                href="/#sobre"
-                            //scroll={false}
-                            >
+                            <Link href="/#sobre">
                                 Sobre
                             </Link>
                         </li>
                         <li>
-
-                            <Link
-                                href="/#contato"
-                            >
+                            <Link href="/#contato">
                                 Contato
                             </Link>
                         </li>

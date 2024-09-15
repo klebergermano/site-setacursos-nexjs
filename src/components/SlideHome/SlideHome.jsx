@@ -12,7 +12,7 @@ function SlideHome() {
   return (
     <div id='bg_slide_home  ' className={styles.bg_slide_home}>
 
-      <div id={styles.slide_home}>
+      <div id='slide_home' className={styles.slide_home}>
 
 
         <div id={styles.info_slide} >

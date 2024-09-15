@@ -1,22 +1,47 @@
 import React from "react";
 import Link from 'next/link'
 
-const LinkLiCursosPage = () => {
+const LinkLiCursosPage = ({ callback }) => {
 
 
     return (
         <>
-            <li> <Link className="link-cursos" href="/cursos/informatica/informatica-essencial">Informática</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/ingles/ingles-completo">Inglês</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/robotica/robotica-maker">Robótica</Link> </li>
-            {/* <li> <Link className="link-cursos" href="/cursos/manutencao">Espanhol</Link> </li> */}
-            <li> <Link className="link-cursos" href="/cursos/manutencao">Administração</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/manutencao">Desenvolvimento Web</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/manutencao">Programação</Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/manutencao">Excel Avançado</Link> </li>
-            {/* <li> <Link className="link-cursos" href="/cursos/manutencao">Power BI</Link> </li> */}
-            {/* <li> <Link className="link-cursos" href="/cursos/manutencao">Media Social</Link> </li> */}
-            <li> <Link className="link-cursos" href="/cursos/manutencao">Apoio Escolar</Link> </li>
+            <li> <Link className="link-cursos"
+                href="/cursos/informatica/informatica-essencial"
+                onClick={callback}
+            >Informática</Link> </li>
+            <li>
+                <Link className="link-cursos" href="/cursos/ingles/ingles-completo"
+                    onClick={callback}
+                >Inglês
+                </Link> </li>
+            <li> <Link className="link-cursos" href="/cursos/robotica/robotica-maker"
+                onClick={callback}
+            >Robótica</Link> </li>
+            {/* <li> <Link className="link-cursos" href="/cursos/manutencao"
+            onClick={callback}
+            >Espanhol</Link> </li> */}
+            <li> <Link className="link-cursos" href="/cursos/manutencao"
+                onClick={callback}
+            >Administração</Link> </li>
+            <li> <Link className="link-cursos" href="/cursos/manutencao"
+                onClick={callback}
+            >Desenvolvimento Web</Link> </li>
+            <li> <Link className="link-cursos" href="/cursos/manutencao"
+                onClick={callback}
+            >Programação</Link> </li>
+            <li> <Link className="link-cursos" href="/cursos/manutencao"
+                onClick={callback}
+            >Excel Avançado</Link> </li>
+            {/* <li> <Link className="link-cursos" href="/cursos/manutencao"
+            onClick={callback}
+            >Power BI</Link> </li> */}
+            {/* <li> <Link className="link-cursos" href="/cursos/manutencao"
+            onClick={callback}
+            >Media Social</Link> </li> */}
+            <li> <Link className="link-cursos" href="/cursos/manutencao"
+                onClick={callback}
+            >Apoio Escolar</Link> </li>
 
         </>
     )
