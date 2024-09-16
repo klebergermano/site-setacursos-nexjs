@@ -40,11 +40,7 @@ function Contato(props) {
                     Chamar no WhatsApp
                   </a>
                 </div>{/*clmn */}
-
               </div>{/*---- div row ----*/}
-
-
-
 
               <div className={style.row}>
                 <h4>Conheça também nossas redes sociais!</h4>

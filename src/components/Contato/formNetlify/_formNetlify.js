@@ -37,7 +37,7 @@ const Formulario = () => {
       <br />
       <div>
 
-        <label>Nome: </label>
+        <label htmlFor='name'>Nome: </label>
         <input
           name="name"
           placeholder="Nome:"
@@ -49,7 +49,7 @@ const Formulario = () => {
       </div>
 
       <div>
-        <label>Email: </label>
+        <label htmlFor='email'>Email: </label>
         <input
           name="email"
           placeholder="Email:"
@@ -59,7 +59,7 @@ const Formulario = () => {
         />
       </div>
       <div>
-        <label>Telefone: </label>
+        <label htmlFor='phone'>Telefone: </label>
         <input
           name='phone'
           placeholder="Telefone: "
@@ -70,7 +70,7 @@ const Formulario = () => {
         />
       </div>
       <div>
-        <label>Assunto: </label>
+        <label htmlFor='subject'>Assunto: </label>
         <input
           name='subject'
           placeholder="Assunto:"
@@ -80,7 +80,7 @@ const Formulario = () => {
         />
       </div>
       <div>
-        <label>Menssagem</label>
+        <label htmlFor='message'>Menssagem</label>
         <textarea
           name="message"
           placeholder="Menssagem:"
