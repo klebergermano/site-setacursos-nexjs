@@ -6,7 +6,7 @@ import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
 
-import Contato from "@/components/Contato/Contato"
+// import Contato from "@/components/Contato/Contato"
 
 
 import IntroTecKids from "./modulos_informatica_kids/IntroTecKids.js";
@@ -108,7 +108,7 @@ export default function InformáticaKids() {
                 </div>
 
             </div>
-            <Contato />
+            {/* <Contato /> */}
         </>
     )
 

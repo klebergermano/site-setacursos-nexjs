@@ -1,6 +1,6 @@
 import React from "react";
 
-import Contato from "@/components/Contato/Contato.js";
+// import Contato from "@/components/Contato/Contato.js";
 
 import Image from "next/image.js";
 import style from "./page.module.scss"
@@ -30,7 +30,7 @@ const ManutencaoLandPage = () => {
 
             </div>
 
-            <Contato />
+            {/* <Contato /> */}
         </section>
 
 

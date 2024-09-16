@@ -90,7 +90,7 @@ export default function Page() {
                 </div>
 
             </div>
-            <Contato />
+            {/* <Contato /> */}
         </>
     )
 

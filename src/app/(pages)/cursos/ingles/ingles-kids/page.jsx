@@ -7,7 +7,7 @@ import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
 
-import Contato from "@/components/Contato/Contato"
+// import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 
@@ -116,7 +116,7 @@ export default function Page() {
                 </div>
 
             </div>
-            <Contato />
+            {/* <Contato /> */}
         </>
     )
 
