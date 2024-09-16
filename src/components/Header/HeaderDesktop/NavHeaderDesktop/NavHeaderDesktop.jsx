@@ -119,18 +119,12 @@ function NavHeaderDesktop() {
                         </li>
                         <li className={style.li_cursos}>
                             <Link
-                                href='/#bg_painel_cursos'
+                                href='#'
                             >
                                 Cursos
                             </Link>
                             <ul className={style.submenu_header}>
-                                <li>
-                                    <Link
-                                        href="/#bg_painel_cursos"
-                                    >
-                                        Painel de Cursos
-                                    </Link>
-                                </li>
+
 
                                 <LinkLiCursosPage />
 

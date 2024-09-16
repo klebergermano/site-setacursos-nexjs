@@ -24,14 +24,14 @@
         height: $height-header-desk;
 
         figure.bg_logo {
-
-            max-width: 120px;
-
+            position: relative;
+            width: 120px;
+            height: 60px;
+            //margin-left: 20px;
 
             img {
+                object-fit: contain;
                 width: 100%;
-                height: auto;
-                padding: 5px 0px 0px 0px;
             }
         }
 

@@ -2,7 +2,7 @@
 import InfoContato from "../InfoContato";
 import Icon from "@/../public/assets/icons";
 import Image from "next/image"
-import ImgLogo from "@/../public/assets/images/logo.png"
+
 import style from "./footer.module.scss"
 
 //Icons

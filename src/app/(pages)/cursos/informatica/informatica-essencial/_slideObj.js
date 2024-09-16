@@ -2,7 +2,7 @@ const slideObj = [
     {
         nome: 'Introdução',
 
-        imgUrl: 'img-modulo-introducao.png',
+        imgUrl: 'modulo-introducao.png',
 
         resumo: `
         Informática é um termo abrangente por isso separamos um módulo onde on aluno tera uma visão abrangente e passara a 

@@ -150,21 +150,22 @@ function PainelCursos() {
         {/* <VantagensGeralCursos /> */}
 
         {
-          cursosList.map((item) => {
+          cursosList.map((item, index) => {
 
             return (
 
-              <div data-aos='zoom-in' className={style.bloco_curso}>
+              <div data-aos='zoom-in' className={style.bloco_curso} key={index}>
 
-                <figure>
-                  <a href={item.linkPage}>
+                <a href={item.linkPage}>
+                  <figure>
                     <Image
                       src={'/assets/images/' + item.imgUrl}
-                      width={200}
-                      height={200}
+                      fill={true}
+                      alt={'Curso ' + item.nome}
                     />
-                  </a>
-                </figure>
+                  </figure>
+                </a>
+
                 <div className={style.b_content}>
                   <h2>
                     <a href={item.linkPage}>

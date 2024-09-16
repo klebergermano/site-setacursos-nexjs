@@ -29,7 +29,8 @@ function HeaderDesktop() {
                         <figure className={style.bg_logo}>
                             <Image
                                 src={ImgLogo}
-                                fit={true}
+                                fill={true}
+                                alt="Logo Seta Cursos"
                             />
                         </figure>
                     </a>
