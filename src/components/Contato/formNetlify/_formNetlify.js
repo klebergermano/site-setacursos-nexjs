@@ -26,12 +26,24 @@ const Formulario = () => {
       .catch((error) => alert(error));
   };
 
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    await fetch('/__form_netlify_hidden.html', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString()
+    });
+    // Success & error handling should come here
+  };
+
+
   return (
 
 
-    <form id={style.form} name='form' onSubmit={submitHandler} method="POST" data-netlify="true"  >
+    <form id={style.form} name='feedback' onSubmit={handleFormSubmit} data-netlify="true"  >
       {/*Campo oculto com o nome do formulário netlify*/}
-      <input type="hidden" name="form-name" value="form" />
+      <input type="hidden" name="form-name" value="feedback" />
       {/* ----------------------*/}
       <h4>Se preferir, entre em contato conosco através do nosso formulário.</h4>
       <br />
