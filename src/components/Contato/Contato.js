@@ -1,10 +1,10 @@
 'use client'
 
 import FormNetlify from "./formNetlify/_formNetlify";
-import Info from "../InfoContato";
+import Info from "../_infoContatoObj";
 import Icon from "@/../public/assets/icons";
 import style from "./contato.module.scss";
-import InfoContato from "../InfoContato";
+import InfoContato from "../_infoContatoObj";
 import { IoChatbubblesOutline } from "react-icons/io5";
 function Contato(props) {
 

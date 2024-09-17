@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import Info from "../../InfoContato";
+import Info from "../../_infoContatoObj";
 import Icon from "@/../public/assets/icons";
 import style from "./_formNetlify.module.scss";
+import { useRouter } from 'next/router';
+
 //import { useHistory } from 'react-router-dom';
 const Formulario = () => {
   const [name, setName] = useState('');
@@ -29,12 +31,21 @@ const Formulario = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    await fetch('/__form_netlify_hidden.html', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString()
-    });
-    // Success & error handling should come here
+    try {
+      const response = await fetch('/__form_netlify_hidden.html', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString()
+      });
+      if (response.ok) {
+        router.push('/formulario-enviado');
+      } else {
+        router.push('/formulario-erro');
+      }
+    } catch {
+      console.error('Error submitting form:', error);
+      router.push('/formulario-erro');
+    }
   };
 
 

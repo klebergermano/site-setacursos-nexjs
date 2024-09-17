@@ -1,5 +1,5 @@
 'use client'
-import InfoContato from "../InfoContato";
+import InfoContato from "../_infoContatoObj";
 import Icon from "@/../public/assets/icons";
 import Image from "next/image"
 
