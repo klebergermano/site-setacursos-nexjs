@@ -5,7 +5,7 @@ import styles from "./slide_home.module.scss"
 
 import ReactPlayer from "react-player";
 
-import Video from "next-video";
+
 
 function SlideHome() {
 
@@ -38,12 +38,14 @@ function SlideHome() {
 
         <ReactPlayer
           id="video_slide"
-          url={"assets/videos/seta-cursos-Ingles-informatica.mp4"}
+          url={"/assets/videos/seta-cursos-ingles-informatica.mp4"}
           width="100%"
           height="100%"
           loop
           playing
           muted
+          // picture in picture
+          pip={true}
         ></ReactPlayer>
 
       </div>
