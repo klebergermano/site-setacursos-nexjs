@@ -43,8 +43,11 @@ const Formulario = () => {
         router.push('/formulario-erro');
       }
     } catch {
-      console.error('Error submitting form:', error);
-      router.push('/formulario-erro');
+      (error) => {
+        console.error('Error submitting form:', error);
+        router.push('/formulario-erro');
+      }
+
     }
   };
 
