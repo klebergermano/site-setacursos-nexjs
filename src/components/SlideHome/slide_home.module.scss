@@ -4,7 +4,7 @@
 .bg_slide_home {
 
     margin-top: $height-header-desk;
-    background-color: #000;
+    background: #000 url("/assets/images/blur-slidehome.png");
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
+        transition: all 0.5s ease-in-out;
         max-height: 700px;
         height: 600px;
         top: 0;
@@ -39,7 +39,10 @@
 
         }
 
-        #info_slide {
+        .info_slide {
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            overflow: hidden;
             position: absolute;
             display: flex;
             justify-content: center;
@@ -50,8 +53,9 @@
             color: #fff;
             text-align: center;
             overflow: hidden;
-            max-width: 400px;
-            top: 50%;
+            width: 400px;
+            // height: 1px;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
             border-radius: 50px 50px 0px 50px;
