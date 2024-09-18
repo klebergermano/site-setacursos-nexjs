@@ -2,33 +2,26 @@ import { useState } from 'react';
 import Info from "../../_infoContatoObj";
 import Icon from "@/../public/assets/icons";
 import style from "./_formNetlify.module.scss";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/navigation";
 
 //import { useHistory } from 'react-router-dom';
 const Formulario = () => {
+
+  const router = useRouter()
+
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const [msgSend, setMsgSend] = useState('');
   const [phone, setPhone] = useState('');
 
-  let history = false;
 
-  const submitHandler = (e) => {
-    e.preventDefault();
-    let myForm = document.getElementById('form');
-    let formData = new FormData(myForm);
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => history.push('/form-submitted'))
-      .catch((error) => alert(error));
-  };
+
+
 
   const handleFormSubmit = async (event) => {
+
     event.preventDefault();
     const formData = new FormData(event.target);
     try {
@@ -49,6 +42,7 @@ const Formulario = () => {
       }
 
     }
+
   };
 
 
