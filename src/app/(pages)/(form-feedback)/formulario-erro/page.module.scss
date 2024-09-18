@@ -45,6 +45,23 @@
         align-items: center;
         text-align: center;
         padding: 0px 20px;
+
+        p {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid blue;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin: 10px;
+        }
     }
 
 }

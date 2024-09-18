@@ -1,7 +1,8 @@
 
 import Icon from "@/../public/assets/icons"
 import _infoContatoObj from "../../../../components/_infoContatoObj"
-
+import { FaArrowLeft } from "react-icons/fa6";
+import Link from "next/link";
 // import Contato from "@/components/Contato/Contato.js";
 
 import Image from "next/image.js";
@@ -28,12 +29,16 @@ const FormEnviado = () => {
 
                     Infelizmente, houve um erro ao enviar seu formulário. Pedimos desculpas pelo transtorno.
                 </p>
-                <br />
+
+
                 <p>
 
+                    <Link href={"/"}>
+                        <FaArrowLeft />
+                        Voltar para página inícial</Link></p>
+                <br />
+                <p>
                     Por favor, tente novamente ou
-
-
                     entre em contato através de um de nossos outros canais de comunicação.
                 </p>
 
@@ -50,15 +55,17 @@ const FormEnviado = () => {
                 </p>
 
                 <p className="infoContato" id="face">
-                    <Icon name="facebook" className={style.icon} />
-                    &nbsp;
                     <a target="_blank" href={_infoContatoObj.facebook}>
+                        <Icon name="facebook" className={style.icon} />
+                        &nbsp;
+
                         Seta Cursos
                     </a>
-                    &nbsp; &nbsp;
-                    <Icon name="instagram" className={style.icon} />
-                    &nbsp;
+
+
                     <a target="_blank" href={_infoContatoObj.instagram}>
+                        <Icon name="instagram" className={style.icon} />
+                        &nbsp;
                         @Seta Cursos
                     </a>
                 </p>

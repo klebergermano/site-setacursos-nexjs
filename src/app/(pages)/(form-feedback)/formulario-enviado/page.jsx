@@ -1,7 +1,8 @@
 
 import Icon from "@/../public/assets/icons"
 import _infoContatoObj from "../../../../components/_infoContatoObj"
-
+import { FaArrowLeft } from "react-icons/fa6";
+import Link from "next/link";
 // import Contato from "@/components/Contato/Contato.js";
 
 import Image from "next/image.js";
@@ -28,6 +29,12 @@ const FormEnviado = () => {
                     Responderemos o mais breve possível.
                 </p>
 
+
+                <p>
+
+                    <Link href={"/"}>
+                        <FaArrowLeft />
+                        Voltar para página inícial</Link></p>
                 <br />
 
                 <p className="infoContato" id="tel">
@@ -40,15 +47,15 @@ const FormEnviado = () => {
                 </p>
 
                 <p className="infoContato" id="face">
-                    <Icon name="facebook" className={style.icon} />
                     &nbsp;
                     <a target="_blank" href={_infoContatoObj.facebook}>
-                        Seta Cursos
+                        <Icon name="facebook" className={style.icon} />
+                        &nbsp; Seta Cursos
                     </a>
-                    &nbsp; &nbsp;
-                    <Icon name="instagram" className={style.icon} />
                     &nbsp;
                     <a target="_blank" href={_infoContatoObj.instagram}>
+                        <Icon name="instagram" className={style.icon} />
+                        &nbsp;
                         @Seta Cursos
                     </a>
                 </p>
