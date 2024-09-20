@@ -19,15 +19,14 @@ const Sobre = () => {
 
           <p data-aos='zoom-in-left' data-aos-duration='1000'>
 
-            Há mais de 5 anos, nos dedicamos à educação, proporcionando aos nossos alunos uma
+            Há mais de 6 anos, nos dedicamos à educação, proporcionando aos nossos alunos uma
             experiência única por meio de cursos completamente personalizados e constantemente
             atualizados. Nesse período, temos aprimorado continuamente nossos programas educacionais,
             assegurando que estejam alinhados com a constante evolução e necessidades do mundo atual.
           </p>
           <p data-aos='zoom-in-right' data-aos-duration='1000'>
             Oferecemos assim cursos de <strong>Inglês</strong>, <strong>Informática</strong>,
-            <strong>Administração</strong>, <strong>Programação</strong>, <strong>Desenvolvimento Web</strong>,
-            <strong>Marketing Digital</strong>, <strong>Excel Avançado</strong> e muito mais!
+            <strong>Administração</strong>, <strong>Programação</strong>, <strong>Robótica</strong>, <strong>Desenvolvimento Web</strong>, <strong>Excel Avançado</strong> e muito mais!
           </p>
 
 

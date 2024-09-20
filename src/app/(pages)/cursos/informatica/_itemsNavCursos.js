@@ -4,6 +4,13 @@
           imgUrl: 'informatica/curso-informatica-pratica-seta-cursos-thumb.png',
           nome: 'Informática Prática Adultos'
       },
+
+           {
+            link: 'informatica/informatica-avancada',
+            imgUrl: 'informatica/curso-informatica-avancado-seta-cursos-thumb.png',
+            nome: 'Informática Avançada'
+        },
+
       */
 
 const _itemsNav =
@@ -15,15 +22,11 @@ const _itemsNav =
         },
 
         {
-            link: 'informatica/informatica-essencial',
+            link: 'informatica/informatica-completa',
             imgUrl: 'informatica/curso-informatica-essencial-seta-cursos-thumb.png',
-            nome: 'Informática Essencial'
+            nome: 'Informática Completa'
         },
-        {
-            link: 'informatica/informatica-avancada',
-            imgUrl: 'informatica/curso-informatica-avancado-seta-cursos-thumb.png',
-            nome: 'Informática Avançada'
-        },
+
 
         {
             link: 'informatica/informatica-kids',

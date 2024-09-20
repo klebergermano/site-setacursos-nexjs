@@ -1,7 +1,7 @@
 
 import globals from "@/styles/globals.scss"
 
-import style from "./layout.module.scss";
+import style from "./page.module.scss";
 
 export const metadata = {
     title: "Create Next App",

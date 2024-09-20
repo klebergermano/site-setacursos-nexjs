@@ -1,6 +1,6 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
-import style from "../page.module.scss"
+import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
@@ -28,7 +28,9 @@ export default function InformáticaAvancada() {
                         </figure>
                         <div className={style.resumo}>
                             <p>
-                                Aprofunde seus conhecimentos com nosso curso avançado em Informática! Se você já possui uma base sólida e está pronto para expandir suas habilidades, nosso curso de INFORMÁTICA AVANÇADA é ideal para você. Desenvolvido para profissionais e entusiastas que buscam um nível superior de expertise, este curso oferece uma imersão completa em tópicos complexos e emergentes da tecnologia.
+                                Aprofunde seus conhecimentos com nosso curso avançado em Informática! Se você já possui uma base sólida e está
+                                pronto para expandir suas habilidades, nosso curso de INFORMÁTICA AVANÇADA é ideal para você.
+                                Desenvolvido para entusiastas que buscam um nível superior de expertise, este curso oferece uma imersão completa em tópicos complexos e emergentes da tecnologia.
                             </p>
                             <p>
                                 Nosso ambiente de aprendizado é altamente especializado e interativo, projetado para proporcionar uma experiência envolvente e enriquecedora. Com acesso a recursos avançados e suporte contínuo, você terá a oportunidade de explorar técnicas avançadas, resolver problemas desafiadores e aplicar estratégias inovadoras no campo da informática. Prepare-se para transformar seu conhecimento e enfrentar os desafios mais sofisticados que o mundo digital tem a oferecer.
@@ -40,7 +42,7 @@ export default function InformáticaAvancada() {
                             <li>
 
                                 <Icon name="calendar" className={style.icon} />
-                                Tempo de Duração: 14 meses</li>
+                                Tempo de Duração: 12 meses</li>
                             <li>
 
                                 <Icon name="class2" className={style.icon} />

@@ -1,7 +1,7 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
-import style from "../page.module.scss"
-import style_ig_completo from "./ingles-completo.module.scss"
+import style from "../../pages-cursos.module.scss"
+
 
 import Image from "next/image"
 
@@ -12,10 +12,12 @@ import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 
 import VantagensCurso from "../Lateral/VantagensCurso"
-import Reading from "./modulos-ingles-completo/_Reading"
-import Writing from "./modulos-ingles-completo/_Writing"
-import Listening from "./modulos-ingles-completo/_Listening"
-import Talking from "./modulos-ingles-completo/_Talking"
+
+import ModulosInglesCompleto from "./modulos/ModulosInglesCompleto"
+// import Reading from "./modulos-ingles-completo/_Reading"
+// import Writing from "./modulos-ingles-completo/_Writing"
+// import Listening from "./modulos-ingles-completo/_Listening"
+// import Talking from "./modulos-ingles-completo/_Talking"
 
 export default function Page() {
     return (
@@ -74,13 +76,14 @@ export default function Page() {
                         </div>
 
                         <h3>Módulos do Curso</h3>
-                        <div className={style_ig_completo.modulos_ingles_completo}>
+                        {/* <div className={style_ig_completo.modulos_ingles_completo}>
                             <Reading />
                             <Writing />
                             <Listening />
                             <Talking />
-                        </div>
+                        </div> */}
 
+                        <ModulosInglesCompleto />
 
                     </main>
                     <aside className={style.aside}>

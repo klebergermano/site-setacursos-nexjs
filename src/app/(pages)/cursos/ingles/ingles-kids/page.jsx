@@ -1,6 +1,6 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
-import style from "../page.module.scss"
+import style from "../../pages-cursos.module.scss"
 import style_ig_kids from "./ingles-kids.module.scss"
 
 import Image from "next/image"
@@ -12,18 +12,7 @@ import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 
 import VantagensCurso from "../Lateral/VantagensCurso"
-
-
-import VocabularioTematico from "./modulos-ingles-kids/_Vocabulario.js";
-import FrasesExpressoes from "./modulos-ingles-kids/_FrasesExpressoes.js";
-import HistoriasContos from "./modulos-ingles-kids/_HistóriasContos.js";
-import JogosAtividades from "./modulos-ingles-kids/_JogosAtividades.js";
-import MusicaCancoes from "./modulos-ingles-kids/_MusicaCancoes.js";
-import PraticaConversacao from "./modulos-ingles-kids/_PraticaConversacao.js";
-import RecursosMultimidia from "./modulos-ingles-kids/_RecursosMultimidia.js";
-import AtividadesCriativas from "./modulos-ingles-kids/_AtividadesCriativas.js";
-import Avaliacoesamigaveis from "./modulos-ingles-kids/_AvaliacoesAmigaveis.js";
-import CulturaTradicoes from "./modulos-ingles-kids/_CulturaTradicoes.js";
+import ModulosInglesKids from "./modulos/ModulosInglesKids"
 
 
 export default function Page() {
@@ -83,26 +72,8 @@ export default function Page() {
                         </div>
 
                         <h3>Módulos do Curso</h3>
-                        <div className={style_ig_kids.modulos_ingles_kids}>
+                        <ModulosInglesKids />
 
-                        </div>
-
-                        <div className={style_ig_kids.modulos_ingles_kids}>
-
-                            <VocabularioTematico />
-                            <FrasesExpressoes />
-
-                            <HistoriasContos />
-                            <JogosAtividades />
-                            <MusicaCancoes />
-                            <PraticaConversacao />
-                            <RecursosMultimidia />
-                            <AtividadesCriativas />
-                            <Avaliacoesamigaveis />
-                            <CulturaTradicoes />
-
-
-                        </div>
 
                     </main>
                     <aside className={style.aside}>
