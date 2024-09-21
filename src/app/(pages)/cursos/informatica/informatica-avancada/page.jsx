@@ -4,7 +4,7 @@ import style from "../page.module.scss"
 import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
-import Modulo from "../modulos/Modulos"
+import Modulo from "../_slideModulos/Modulos"
 // import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"

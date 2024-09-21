@@ -6,9 +6,7 @@ const slideObj = [
 
         resumo: `
         Informática é um termo abrangente por isso separamos um módulo onde on aluno tera uma visão abrangente e passara a 
-        entender sobre Terminologias, História do computador, conceitos como transistores, componentes eletrônicos,  
-        binário e a transmissão de dados através de computadores,
-        e a importância dos protocolos na comunicação.
+        entender sobre Terminologias, conceitos como binário e a tramissão de dados através de computadores.
         `,
         c_pragmatico: `
                   <li>Origem da Informática</li>
@@ -27,16 +25,10 @@ const slideObj = [
         imgUrl: 'modulo-windows.png',
 
         resumo: `
-       <p>
-Módulo I: Neste módulo, desenvolveremos habilidades essenciais para um uso ágil do Windows 10. 
-Você aprenderá a explorar as principais ferramentas, descobrir atalhos práticos e dominar a 
-instalação e desinstalação de programas, além de gerenciamento e manutenção do sistema.
-</p><p>
-Módulo II: Aqui oferecemos uma abordagem abrangente para aprimorar suas 
-habilidades no sistema operacional líder mundial. Abordaremos desde conceitos fundamentais 
-até personalização e otimização de desempenho, incluindo PowerShell, 
-configuração de redes e do sistema.
-</p>
+        Desenvolva as habilidades necessárias para se tornar um usuário ágil do Windows 10, explorando as 
+        principais ferramentas do sistema operacional. Descubra atalhos essenciais para o uso diário, 
+        aprenda a instalar e desinstalar programas, dominando do gerenciamento do sistema a manutenção!
+        
         `,
         c_pragmatico: `
             <li>Introdução ao Windows 10</li>
@@ -72,17 +64,11 @@ configuração de redes e do sistema.
     {
         nome: 'Pacote Office',
         resumo: `
-                <p>Nosso curso direciona uma atenção especial ao pacote Office, considerado um dos requisitos 
+                Nosso curso direciona uma atenção especial ao pacote Office, considerado um dos requisitos 
                 essenciais pelo mercado. Neste módulo, os alunos aprendem de maneira simples e direta, 
                 por meio de exemplos práticos e aplicáveis.
-</p><p>
-                No módulo avançado aprofundamos as habilidades dos
-                  alunos nos aplicativos Microsoft Office, como Word, Excel, PowerPoint e Outlook.
-                  Os participantes aprendem técnicas avançadas de formatação, automação, análise
-                  de dados, criação de apresentações impactantes e gerenciamento avançado de e-mails.
-</p>
         `,
-        imgUrl: 'modulo-office-avancado.png',
+        imgUrl: 'modulo-office.png',
         c_pragmatico: `
                               <span className="span_office">
                     <h4>Word</h4>
@@ -163,42 +149,77 @@ configuração de redes e do sistema.
                     <li>Dicas de Apresentação</li>
                     <li>Dicas de Seminários</li>
                   </span>
-              <span className="span_office">
-                    <h4>Outlook</h4>
-                    <li>Gerenciamento Avançado de E-mails</li>
-                    <li>Organização de Calendários</li>
-                    <li>Tarefas e Lembretes</li>
-                    <li>Contatos Avançados</li>
-                    <li>Integração com Outros Aplicativos</li>
-                    <li>Configuração de Conta</li>
-                  </span>
-                  `
+        `
 
     },
-
     {
-        nome: 'Power BI',
-        imgUrl: 'modulo-powerbi.png',
+        nome: 'Hardware',
+
+        imgUrl: 'modulo-hardware.png',
 
         resumo: `
-            O módulo de Power BI na nossa etapa avançada do curso, ensina aos alunos a utilizar eficientemente essa ferramenta para análise de dados. Os participantes aprendem a importar, transformar e visualizar dados, construir modelos de dados, criar relatórios dinâmicos e interativos, além de explorar a integração com outras ferramentas Microsoft. Ao final do curso, os alunos estão aptos a transformar
-             dados em insights valiosos para tomada de decisões informadas.
-                    `,
+      Aprenda e amplie seus conhecimentos sobre o hardware de computador entendendo as funções específicas de cada peça e quais são recomendadas na hora de fazer um upgrade em seu computador.
+
+      `,
         c_pragmatico: `
-                                  <li>Importação de dados</li>
-                                    <li>Transformação de dados</li>
-                                    <li>Visualização de dados</li>
-                                    <li>Construção de modelos de dados</li>
-                                    <li>Criação de relatórios dinâmicos e interativos</li>
-                                    <li>Medidas personalizadas</li>
-                                    <li>Criação de painéis informativos</li>
-                                    <li>Integração do Power BI com outras ferramentas Microsoft</li>
-                                    <li>Fluxo de trabalho eficiente</li>
-                                    <li>Utilização avançada do Power BI</li>
-            `
+                   <li>Introdução a Hardware</li>
+                  <li>Instalação de Dispositivos</li>
+                  <li>Instalação de Periférico</li>
+                  <li>Normas de Segurança </li>
+                  <li>Estrutura Básica da Placa Mãe</li>
+                  <li>Conceito de HD e SSD</li>
+                  <li> Conceito de Memória Ram</li>
+                  <li> Conceito de Processadores </li>
+                  <li>Fontes e Alimentação da CPU</li>
+                  <li>Dicas de Compra de Equipamentos</li>
+        `
 
     },
+    {
+        nome: 'Redes',
 
+        imgUrl: 'modulo-redes.png',
+
+        resumo: `
+       Você aprenderá os fundamentos sobre funcionamento de redes de computadores bem como equipamentos de redes, como hubs, switches, roteadores e crimpagem.
+
+        `,
+        c_pragmatico: `
+                    <li>Desenvolvimento da Rede de Computadores</li>
+                  <li>Introdução a Rede</li>
+                  <li>Modens, Roteadores e Switchs</li>
+                  <li>Equipamentos Secundarios</li>
+                  <li>Compartilhamento de Arquivos</li>
+                  <li>Conexão</li>
+                  <li>Grupo de Trabalho</li>             
+                  <li>Termonologias</li>
+        `
+
+    },
+    {
+        nome: 'Internet',
+
+        imgUrl: 'modulo-internet.png',
+
+        resumo: `
+        Alem de boas práticas e terminologias sobre internet e o aluno também aprendera conceitos como Download, Upload, Emails, Cookies protolocolo HTTP e IOT (Internet das Coisas).
+        
+        `,
+        c_pragmatico: `
+                      <li>Introdução a Terminilogias</li>
+                  <li>Navegadores</li>
+                  <li>Email</li>
+                  <li>Sites</li>
+                 
+                  <li>Download e Upload</li>
+                  <li>Pesquisas</li>
+                  
+                  <li>Atalhos</li>
+                  <li>Uso de Emails</li>
+                  <li>Aplicativos Online</li>
+        `
+
+    },
     {
         nome: 'Impressoras',
 
@@ -236,119 +257,6 @@ configuração de redes e do sistema.
                   <li>Microfones</li>
                   <li>Telas Touch Screen</li>
                   <li>Touch Pad</li>
-        `
-
-    },
-
-    {
-        nome: 'Redes',
-
-        imgUrl: 'modulo-redes.png',
-
-        resumo: `
-       Você aprenderá os fundamentos sobre funcionamento de redes de computadores bem como equipamentos de redes, como hubs, switches, roteadores e crimpagem.
-
-        `,
-        c_pragmatico: `
-                    <li>Desenvolvimento da Rede de Computadores</li>
-                  <li>Introdução a Rede</li>
-                  <li>Modens, Roteadores e Switchs</li>
-                  <li>Equipamentos Secundarios</li>
-                  <li>Compartilhamento de Arquivos</li>
-                  <li>Conexão</li>
-                  <li>Grupo de Trabalho</li>             
-                  <li>Termonologias</li>
-  <li>Termonologias</li>
-                  <li>Configuração de IP / IPV4</li>
-                  <li>Cabeamento</li>
- <li>Criação de Rede Doméstica</li>
-                  <li>Crimpagem</li>
-
-
-
-        `
-
-    },
-    {
-        nome: 'Internet',
-
-        imgUrl: 'modulo-internet.png',
-
-        resumo: `
-        Neste módulo, o aluno aprenderá boas práticas e terminologias essenciais sobre a internet, incluindo conceitos como download, 
-        upload, e-mails, cookies e o protocolo HTTP, além de explorar a Internet das Coisas (IoT).
-
-Cobriremos desde fundamentos básicos, como pesquisas e o funcionamento do HTTP, até tópicos mais avançados, como endereços IP, 
-segurança contra malwares, o papel dos cookies, extensões e personalização de navegadores. Também exploraremos os bastidores da internet, 
-incluindo conceitos de servidores, aplicativos online, contas integradas e a utilização do acesso remoto. 
-        `,
-        c_pragmatico: `
-                      <li>Introdução a Terminilogias</li>
-                  <li>Navegadores</li>
-                  <li>Email</li>
-                  <li>Sites</li>
-                 
-                  <li>Download e Upload</li>
-                  <li>Pesquisas</li>
-                  
-                  <li>Atalhos</li>
-                  <li>Uso de Emails</li>
-                  <li>Aplicativos Online</li>
-
-                  <li>HTTP</li>
-                  <li>Pesquisas Avançadas</li>
-                  <li>Links</li>
-                  <li>IP</li>
-                  <li>IOT (Internet das Coisas)</li>
-                  <li>Conceitos de Nuvem</li>
-                  <li>Malwares e Virus</li>
-                  <li>Cookies</li>
-                  <li>Extesões</li>
-                  <li>Personalização de Navegadores</li>
-                  <li>Conceito de Servidores</li>
-                  <li>Aplicativos Online</li>
-                  <li>Contas Integradas</li>
-                  <li>Acesso Remoto</li>
-        `
-
-    },
-    {
-        nome: 'Hardware',
-
-        imgUrl: 'modulo-hardware.png',
-
-        resumo: `
-<p>
-Amplie seus conhecimentos sobre hardware de computador, entendendo as funções 
-específicas de cada componente e quais são recomendados para upgrades.
-</p>
-<p>
-Neste módulo, você aprenderá a identificar a importância de cada peça e como elas interagem, 
-influenciando o desempenho do sistema. Forneceremos orientações práticas para escolher e implementar upgrades que atendam às suas necessidades e otimizem a performance do seu computador. Prepare-se para aprofundar seu conhecimento 
-e aprimorar suas habilidades na manutenção e evolução do hardware.
-
-     </p>
-
-      `,
-        c_pragmatico: `
-        
-                   <li>Introdução a Hardware</li>
-                  <li>Instalação de Dispositivos</li>
-                  <li>Instalação de Periférico</li>
-                  <li>Normas de Segurança </li>
-                  <li>Estrutura Básica da Placa Mãe</li>
-                  <li>Conceito de HD e SSD</li>
-                  <li> Conceito de Memória Ram</li>
-                  <li> Conceito de Processadores </li>
-                  <li>Fontes e Alimentação da CPU</li>
-                  <li>Dicas de Compra de Equipamentos</li>
-                  
-            <li>Arquiteturas de CPU</li>
-            <li>Conceitos de GPU e NPU</li>
-            <li>Funcionalidades e Tecnologias</li>
-            <li>Montagem de Computadores</li>
-
-
         `
 
     },
