@@ -1,4 +1,4 @@
-'use client'
+
 import NavCursos from "../../_NavCursos/NavCursos"
 import style from "../../pages-cursos.module.scss"
 
@@ -18,6 +18,13 @@ import ModulosInglesCompleto from "./modulos/ModulosInglesCompleto"
 // import Writing from "./modulos-ingles-completo/_Writing"
 // import Listening from "./modulos-ingles-completo/_Listening"
 // import Talking from "./modulos-ingles-completo/_Talking"
+
+
+
+export const metadata = {
+    title: "Inglês Completo",
+    description: `Aprenda inglês de maneira eficaz em um curso completo! Aulas práticas e interativas para jovens e adultos. Entre em contato e inicie sua jornada para fluência!`,
+};
 
 export default function Page() {
     return (

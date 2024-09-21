@@ -1,4 +1,4 @@
-'use client'
+
 import NavCursos from "../../_NavCursos/NavCursos"
 import style from "../../pages-cursos.module.scss"
 import style_ig_kids from "./ingles-kids.module.scss"
@@ -14,6 +14,26 @@ import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../Lateral/VantagensCurso"
 import ModulosInglesKids from "./modulos/ModulosInglesKids"
 
+export const metadata = {
+    title: "Inglês Kids",
+    description: `Dê ao seu filho a oportunidade de aprender inglês de forma divertida e eficaz com nosso curso "Inglês Kids"! Aulas interativas e práticas criadas especialmente para crianças. Inscreva-se e ajude seu pequeno a iniciar uma jornada de aprendizado cheia de possibilidades!`,
+    openGraph: {
+        title: "Inglês Kids",
+        description: `Dê ao seu filho a oportunidade de aprender inglês de forma divertida e eficaz!`,
+        url: "https://setacursos-nextjs.netlify.app/cursos/ingles/ingles-kids", // Substitua pela URL da sua postagem
+        images: [
+            {
+                url: "https://setacursos-nextjs.netlify.app/_next/image?url=%2Fassets%2Fimages%2Fcursos%2Fingles%2Fcurso-ingles-kids-seta-cursos.png&w=828&q=75", // Substitua pela URL da sua imagem
+                width: 1200,
+                height: 630,
+                alt: "Imagem do curso Inglês Kids",
+            },
+        ],
+        siteName: "Seu Site",
+    },
+
+
+};
 
 export default function Page() {
     return (
@@ -87,7 +107,7 @@ export default function Page() {
                 </div>
 
             </div>
-            {/* <Contato /> */}
+
         </>
     )
 

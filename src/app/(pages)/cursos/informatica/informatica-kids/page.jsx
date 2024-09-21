@@ -5,7 +5,7 @@ import Image from "next/image"
 import Icon from "@/../public/assets/icons/index"
 import _itemsNav from "../_itemsNavCursos";
 import VantagensCurso from "../Lateral/VantagensCurso";
-import ModulosInformatica from "./modulos_informatica_kids/ModulosInformaticaKids";
+import ModulosInformatica from "./modulos/ModulosInformaticaKids";
 
 
 
