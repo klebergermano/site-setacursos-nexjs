@@ -1,20 +1,23 @@
 @import "../../../../../../styles/includes.module.scss";
 
 .modulos_curso {
-    background-color: transparent;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     overflow: hidden;
     //border:5px solid red ;
-    padding: 10px 0px;
+    padding: 10px 40px;
     gap: 20px;
+
+    h2 {}
 
     // margin: 40px;
     h3 {
         grid-column: 1 / -1;
         background-color: transparent;
         padding: 0px 0px 20px 0px;
+        color: #000;
 
         border-bottom: 1px solid #333;
     }

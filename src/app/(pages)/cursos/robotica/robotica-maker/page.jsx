@@ -1,6 +1,6 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
-import style from "../page.module.scss"
+import style from "../../pages-cursos.module.scss"
 
 import Image from "next/image"
 

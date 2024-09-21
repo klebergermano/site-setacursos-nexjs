@@ -1,7 +1,7 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
-import style from "../../pages-cursos.module.scss"
-
+import style from "../page.module.scss"
+import style_kids from "./informatica-kids.module.scss";
 import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
@@ -9,9 +9,17 @@ import Icon from "@/../public/assets/icons/index"
 // import Contato from "@/components/Contato/Contato"
 
 
+import IntroTecKids from "./modulos_informatica_kids/IntroTecKids.js";
+import Windows from "./modulos_informatica_kids/Windows.js";
+import InternetKids from "./modulos_informatica_kids/InternetKids.js";
+import AplicacoesCriativas from "./modulos_informatica_kids/AplicacoesCriativas.js";
+import ComponentesKids from "./modulos_informatica_kids/ComponentesKids.js";
+import JogosEducativos from "./modulos_informatica_kids/JogosEducativos.js";
+import ProgramacaoKids from "./modulos_informatica_kids/ProgramacaoKids.js";
+
 import _itemsNav from "../_itemsNavCursos";
 import VantagensCurso from "../Lateral/VantagensCurso";
-import ModulosInformatica from "./modulos_informatica_kids/ModulosInformaticaKids";
+
 
 
 
@@ -77,22 +85,18 @@ export default function InformáticaKids() {
 
                         <h3>Módulos do Curso</h3>
 
-
-
-                        <ModulosInformatica />
-                        {/* 
                         <div className={style_kids.modulos_informatica_kids}>
 
 
 
-                             <IntroTecKids />
+                            <IntroTecKids />
                             <Windows />
                             <ProgramacaoKids />
                             <AplicacoesCriativas />
                             <ComponentesKids />
-                            <JogosEducativos />  <InternetKids /> 
+                            <JogosEducativos />  <InternetKids />
 
-                </div> */}
+                        </div>
 
 
 
@@ -101,9 +105,9 @@ export default function InformáticaKids() {
                         <VantagensCurso />
                     </aside>
 
-                </div >
+                </div>
 
-            </div >
+            </div>
             {/* <Contato /> */}
         </>
     )

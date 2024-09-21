@@ -2,10 +2,8 @@
 import NavCursos from "../../_NavCursos/NavCursos"
 import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
-
 import Icon from "@/../public/assets/icons/index"
 import Modulo from "../modulos/Modulos"
-// import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../../ingles/Lateral/VantagensCurso"
@@ -16,12 +14,9 @@ export default function Page() {
     return (
         <>
             <div className={`${style.pages_informatica} pages`}>
-
                 <NavCursos itemsNav={_itemsNav} />
                 <div className={style.bg_content_page}>
-
                     <main className={style.main}>
-
                         <h1>Informática Completa</h1>
                         <figure className={style.bg_img_destaque}>
                             <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
@@ -35,7 +30,8 @@ export default function Page() {
                             <p>Nosso ambiente de aprendizado é dinâmico e acolhedor, repleto de atividades práticas e dicas valiosas.
                                 Você ganhará a confiança necessária para navegar no universo da tecnologia, dominando desde as ferramentas
                                 básicas até as mais sofisticadas. Ao longo do curso, você terá a oportunidade de aplicar o que aprendeu,
-                                preparando-se para enfrentar os desafios do mundo digital com segurança e competência.</p>
+                                preparando-se para enfrentar os desafios do mundo digital com segurança e competência.
+                            </p>
 
 
                         </div>
@@ -89,11 +85,8 @@ export default function Page() {
                     <aside className={style.aside}>
                         <VantagensCurso />
                     </aside>
-
                 </div>
-
             </div>
-            {/* <Contato /> */}
         </>
     )
 

@@ -6,7 +6,6 @@
   max-width: 100%;
   border: 1px solid rgb(0, 0, 0);
   margin: auto;
-  margin-top: 40px;
   --slide-height: 19rem;
   --slide-spacing: 1rem;
   --slide-size: 100%;
@@ -68,13 +67,19 @@
       //background-color: aqua;
       margin: 0px;
       margin-top: 10px;
-      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 0px;
+
+      margin-bottom: 10px;
+
     }
 
 
 
-
-    .resumo {
+    .resumoX {
       max-width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -85,7 +90,6 @@
       //border: 1px solid rgb(0, 255, 85);
       //height: 100%;
 
-
       &>div {
 
 
@@ -93,8 +97,6 @@
         p {
           font-size: 14px;
           line-height: 18px;
-          //border: 1px solid #111;
-          margin-bottom: 5px;
 
         }
       }
@@ -119,14 +121,6 @@
       //min-height: 200px;
       max-height: 250px;
       overflow-y: scroll;
-
-      h3 {
-        font-size: 16px;
-        margin: 0px;
-
-        margin-bottom: 20px;
-
-      }
 
       ul {
         display: grid;

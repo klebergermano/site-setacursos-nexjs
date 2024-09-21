@@ -123,6 +123,7 @@ function ModulosInglesCompleto() {
   return (
 
     <div className={style.modulos_curso}>
+      <h3>Módulos do Curso</h3>
 
       {modulosInfo.map((item, index) => (
         <div key={index} data-aos='fade-right'>
