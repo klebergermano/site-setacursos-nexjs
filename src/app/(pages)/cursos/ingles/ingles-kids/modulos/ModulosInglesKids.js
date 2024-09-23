@@ -6,6 +6,51 @@ import Image from "next/image"
 const modulosInfo = [
 
   {
+    nome: 'Frases e Expressões Cotidianas',
+    imgUrl: 'curso-ingles-kids-frases-expressoes-seta-cursos.png',
+    resumo: `
+     <p>
+
+                    Introdução de expressões e frases em inglês que as crianças usam no dia a dia, como cumprimentos,
+                    pedidos simples e as resposta mais comuns para essas expressões.
+                </p>
+
+` ,
+
+  },
+
+  {
+    nome: 'Vocabulário Temático',
+    imgUrl: 'curso-ingles-kids-vocabulario-tematico-seta-cursos.png',
+    resumo: `
+                <p>Ensino de vocabulário relacionado aos interesses e experiências das crianças, como animais, cores, alimentos, família, etc.</p>
+
+` ,
+
+  },
+
+
+  {
+    nome: 'Histórias e Contos',
+    imgUrl: 'curso-ingles-kids-historias-contos-seta-cursos.png',
+    resumo: `
+    <p>Incorporação de histórias, contos e fábulas em inglês para desenvolver habilidades de audição, compreensão e leitura.</p>
+
+` ,
+
+  },
+
+  {
+    nome: 'Prática e Conversação',
+    imgUrl: 'curso-ingles-kids-pratica-conversacao-seta-cursos.png',
+    resumo: `
+    <p>Estímulo à prática de conversação em situações simuladas e interações sociais, desenvolvendo a confiança das crianças em usar o idioma inglês.</p>
+
+` ,
+
+  },
+
+  {
     nome: 'Atividades Criativas',
     imgUrl: 'curso-ingles-kids-atividades-criativas-seta-cursos.png',
     resumo: `
@@ -38,29 +83,9 @@ const modulosInfo = [
 
   },
 
-  {
-    nome: 'Frases e Expressões Cotidianas',
-    imgUrl: 'curso-ingles-kids-frases-expressoes-seta-cursos.png',
-    resumo: `
-     <p>
 
-                    Introdução de expressões e frases em inglês que as crianças usam no dia a dia, como cumprimentos,
-                    pedidos simples e as resposta mais comuns para essas expressões.
-                </p>
 
-` ,
 
-  },
-
-  {
-    nome: 'Histórias e Contos',
-    imgUrl: 'curso-ingles-kids-historias-contos-seta-cursos.png',
-    resumo: `
-    <p>Incorporação de histórias, contos e fábulas em inglês para desenvolver habilidades de audição, compreensão e leitura.</p>
-
-` ,
-
-  },
 
   {
     nome: 'Jogos e Atividades',
@@ -85,16 +110,6 @@ const modulosInfo = [
   },
 
   {
-    nome: 'Prática e Conversação',
-    imgUrl: 'curso-ingles-kids-pratica-conversacao-seta-cursos.png',
-    resumo: `
-    <p>Estímulo à prática de conversação em situações simuladas e interações sociais, desenvolvendo a confiança das crianças em usar o idioma inglês.</p>
-
-` ,
-
-  },
-
-  {
     nome: 'Recursos Multimídia',
     imgUrl: 'curso-ingles-kids-recursos-multimidia-seta-cursos.png',
     resumo: `´
@@ -104,15 +119,6 @@ const modulosInfo = [
 
   },
 
-  {
-    nome: 'Vocabulário Temático',
-    imgUrl: 'curso-ingles-kids-vocabulario-tematico-seta-cursos.png',
-    resumo: `
-                <p>Ensino de vocabulário relacionado aos interesses e experiências das crianças, como animais, cores, alimentos, família, etc.</p>
-
-` ,
-
-  },
 
 
 ]

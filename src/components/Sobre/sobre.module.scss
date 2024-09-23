@@ -120,3 +120,15 @@
     }
   }
 }
+
+@media (max-width: 560px) {
+  .sobre {
+    #content {
+      div {
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

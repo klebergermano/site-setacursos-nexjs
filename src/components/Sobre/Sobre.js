@@ -25,34 +25,29 @@ const Sobre = () => {
             assegurando que estejam alinhados com a constante evolução e necessidades do mundo atual.
           </p>
           <p data-aos='zoom-in-right' data-aos-duration='1000'>
-            Oferecemos assim cursos de <strong>Inglês</strong>, <strong>Informática</strong>,
+            Oferecemos cursos de <strong>Inglês</strong>, <strong>Informática</strong>,
             <strong>Administração</strong>, <strong>Programação</strong>, <strong>Robótica</strong>, <strong>Desenvolvimento Web</strong>, <strong>Excel Avançado</strong> e muito mais!
           </p>
 
 
           <p data-aos='zoom-in-left' data-aos-duration='1000'>
-            Nossa missão é levar conhecimento de qualidade, de maneira prática e acessível.
-            Buscamos oferecer uma educação que atenda às necessidades individuais de cada aluno,
-            com o compromisso de estar sempre à frente das últimas tendências e informações, garantindo a
-            relevância e a atualidade de nossos cursos e contribuindo
-            para o crescimento pessoal e profissional dos nossos alunos.
+            Nossa missão é levar conhecimento de qualidade, de maneira prática e acessível, buscando oferecer uma educação que atenda às necessidades individuais de cada aluno,
+            contribuindo para o crescimento pessoal e profissional de todos
             <b />
           </p>
 
 
           <p data-aos='zoom-in-up' data-aos-duration='1000'>
 
-            Se você busca alavancar seus conhecimentos nas áreas de tecnologia, idiomas ou reforço educacional,
-            está no lugar certo!
+
             <LinkScroll
               href='/contato'
-
               activeClass="active"
-              to="bg-contato-home"
+              to="contato"
               spy={true}
               smooth={true}
               offset={-60}
-              duration={600}> Fale conosco </LinkScroll> e saiba mais! 🚀
+              duration={600}> Fale conosco </LinkScroll> e saiba mais!
 
           </p>
 

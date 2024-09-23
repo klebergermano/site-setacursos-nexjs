@@ -135,12 +135,13 @@
 
 @media (max-width:580px) {
     .bg_slide_home {
-        #slide_home {
+        .slide_home {
 
-            #info_slide {
-                padding: 15px 10px;
+            .info_slide {
+                padding: 15px 0px;
                 border-radius: 20px 20px 0px 20px;
                 // background-color: #746464;
+                max-width: 300px;
 
                 h1 {
                     font-size: 18px;

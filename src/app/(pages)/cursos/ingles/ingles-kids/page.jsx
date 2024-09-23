@@ -1,7 +1,7 @@
 
 import NavCursos from "../../_NavCursos/NavCursos"
 import style from "../../pages-cursos.module.scss"
-import style_ig_kids from "./ingles-kids.module.scss"
+
 
 import Image from "next/image"
 

@@ -24,6 +24,21 @@ import ModulosInglesCompleto from "./modulos/ModulosInglesCompleto"
 export const metadata = {
     title: "Inglês Completo",
     description: `Aprenda inglês de maneira eficaz em um curso completo! Aulas práticas e interativas para jovens e adultos. Entre em contato e inicie sua jornada para fluência!`,
+    openGraph: {
+        title: "Inglês Completo",
+        description: `Aprenda inglês de maneira eficaz em um curso completo! Aulas práticas e interativas para jovens e adultos.`,
+        url: "https://setacursos/cursos/ingles/ingles-completo",
+        images: [
+            {
+                url: "https://setacursos-nextjs.netlify.app/_next/image?url=%2Fassets%2Fimages%2Fcursos%2Fingles%2Fcurso-ingles-kids-seta-cursos.png&w=828&q=75",
+                width: 1200,
+                height: 630,
+                alt: "Imagem do curso Inglês Completo",
+            },
+        ],
+        siteName: "Seu Site",
+    },
+
 };
 
 export default function Page() {
