@@ -5,19 +5,20 @@ const slideObj = [
         imgUrl: 'modulo-introducao.png',
 
         resumo: `
-        Informática é um termo abrangente por isso separamos um módulo onde on aluno tera uma visão abrangente e passara a 
-        entender sobre Terminologias, História do computador, conceitos como transistores, componentes eletrônicos,  
-        binário e a transmissão de dados através de computadores,
-        e a importância dos protocolos na comunicação.
+        <p>
+      Informática é um termo abrangente; por isso, criamos um módulo que proporciona ao aluno uma visão ampla sobre terminologias, 
+      a história do computador e conceitos fundamentais como a estrutara dos computadores, peça básicas e a sua disposição, além 
+      de noções sobre: componentes eletrônicos, sistema binário e a transmissão de dados.
+        </p>
         `,
         c_pragmatico: `
                   <li>Origem da Informática</li>
-                  <li>O que são computadore</li>
+                  <li>Definição de um Computador</li>
                   <li>O uso da Tecnologia </li>
                   <li>Tipos de Computadores</li>
                   <li>Nomeclaturas e Terminologias</li>
                   <li>Sistema Computacional</li>
-                  <li>Hadwares e Sofwares</li>
+                  <li>Hardwares e Sofwares</li>
                   <li>Nomeclaturas e Terminologias</li>
         `
 
@@ -28,12 +29,9 @@ const slideObj = [
 
         resumo: `
        <p>
-Módulo I: Neste módulo, desenvolveremos habilidades essenciais para um uso ágil do Windows 10. 
-Você aprenderá a explorar as principais ferramentas, descobrir atalhos práticos e dominar a 
+Neste módulo, desenvolveremos habilidades essenciais para um uso ágil do Windows 10, explorando ferramentas, atalhos práticos,  
 instalação e desinstalação de programas, além de gerenciamento e manutenção do sistema.
-</p><p>
-Módulo II: Aqui oferecemos uma abordagem abrangente para aprimorar suas 
-habilidades no sistema operacional líder mundial. Abordaremos desde conceitos fundamentais 
+</p><p>Abordamos ainda conceitos fundamentais 
 até personalização e otimização de desempenho, incluindo PowerShell, 
 configuração de redes e do sistema.
 </p>
@@ -46,7 +44,7 @@ configuração de redes e do sistema.
                   <li>Uso de Pastas e Arquivos</li>
                   <li>Armazenamento</li>
                   <li>Configurações</li>
-                  <li>Excluindo Aruqivos e Pastas</li>
+                  <li>Excluindo Arquivos e Pastas</li>
                   <li>Uso da Lixeira e Restauração</li>
                   <li>Aplicativos e Programas </li>
                   <li>Atualização e Segurança</li>
@@ -59,12 +57,12 @@ configuração de redes e do sistema.
                   <li>Multiplas Areas de Trabalho</li>
                   <li>Extensões de Arquivos</li>
                   <li>Arquivos e Pastas Ocultas</li>
-                  <li>Promp de Comando CMD</li>
-                  <li>Explorador Avançado </li>
+                  <li>Prompt de Comando CMD</li>
+                  <li>Explorador Avançado</li>
                   <li>Editor de Registro</li>
                   <li>Acesso Remoto</li>
                   <li>Máquinas Virtuais</li>
-                  <li>Instalação de Programas </li>
+               
         `
 
     },
@@ -72,12 +70,10 @@ configuração de redes e do sistema.
     {
         nome: 'Pacote Office',
         resumo: `
-                <p>Nosso curso direciona uma atenção especial ao pacote Office, considerado um dos requisitos 
-                essenciais pelo mercado. Neste módulo, os alunos aprendem de maneira simples e direta, 
+                <p>Direcionamos uma atenção especial ao pacote Office que é considerado um requisito 
+                essenciais no mercado de trabalho. Neste módulo, os alunos aprendem de maneira simples e direta, 
                 por meio de exemplos práticos e aplicáveis.
-</p><p>
-                No módulo avançado aprofundamos as habilidades dos
-                  alunos nos aplicativos Microsoft Office, como Word, Excel, PowerPoint e Outlook.
+</p><p>  aplicativos Microsoft Office, como Word, Excel, PowerPoint e Outlook.
                   Os participantes aprendem técnicas avançadas de formatação, automação, análise
                   de dados, criação de apresentações impactantes e gerenciamento avançado de e-mails.
 </p>
@@ -181,9 +177,11 @@ configuração de redes e do sistema.
         imgUrl: 'modulo-powerbi.png',
 
         resumo: `
+        <p>
             O módulo de Power BI na nossa etapa avançada do curso, ensina aos alunos a utilizar eficientemente essa ferramenta para análise de dados. Os participantes aprendem a importar, transformar e visualizar dados, construir modelos de dados, criar relatórios dinâmicos e interativos, além de explorar a integração com outras ferramentas Microsoft. Ao final do curso, os alunos estão aptos a transformar
              dados em insights valiosos para tomada de decisões informadas.
-                    `,
+         </p>
+             `,
         c_pragmatico: `
                                   <li>Importação de dados</li>
                                     <li>Transformação de dados</li>
@@ -205,8 +203,10 @@ configuração de redes e do sistema.
         imgUrl: 'modulo-impressao.png',
 
         resumo: `
+        <p>
        O Aluno aprendera a Scanear, tranferir seus arquivos via Email, Celular ou Computador para impressão, formatos de arquivos ideais, formato de cores CMYK e resolução de imagens e configuração de Pixeis por Polegadas para uma impressão de alta qualidade.
-        `,
+       </p> 
+       `,
         c_pragmatico: `
                    <li>O que são Impressoras</li>
                   <li>Tipos de Impressoras</li>
@@ -226,7 +226,10 @@ configuração de redes e do sistema.
         imgUrl: 'modulo-dispositivos.png',
 
         resumo: `
+        <p>
         O aluno aprendera alem de digitação diferentes interfaces como touchpad e o funcionamento de telas touchscreen, padrão QWERTY e atalhos ASCII.
+        </p>
+        
         `,
         c_pragmatico: `
                    <li>Digitação</li>
@@ -246,8 +249,9 @@ configuração de redes e do sistema.
         imgUrl: 'modulo-redes.png',
 
         resumo: `
-       Você aprenderá os fundamentos sobre funcionamento de redes de computadores bem como equipamentos de redes, como hubs, switches, roteadores e crimpagem.
-
+       <p>
+        Você aprenderá os fundamentos sobre funcionamento de redes de computadores bem como equipamentos de redes, como hubs, switches, roteadores e crimpagem.
+</p>
         `,
         c_pragmatico: `
                     <li>Desenvolvimento da Rede de Computadores</li>
@@ -275,13 +279,15 @@ configuração de redes e do sistema.
         imgUrl: 'modulo-internet.png',
 
         resumo: `
+        <p>
         Neste módulo, o aluno aprenderá boas práticas e terminologias essenciais sobre a internet, incluindo conceitos como download, 
         upload, e-mails, cookies e o protocolo HTTP, além de explorar a Internet das Coisas (IoT).
+</p><p>
+Cobriremos também o funcionamento do HTTP, até tópicos mais avançados, como endereços IP, 
+segurança contra malwares, o papel dos cookies, extensões e personalização de navegadores.  
+</p>     
 
-Cobriremos desde fundamentos básicos, como pesquisas e o funcionamento do HTTP, até tópicos mais avançados, como endereços IP, 
-segurança contra malwares, o papel dos cookies, extensões e personalização de navegadores. Também exploraremos os bastidores da internet, 
-incluindo conceitos de servidores, aplicativos online, contas integradas e a utilização do acesso remoto. 
-        `,
+`,
         c_pragmatico: `
                       <li>Introdução a Terminilogias</li>
                   <li>Navegadores</li>
@@ -320,14 +326,10 @@ incluindo conceitos de servidores, aplicativos online, contas integradas e a uti
         resumo: `
 <p>
 Amplie seus conhecimentos sobre hardware de computador, entendendo as funções 
-específicas de cada componente e quais são recomendados para upgrades.
+específicas de cada componente e quais são recomendados para upgrades, 
+bem como funcionalidades mais avançadas, como a troca de peças e detecção de mal funcionamento 
+de componentes.
 </p>
-<p>
-Neste módulo, você aprenderá a identificar a importância de cada peça e como elas interagem, 
-influenciando o desempenho do sistema. Forneceremos orientações práticas para escolher e implementar upgrades que atendam às suas necessidades e otimizem a performance do seu computador. Prepare-se para aprofundar seu conhecimento 
-e aprimorar suas habilidades na manutenção e evolução do hardware.
-
-     </p>
 
       `,
         c_pragmatico: `

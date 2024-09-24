@@ -1,8 +1,5 @@
 @import "../../../styles/includes.module.scss";
 
-
-
-
 .bg_content_page {
     margin-top: 20px;
     width: 100%;
@@ -150,6 +147,9 @@
 
 }
 
+
+
+
 @media (max-width: 860px) {
 
     .bg_content_page {
@@ -161,13 +161,13 @@
 
     .aside {
         display: flex;
-        //border: 2px solid red;
         justify-content: center;
         align-items: center;
 
-        .block_lateral {
-
+        &>div {
+            // border: 2px solid red;
             max-width: 400px;
+            margin: 10px !important;
 
             li {
                 padding-left: 20px !important;
@@ -192,7 +192,13 @@
 
         .main {
 
-            padding: 0px 20px 20px 20px;
+            // padding: 0px 0px 20px 0px;
+
+            .content {
+                padding: 0px 20px 60px 20px;
+                //background-color: #ffd0d0;
+
+            }
         }
 
     }

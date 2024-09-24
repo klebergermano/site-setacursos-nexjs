@@ -72,14 +72,14 @@ const EmblaCarousel = (props) => {
               <div className={style.embla__slide} key={index}>
                 <div className={style.embla__slide__number}>
                   <h2>{item.nome}</h2>
-                  <div className={style.resumoX}>
+                  <div className={style.resumo}>
                     <div dangerouslySetInnerHTML={{ __html: item.resumo }}>
                       {/* <p>
                       {item.resumo}
                     </p> */}
                     </div>
                     <figure>
-                      <Image fill={true} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
+                      <Image width={300} height={220} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
                     </figure>
                   </div>
 

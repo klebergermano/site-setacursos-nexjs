@@ -6,6 +6,7 @@ import Icon from "@/../public/assets/icons/index"
 import _itemsNav from "../_itemsNavCursos";
 import VantagensCurso from "../Lateral/VantagensCurso";
 import ModulosInformatica from "./modulos/ModulosInformaticaKids";
+import { PiChalkboardTeacherLight } from "react-icons/pi";
 
 
 
@@ -41,26 +42,31 @@ export default function InformáticaKids() {
                                 <li>
 
                                     <Icon name="calendar" className={style.icon} />
-                                    Tempo de Duração: 14 meses</li>
+                                    Tempo de Duração: 12 meses</li>
                                 <li>
 
                                     <Icon name="class2" className={style.icon} />
-                                    Aulas por Semana: 2 (2 horas p/ aula)</li>
+                                    Aulas por Semana: 2 (1 horas p/ aula)
+                                </li>
+
+                                <li>
+                                    <PiChalkboardTeacherLight style={{ maxWidth: '45px', marginLeft: "-3px" }} className={style.icon} />
+                                    + 1 aula extra p/ prática e reposição
+                                </li>
                                 <li>
 
                                     <Icon name="time-duration" className={style.icon} />
-
-                                    Carga Horária:  224 horas </li>
+                                    Carga Horária:  96 horas </li>
                                 <li>
                                     <Icon name="certificate" className={style.icon} />
-                                    Certificado de qualificação profissional incluso!</li>
+                                    Certificado de conclusão</li>
                                 <li>
                                     <Icon name="books" className={style.icon} />
                                     Material didático incluso!
                                 </li>
                                 <li>
                                     <Icon name="moeda-real" className={style.icon} />
-                                    Investimento: R$ 170,00 (mensal)
+                                    Investimento: R$ 160,00 (mensal)
                                 </li>
 
                             </div>

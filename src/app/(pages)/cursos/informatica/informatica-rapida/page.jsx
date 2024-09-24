@@ -9,7 +9,7 @@ import Modulo from "../_slideModulos/Modulos"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../../ingles/Lateral/VantagensCurso"
-
+import { PiChalkboardTeacherLight } from "react-icons/pi";
 
 
 
@@ -46,13 +46,24 @@ export default function InformáticaAvancada() {
                                 <li>
 
                                     <Icon name="class2" className={style.icon} />
-                                    Aulas por Semana: 2 (2 horas p/ aula)</li>
+                                    Aulas por Semana: 2 (1 horas p/ aula)</li>
+
                                 <li>
 
+
+                                    <PiChalkboardTeacherLight style={{ maxWidth: '45px', marginLeft: "-3px" }} className={style.icon} />
+                                    + 1 aula extra p/ prática e reposição
+                                </li>
+
+
+                                <li>
                                     <Icon name="time-duration" className={style.icon} />
+                                    Carga Horária:  24 horas </li>
 
-                                    Carga Horária:  48 horas </li>
+
+
                                 <li>
+
                                     <Icon name="certificate" className={style.icon} />
                                     Certificado de qualificação profissional incluso!</li>
                                 <li>

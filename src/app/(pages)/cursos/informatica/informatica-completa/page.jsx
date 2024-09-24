@@ -10,6 +10,7 @@ import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../../ingles/Lateral/VantagensCurso"
 
+import { PiChalkboardTeacherLight } from "react-icons/pi";
 
 
 export default function Page() {
@@ -58,7 +59,8 @@ export default function Page() {
 
                                 <li>
 
-                                    <Icon name="class2" className={style.icon} />
+
+                                    <PiChalkboardTeacherLight style={{ maxWidth: '45px', marginLeft: "-3px" }} className={style.icon} />
                                     + 1 aula extra p/ prática e reposição
                                 </li>
                                 <li>
