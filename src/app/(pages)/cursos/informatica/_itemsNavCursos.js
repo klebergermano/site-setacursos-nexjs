@@ -11,6 +11,12 @@
             nome: 'Informática Avançada'
         },
 
+              {
+            link: 'informatica/informatica-essencial',
+            imgUrl: 'informatica/curso-informatica-essencial-seta-cursos-thumb.png',
+            nome: 'Informática Essêncial'
+        },
+
       */
 
 const _itemsNav =
@@ -22,10 +28,12 @@ const _itemsNav =
         },
 
         {
-            link: 'informatica/informatica-completa',
+            link: 'informatica/informatica-jovem',
             imgUrl: 'informatica/curso-informatica-essencial-seta-cursos-thumb.png',
-            nome: 'Informática Completa'
+            nome: 'Informática Jovem'
         },
+
+
 
 
         {

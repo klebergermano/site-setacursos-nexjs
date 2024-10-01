@@ -1,31 +1,4 @@
-
-
-import style from "./modulos-informatica-kids.module.scss"
-import Image from "next/image"
-
-{
-  /*
-   {
-      nome: 'Programação Kids',
-      imgUrl: 'modulo-programacao-kids.png',
-      resumo: `
-      <p>
-  O módulo "Programação Kids" em nosso curso oferece uma introdução
-              empolgante e acessível ao mundo da programação para crianças.
-              Exploramos conceitos fundamentais do pensamento computacional e
-              da lógica de codificação, estimulando o pensamento lógico e criativo.
-       </p><p>     
-              Nosso objetivo é inspirar uma paixão pela resolução de problemas e pela criação digital
-              de maneira divertida e educativa.
-              </p>
-  `,
-    },
-  
-  */
-
-}
-
-const modulosInfo = [
+const slideObj = [
 
   {
     nome: 'Intro Tec Kids',
@@ -128,41 +101,6 @@ No módulo "Internet Kids", as crianças são guiadas em uma jornada sobre a nav
 
 
 
-
 ]
 
-function ModulosInformaticaKids() {
-
-
-  return (
-    <>
-      <h3 className={style.title}></h3>
-      <div className={style.modulos_informatica_kids}>
-
-
-        {modulosInfo.map((item, index) => (
-          <div key={index} data-aos='fade-right'>
-            <h2>{item.nome} </h2>
-            <figure>
-              <Image width={400} height={260} src={`/assets/images/cursos/informatica/${item.imgUrl}`} alt={item.nome} />
-            </figure>
-
-            <div class={style.resumo}
-              dangerouslySetInnerHTML={{ __html: item.resumo }}
-            >
-
-
-
-            </div>
-          </div>
-
-        ))}
-
-
-      </div>
-
-    </>
-  )
-}
-
-export default ModulosInformaticaKids;
+export default slideObj;

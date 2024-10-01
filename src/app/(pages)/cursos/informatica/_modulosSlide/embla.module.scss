@@ -142,12 +142,20 @@ h3.title {
     }
 
     .c_pragmatico {
-      padding: 20px;
+      padding: 20px 10px 10px 40px;
       border: 1px solid #111;
       scrollbar-color: #111 #ddd;
-
-      max-height: 250px;
+      //max-height: 160px;
+      height: 160px;
       overflow-y: scroll;
+
+      &>h4 {
+        // text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #000;
+
+      }
 
       ul {
         display: grid;
@@ -185,6 +193,16 @@ h3.title {
   gap: 1.2rem;
   padding: 10px;
   //margin-top: 1.8rem;
+
+  &>div {
+
+    padding: 0px;
+    display: flex;
+    //border: 1px solid red !important;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
 }
 
 .embla__buttons {
@@ -193,6 +211,7 @@ h3.title {
   gap: 0.6rem;
   align-items: center;
   padding: 5px;
+  min-width: 100px;
 
 }
 
@@ -204,7 +223,7 @@ h3.title {
   svg {
     width: 15px;
     height: 15px;
-    color: $color-secondary;
+    color: #000;
     margin: 0px;
     margin-bottom: -2px;
 
@@ -283,6 +302,9 @@ h3.title {
       .resumo {}
 
       .c_pragmatico {
+
+
+
         padding: 10px 0px 10px 15px !important;
 
         ul {
@@ -343,43 +365,4 @@ h3.title {
 }
 
 
-@media (max-width:$width-mobile) {
-  /*
-  .embla__slide__number {
-
-    background-color: #a1a1a1 !important;
-
-    h2 {}
-
-    h3 {}
-
-    .resumo {
-
-      flex-direction: column;
-
-      &>div {
-        p {}
-      }
-
-      figure {
-        img {}
-      }
-    }
-
-    .c_pragmatico {
-
-      ul {
-
-
-
-        span {}
-
-        li {}
-      }
-
-    }
-
-  }
-
-*/
-}
+@media (max-width:$width-mobile) {}

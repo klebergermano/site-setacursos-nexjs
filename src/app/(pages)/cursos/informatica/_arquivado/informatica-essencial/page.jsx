@@ -1,16 +1,16 @@
 'use client'
-import NavCursos from "../../_NavCursos/NavCursos"
+import NavCursos from "../../../_NavCursos/NavCursos"
 import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
 
 import Icon from "@/../public/assets/icons/index"
-import Modulo from "../_slideModulos/Modulos"
-// import Contato from "@/components/Contato/Contato"
-import slideObj from "./_slideObj"
-import _itemsNav from "../_itemsNavCursos"
-import VantagensCurso from "../../ingles/Lateral/VantagensCurso"
+import Modulo from "../../_modulosSlide/Modulos"
 
-import { PiChalkboardTeacherLight } from "react-icons/pi";
+
+import slideObj from "./_slideObj"
+import _itemsNav from "../../_itemsNavCursos"
+import VantagensCurso from "../../Lateral/VantagensCurso"
+
 
 
 export default function Page() {
@@ -24,52 +24,44 @@ export default function Page() {
                     <main className={style.main}>
                         <div className={style.content}>
 
-                            <h1>Informática Completa</h1>
+
+                            <h1>Informática Essêncial</h1>
                             <figure className={style.bg_img_destaque}>
                                 <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
                             </figure>
                             <div className={style.resumo}>
+                                <p>Explore os fundamentos da informática com nosso curso essencial!
+                                    Seja você um iniciante ou alguém em busca de aprimoramento,
+                                    nosso curso INFORMÁTICA ESSENCIAL é projetado para atender a todos os níveis de conhecimento,
+                                    tornando-o acessível e envolvente para todos.</p>
 
-                                <p>Desperte seu potencial digital com nosso curso "Informática Completa"! Se você está apenas começando ou já
-                                    possui algum conhecimento e deseja se aprofundar, este curso foi cuidadosamente estruturado para guiar
-                                    você desde os fundamentos até técnicas avançadas.</p>
-
-                                <p>Nosso ambiente de aprendizado é dinâmico e acolhedor, repleto de atividades práticas e dicas valiosas.
-                                    Você ganhará a confiança necessária para navegar no universo da tecnologia, dominando desde as ferramentas
-                                    básicas até as mais sofisticadas. Ao longo do curso, você terá a oportunidade de aplicar o que aprendeu,
-                                    preparando-se para enfrentar os desafios do mundo digital com segurança e competência.
-                                </p>
-
-
+                                <p>Nosso ambiente de aprendizado é acolhedor e prático, repleto de dicas valiosas, proporcionando a você a
+                                    confiança necessária para se aventurar no mundo digital. Ao longo do curso, você terá a oportunidade de
+                                    explorar e aplicar os conhecimentos adquiridos, preparando-o para enfrentar os desafios e oportunidades que a tecnologia oferece.</p>
                             </div>
+
+
+
+
+
+
 
                             <div className={style.visao_geral_curso}>
                                 <h4>VISÃO GERAL </h4>
                                 <li>
 
                                     <Icon name="calendar" className={style.icon} />
-                                    Tempo de Duração: 18 meses</li>
+                                    Tempo de Duração: 12 meses
+                                </li>
                                 <li>
-
 
                                     <Icon name="class2" className={style.icon} />
-                                    Aulas por Semana: 2  (1 hora p/ aula)
-
-                                </li>
-
+                                    Aulas por Semana: 2 (1 horas p/ aula)</li>
                                 <li>
-
-
-                                    <PiChalkboardTeacherLight style={{ maxWidth: '45px', marginLeft: "-3px" }} className={style.icon} />
-                                    + 1 aula extra p/ prática e reposição
-                                </li>
-                                <li>
-
-
 
                                     <Icon name="time-duration" className={style.icon} />
 
-                                    Carga Horária:  128 horas </li>
+                                    Carga Horária: 112 horas </li>
                                 <li>
                                     <Icon name="certificate" className={style.icon} />
                                     Certificado de qualificação profissional incluso!</li>
@@ -82,11 +74,10 @@ export default function Page() {
                                     <Icon name="moeda-real" className={style.icon} />
                                     Investimento: R$ 160,00 (mensal)
                                 </li>
-
                             </div>
-
-
                             <Modulo slideObj={slideObj} />
+
+
 
                         </div>{/* content */}
 

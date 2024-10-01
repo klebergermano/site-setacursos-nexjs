@@ -12,6 +12,7 @@ import Image from 'next/image'
 import useEmblaCarousel from 'embla-carousel-react'
 
 const EmblaCarousel = (props) => {
+  console.log("PROPS:", props)
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
 
@@ -41,7 +42,7 @@ const EmblaCarousel = (props) => {
 
   return (
     <>
-      <h3 className={style.title}>Módulos do Curso</h3>
+      <h3 className={style.title}>{props.title ? props.title : "Módulos do Curso"}</h3>
       <section className={style.embla}>
 
         <div className={style.embla__controls}>
@@ -86,7 +87,7 @@ const EmblaCarousel = (props) => {
                   {item.c_pragmatico ?
                     (
                       <div className={style.c_pragmatico}>
-                        <h3>Conteúdo Pragmático</h3>
+                        <h4>Conteúdo Progamático</h4>
                         <ul dangerouslySetInnerHTML={{ __html: item.c_pragmatico }} />
                       </div>
                     )

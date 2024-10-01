@@ -3,12 +3,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import style from "./nav_cursos.module.scss"
 
-
 import Link from 'next/link'
-
-
-
-
 
 function NavCursos({ itemsNav }) {
     const [pathPagina, setPathPagina] = useState('')
