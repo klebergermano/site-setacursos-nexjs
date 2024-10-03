@@ -9,7 +9,7 @@ import Modulo from "../_modulosSlide/Modulos"
 import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../Lateral/VantagensCurso"
-import Planos from "./_planos"
+import Planos from "./planos/_planos"
 import { PiChalkboardTeacherLight } from "react-icons/pi";
 
 

@@ -10,7 +10,7 @@ import slideObj from "./_slideObj"
 import _itemsNav from "../_itemsNavCursos"
 import VantagensCurso from "../Lateral/VantagensCurso"
 import { PiChalkboardTeacherLight } from "react-icons/pi";
-
+import Planos from "./planos/_planos"
 
 
 export default function InformáticaAvancada() {
@@ -37,45 +37,10 @@ export default function InformáticaAvancada() {
                                 </p>
                             </div>
 
-                            <div className={style.visao_geral_curso}>
-                                <h4>VISÃO GERAL </h4>
-                                <li>
-
-                                    <Icon name="calendar" className={style.icon} />
-                                    Tempo de Duração: 3 meses</li>
-                                <li>
-
-                                    <Icon name="class2" className={style.icon} />
-                                    Aulas por Semana: 2 (1 horas p/ aula)</li>
-
-                                <li>
-                                    <PiChalkboardTeacherLight style={{ maxWidth: '45px', marginLeft: "-3px" }} className={style.icon} />
-                                    + 1 aula extra p/ prática e reposição
-                                </li>
-
-
-                                <li>
-                                    <Icon name="time-duration" className={style.icon} />
-                                    Carga Horária:  24 horas </li>
-
-
-
-                                <li>
-
-                                    <Icon name="certificate" className={style.icon} />
-                                    Certificado de qualificação profissional incluso!</li>
-                                <li>
-                                    <Icon name="books" className={style.icon} />
-                                    Material didático incluso!
-                                </li>
-                                <li>
-                                    <Icon name="moeda-real" className={style.icon} />
-                                    Investimento: R$ 220,00 (mensal)
-                                </li>
-
-                            </div>
-
                             <Modulo slideObj={slideObj} />
+
+                            <Planos />
+
 
                         </div>{/* content */}
 

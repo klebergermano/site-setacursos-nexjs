@@ -1,5 +1,6 @@
 'use client'
 import NavCursos from "../../_NavCursos/NavCursos"
+import NavLateralCursos from "../../_NavLateralCursos/NavLateralCursos";
 import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
 import Icon from "@/../public/assets/icons/index"
@@ -24,7 +25,7 @@ export default function InformáticaKids() {
                         <div className={style.content}>
 
                             <h1>Informática Kids</h1>
-                            <figure className={style.bg_img_destaque}>
+                            <figure className={style.bg_img_destaque} data-aos='fade-right'>
                                 <Image width={800} height={300} src={'/assets/images/cursos/informatica/curso-informatica-kids.png'} />
                             </figure>
                             <div className={style.resumo}>
@@ -47,6 +48,7 @@ export default function InformáticaKids() {
 
                     </main>
                     <aside className={style.aside}>
+                        <NavLateralCursos itemsNav={_itemsNav} />
                         <VantagensCurso />
                     </aside>
                 </div >

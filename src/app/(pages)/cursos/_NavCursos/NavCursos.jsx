@@ -19,6 +19,8 @@ function NavCursos({ itemsNav }) {
 
         const navItemActive = document.querySelectorAll('.item_curso_' + lastItemUrl);
 
+
+
         navItemActive.forEach((item) => {
             //item.setAttribute('id', 'item_curso_ativo');
             item.classList.add('item_curso_ativo');

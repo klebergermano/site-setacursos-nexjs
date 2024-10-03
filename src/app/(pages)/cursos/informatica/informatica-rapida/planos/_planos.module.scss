@@ -1,4 +1,4 @@
-@import "../../../../../styles/includes.module.scss";
+@import "../../../../../../styles/includes.module.scss";
 
 .bg_planos {
     position: relative;
@@ -49,7 +49,7 @@
             bottom: 0px;
             right: 0px;
             left: 0px;
-            background-color: #001e41ab;
+            background-color: #000f2ec2;
             z-index: 1;
         }
 
@@ -79,7 +79,7 @@
             display: flex;
             flex-direction: column;
             border: 1px solid #ffffff;
-            background-color: #08306bce;
+            background-color: #000814ce;
             padding: 15px;
 
             li {
@@ -93,8 +93,18 @@
                 text-align: center;
             }
 
+            span.txt_highlight {
+                background-color: #e5ff00e7;
+                padding: 3px 10px;
+                color: #060131;
+                font-weight: bold;
+                margin-bottom: 15px;
+                line-height: 30px;
+            }
+
             span.txt_pequeno {
                 color: #fdff84;
+
                 //                color: #fff;
 
                 font-size: 14px;
@@ -121,13 +131,13 @@
     }
 
     .planos:nth-child(2) {
-        background: url('https://www.correiosc.com.br/wp-content/uploads/2022/02/2020-03-13-computacao-aplicada.webp');
+        background: url('https://escolalbk.com.br/wp-content/uploads/2021/03/blonde-woman-with-elegant-hairstyle-typing-text-keyboard-office-indoor-portrait-international-employees-with-secretary-using-laptop_197531-3711.jpg');
         background-size: auto 100%;
         background-position: center;
     }
 
     .planos:nth-child(3) {
-        background: url('https://www.sindicatometal.org.br/wp-content/uploads/2016/08/cursos-de-informatica-e1470830499773-860x450_c.jpg');
+        background: url('https://media.istockphoto.com/id/1309243828/vector/rocket-launch-from-laptop-screen-rocket-taking-off-business-start-up-launching-new-product.jpg?s=612x612&w=0&k=20&c=YUkeag0oAmbBPDYmZHUTzQ5-_bITFpQjytepFpMWjRg=');
         background-size: auto 100%;
         background-position: center;
     }
