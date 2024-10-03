@@ -1,12 +1,5 @@
 @import "../../../styles/includes.module.scss";
 
-.bg_content_page {
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    gap: 20px;
-}
-
 .main {
 
     background: transparent;
@@ -135,19 +128,6 @@
 
 }
 
-
-.aside {
-    flex-grow: 1;
-
-    //border: 1px solid red;
-    // background-color: #666;
-    min-height: 100%;
-    position: relative;
-    // width: auto;
-    padding: 0px;
-
-
-}
 
 
 
