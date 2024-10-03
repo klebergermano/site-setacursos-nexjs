@@ -1,5 +1,27 @@
 @import "../../../styles/includes.module.scss";
 
+.bg_content_page {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.aside {
+    flex-grow: 0;
+    border: 1px solid red;
+    // background-color: #666;
+    mAX-height: 600px;
+    position: relative;
+    position: sticky;
+    top: 80px;
+    // width: auto;
+    padding: 0px;
+
+
+
+}
+
 .main {
 
     background: transparent;
