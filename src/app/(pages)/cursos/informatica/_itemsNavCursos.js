@@ -22,7 +22,7 @@
 const _itemsNav =
     [
         {
-            nome: 'Informática Rapida Adultos',
+            nome: 'Informática Adultos',
             link: 'informatica/informatica-rapida',
             imgUrl: 'informatica/curso-informatica-rapida-seta-cursos-thumb.png',
         },

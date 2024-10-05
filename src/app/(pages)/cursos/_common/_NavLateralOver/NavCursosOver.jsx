@@ -39,7 +39,7 @@ function NavLateralCursos({ itemsNav }) {
 
     return (
 
-        <nav id='bg-nav-cursos-lateral' className={style.bg_nav_cursos_lateral}>
+        <nav id='' className={style.bg_nav_cursos_lateral}>
             <h4>CURSOS DE INFORMÁTICA</h4>
 
             <ul>

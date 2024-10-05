@@ -4,36 +4,23 @@
     // top: 80px;
     // position: sticky;
     // position: fixed;
-    // top: 380px;
-    // margin-top: 20px;
-    // margin-bottom: 20px;
-    // background-color: #333333;
-    // padding: 10px;
-    // border: 1px solid #7e7e7e;
-    border-radius: 5px 5px 0px 0px;
-    transition: all 1s;
-    opacity: 1;
-    overflow: hidden;
-    height: 1px;
-    // min-height: 1px;
+    //top: 380px;
+    margin-top: 20px;
+    background-color: #272727b6;
+    padding: 10pt;
 
     h4 {
         color: #7c7c7c;
         text-align: center;
-        padding: 15px 10px 15px 10px;
+        padding: 10px;
         font-size: 14px;
-        background-color: #131313;
     }
 
     .item_curso {
         display: flex;
         text-align: center;
         background: rgb(255, 255, 255);
-        border: 1px solid #7c7c7c;
-        border-top: 0px;
-        border-collapse: collapse;
-        //margin-bottom: 2px;
-
+        border-bottom: 1px solid #7c7c7c;
 
         a {
 

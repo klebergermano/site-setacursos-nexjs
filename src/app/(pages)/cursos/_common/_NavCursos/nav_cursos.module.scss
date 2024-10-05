@@ -148,3 +148,80 @@
 
 
 }
+
+.bg_nav_cursos_por_categoria_over {
+
+    position: sticky;
+    top: 60px;
+    z-index: 2;
+    width: 600px;
+    background-color: #111111c9;
+    margin-top: -60px;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+
+    // min-height: auto;
+    border-radius: 0px 0px 10px 10px;
+    height: 1px;
+    gap: 15px;
+    justify-content: center;
+
+    transition: all 1s;
+    opacity: 0;
+    //display: none;
+
+
+
+
+
+    .item_curso {
+
+        user-select: none;
+        cursor: pointer;
+        transition: all 0.2s;
+        position: relative;
+
+        background-color: #fff;
+        max-width: 300px;
+        justify-content: left;
+
+        // border: 3px solid #fff;
+        border-radius: 2px;
+        overflow: hidden;
+        width: auto;
+
+        height: auto;
+
+        a {
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            height: 100%;
+
+
+        }
+
+
+
+
+
+        &:hover {
+
+            border-color: $color-primary;
+
+            button {
+                color: $color-primary;
+                // color: #fff;
+            }
+        }
+
+
+
+    }
+
+
+
+}
