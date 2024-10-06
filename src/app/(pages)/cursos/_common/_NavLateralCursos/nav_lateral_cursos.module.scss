@@ -6,10 +6,10 @@
     // position: fixed;
     // top: 380px;
     // margin-top: 20px;
-    // margin-bottom: 20px;
-    // background-color: #333333;
-    // padding: 10px;
-    // border: 1px solid #7e7e7e;
+    // margin-bottom: 0px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 5px solid #ffffff;
     border-radius: 5px 5px 0px 0px;
     transition: all 1s;
     opacity: 1;
@@ -17,12 +17,15 @@
     height: 1px;
     // min-height: 1px;
 
+
+
     h4 {
         color: #7c7c7c;
         text-align: center;
         padding: 15px 10px 15px 10px;
         font-size: 14px;
         background-color: #131313;
+        font-weight: normal;
     }
 
     .item_curso {
@@ -44,7 +47,16 @@
             width: 100%;
             display: block;
             text-decoration: none;
+
             // background: rgb(255, 255, 255);
+
         }
+
+        &:hover {
+            //border: 1px solid red;
+            // border-color: red;
+            background: #e3e6eb
+        }
+
     }
 }

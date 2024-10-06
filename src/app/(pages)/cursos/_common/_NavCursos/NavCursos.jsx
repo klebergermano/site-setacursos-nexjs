@@ -73,9 +73,9 @@ function NavCursos({ itemsNav }) {
                 } else {
                     console.log('Element is not visible');
                     nav.style.opacity = "1"
-                    nav.style.marginBottom = "20px"
-                    nav.style.height = "180px"
-                    nav.style.padding = "0px"
+                    nav.style.marginBottom = "0px"
+                    nav.style.height = "200px"
+                    nav.style.padding = "10px"
 
 
                 }

@@ -3,10 +3,10 @@
 .bg_nav_cursos_por_categoria {
     position: relative;
 
-    background-color: #111;
+    background-color: #111111bd;
     margin-top: 20px;
-    padding: 20px;
-    padding-top: 90px;
+    padding: 10px;
+    padding-top: 50px;
     display: flex;
 
     min-height: auto;
@@ -24,9 +24,9 @@
         text-transform: uppercase;
         grid-column: 1 / -1;
         color: #fff;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0px 10px 0px;
 
-        border-bottom: 1px solid #888888;
+        //border-bottom: 1px solid #888888;
         position: absolute;
         font-weight: normal;
         text-align: center;

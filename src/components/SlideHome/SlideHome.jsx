@@ -41,12 +41,12 @@ function SlideHome() {
 
 
         <div id="info_slide" className={styles.info_slide} >
-          <h1 data-aos='zoom-in-down' >Procurando por cursos de <br /> <strong>Inglês</strong>, <strong>Informática</strong> e
+          <h1  >Procurando por cursos de <br /> <strong>Inglês</strong>, <strong>Informática</strong> e
             <strong> Profissionalizantes</strong>?</h1>
-          <p data-aos='zoom-in-left'>Nós podemos te ajudar!</p>
+          <p >Nós podemos te ajudar!</p>
 
           <LinkScroll
-            data-aos='zoom-in-up'
+
             className="a-sem-link"
 
             activeClass="active"
