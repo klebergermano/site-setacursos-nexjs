@@ -73,15 +73,15 @@ export default function Page() {
                     <li>
 
                         <Icon name="class2" className={style.icon} />
-                        Aulas por Semana: 2 (2 horas p/ aula)</li>
+                        Aulas por Semana: 2 (1 horas p/ aula)</li>
                     <li>
 
                         <Icon name="time-duration" className={style.icon} />
 
-                        Carga Horária:  192 horas </li>
+                        Carga Horária:  96 horas </li>
                     <li>
                         <Icon name="certificate" className={style.icon} />
-                        Certificado de qualificação profissional incluso!</li>
+                        Certificado incluso!</li>
                     {/* <li>
                                 <Icon name="books" className={style.icon} />
                                 Material didático incluso!
@@ -89,7 +89,7 @@ export default function Page() {
                             </li> */}
                     <li>
                         <Icon name="moeda-real" className={style.icon} />
-                        Investimento: R$ 180,00 (mensal)
+                        Investimento: R$ 169,00 (mensal)
                     </li>
 
                 </div>
