@@ -10,7 +10,8 @@ function NavCursos({ itemsNav }) {
     const [pathPagina, setPathPagina] = useState('')
 
     const pathname = usePathname()
-
+    const numItemsNav = itemsNav.length;
+    //console.log('LEEEENGH=>>>>>>>>>>>>>>>>>>', numeroItemsNav)
     const url = pathname.split('?')[0]; // Remove everything after '?' including '?'
     const urlArr = url.split('/');
     const lastItemUrl = (urlArr[urlArr.length - 1]).replace('-', '-');
@@ -61,21 +62,29 @@ function NavCursos({ itemsNav }) {
                 let nav = document.getElementById("bg-nav-cursos-lateral")
 
                 if (entry.isIntersecting) {
-                    console.log('Element is visible');
-                    nav.style.opacity = "0"
+                    nav.style.opacity = "1"
 
                     nav.style.height = "1px"
-                    nav.style.padding = "0px"
-                    nav.style.marginBottom = "0px"
+                    nav.style.padding = "10px"
+                    nav.style.paddingTop = "0px"
+                    nav.style.paddingBottom = "0px"
 
+
+                    //<nav className="style paddinfg"></nav> = "10px"
+                    nav.style.marginBottom = "0px"
+                    nav.children[0].style.opacity = '0'
+                    nav.children[1].style.opacity = '0'
 
 
                 } else {
-                    console.log('Element is not visible');
                     nav.style.opacity = "1"
-                    nav.style.marginBottom = "0px"
-                    nav.style.height = "200px"
+                    nav.style.marginBottom = "0px";
+                    const valorHeight = (60 + (50 * numItemsNav)) + "px";
+                    nav.style.height = valorHeight;
+                    console.log("valorHeight:", valorHeight);
                     nav.style.padding = "10px"
+                    nav.children[0].style.opacity = '1'
+                    nav.children[1].style.opacity = '1'
 
 
                 }

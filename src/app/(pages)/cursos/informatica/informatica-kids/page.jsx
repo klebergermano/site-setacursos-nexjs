@@ -4,7 +4,7 @@ import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
 import slideObj from "./_slideObj"
 import Modulo from "./_modulosSlideKids/Modulos"
-import Planos from "./_planos"
+import Planos from "./_planos/_planos"
 
 
 export default function InformáticaKids() {

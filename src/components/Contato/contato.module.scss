@@ -292,7 +292,7 @@
 
 }
 
-@media (max-width:560px) {
+@media (max-width:$width-mobile) {
 
     .contato {
         padding-top: 0px;

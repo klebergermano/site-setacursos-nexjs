@@ -5,6 +5,7 @@
 
     margin-top: $height-header-desk;
     background: #000 url("/assets/images/blur-slidehome.png");
+    background-size: cover;
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -133,7 +134,7 @@
     }
 }
 
-@media (max-width:580px) {
+@media (max-width:$width-mobile) {
     .bg_slide_home {
         .slide_home {
 

@@ -23,9 +23,10 @@ export default function Layout({ children }) {
                 {children}
 
                 <aside className={style.aside}>
+                    <NavLateralCursos itemsNav={_itemsNav} title={"Cursos de Inglês"} />
+
                     <VantagensCurso />
 
-                    {/* <NavLateralCursos itemsNav={_itemsNav} /> */}
                 </aside>
             </div>
         </div>

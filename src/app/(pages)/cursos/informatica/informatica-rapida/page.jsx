@@ -7,7 +7,7 @@ import Modulo from "../_modulosSlide/Modulos"
 import slideObj from "./_slideObj"
 
 
-import Planos from "./planos/_planos"
+import Planos from "./_planos/_planos"
 
 
 export default function InformáticaAvancada() {
@@ -18,7 +18,7 @@ export default function InformáticaAvancada() {
             <div className={style.content}>
 
                 <h1>Informática Rápida</h1>
-                <figure className={style.bg_img_destaque}>
+                <figure className={style.bg_img_destaque} data-aos='fade-right'>
                     <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-rapida.png'} />
                 </figure>
                 <div className={style.resumo}>

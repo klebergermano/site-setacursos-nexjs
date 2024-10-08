@@ -1,16 +1,16 @@
 const slideObj = [
-    {
-        nome: 'Introdução',
+  {
+    nome: 'Introdução',
 
-        imgUrl: 'modulo-introducao.png',
+    imgUrl: 'modulo-introducao.png',
 
-        resumo: `
+    resumo: `
    <p>
   Informática é um termo abrangente; por isso, criamos um módulo que proporciona ao aluno uma visão ampla sobre terminologias, a história do computador e conceitos fundamentais, como a estrutura dos computadores, peças básicas e sua disposição, além de noções sobre: componentes eletrônicos, sistema binário e a transmissão de dados.
 </p>
 
         `,
-        c_pragmatico: `
+    c_pragmatico: `
             <li>Origem da Informática</li>
             <li>Definição de um Computador</li>
             <li>O Uso da Tecnologia</li>
@@ -22,12 +22,12 @@ const slideObj = [
 
         `
 
-    },
-    {
-        nome: 'Windows 10',
-        imgUrl: 'modulo-windows.png',
+  },
+  {
+    nome: 'Windows 10',
+    imgUrl: 'modulo-windows.png',
 
-        resumo: `
+    resumo: `
        <p>
         Neste módulo, desenvolveremos habilidades essenciais para um uso ágil do Windows 10, explorando ferramentas, atalhos práticos,  
         instalação e desinstalação de programas, além de gerenciamento e manutenção do sistema.
@@ -36,7 +36,7 @@ const slideObj = [
         configuração de rede e do sistema.
     </p>
         `,
-        c_pragmatico: `
+    c_pragmatico: `
            
         <li>Introdução ao Windows 10</li>
         <li>Área de Trabalho</li>
@@ -68,11 +68,11 @@ const slideObj = [
        
         `
 
-    },
+  },
 
-    {
-        nome: 'Pacote Office',
-        resumo: `
+  {
+    nome: 'Pacote Office',
+    resumo: `
             <p>
             Direcionamos uma atenção especial ao pacote Office, que é considerado um dos requisitos essenciais do mercado de trabalho. 
             Neste módulo, os alunos aprendem de maneira simples e direta, por meio de exemplos práticos e aplicáveis, 
@@ -80,8 +80,8 @@ const slideObj = [
             análise de dados, criação de apresentações e gerenciamento avançado de e-mails.
             </p>
         `,
-        imgUrl: 'modulo-office-avancado.png',
-        c_pragmatico: `
+    imgUrl: 'modulo-office-avancado.png',
+    c_pragmatico: `
                     
                     <span className="span_office">
                     
@@ -185,13 +185,13 @@ const slideObj = [
                   </span>
                   `
 
-    },
+  },
 
-    {
-        nome: 'Power BI',
-        imgUrl: 'modulo-powerbi.png',
+  {
+    nome: 'Power BI',
+    imgUrl: 'modulo-powerbi.png',
 
-        resumo: `
+    resumo: `
 <p>
   O módulo de Power BI, na nossa etapa avançada do curso, 
   ensina aos alunos a utilizarem eficientemente essa ferramenta para análise de dados. 
@@ -202,7 +202,7 @@ const slideObj = [
 
 
              `,
-        c_pragmatico: `
+    c_pragmatico: `
 <li>Importação de Dados</li>
 <li>Transformação de Dados</li>
 <li>Visualização de Dados</li>
@@ -216,14 +216,14 @@ const slideObj = [
 
             `
 
-    },
+  },
 
-    {
-        nome: 'Impressoras',
+  {
+    nome: 'Impressoras',
 
-        imgUrl: 'modulo-impressao.png',
+    imgUrl: 'modulo-impressao.png',
 
-        resumo: `
+    resumo: `
 <p>
   O aluno aprenderá a escanear documentos e imagens, bem como transferir seus arquivos de forma 
   eficiente via e-mail, celular ou computador para impressão. Discutiremos os formatos de arquivos mais 
@@ -235,7 +235,7 @@ const slideObj = [
 
 
        `,
-        c_pragmatico: `
+    c_pragmatico: `
             <li>O que são Impressoras</li>
 <li>Tipos de Impressoras</li>
 <li>Como Imprimir</li>
@@ -247,13 +247,13 @@ const slideObj = [
 <li>DPI - (Pixels por Polegada)</li>
         `
 
-    },
-    {
-        nome: 'Interfaces',
+  },
+  {
+    nome: 'Interfaces',
 
-        imgUrl: 'modulo-dispositivos.png',
+    imgUrl: 'modulo-dispositivos.png',
 
-        resumo: `
+    resumo: `
 <p>
   O aluno aprenderá, além de digitação, a utilizar diferentes interfaces de entrada, como o touchpad e o funcionamento de telas 
   touchscreen. Este módulo abordará o padrão QWERTY, que é fundamental para a digitação eficiente em teclados. 
@@ -264,7 +264,7 @@ const slideObj = [
 
         
         `,
-        c_pragmatico: `
+    c_pragmatico: `
            <li>Digitação</li>
 <li>Padrão QWERTY</li>
 <li>Teclado e Mouse</li>
@@ -276,14 +276,14 @@ const slideObj = [
 <li>Uso de Atalhos de Teclado</li>
         `
 
-    },
+  },
 
-    {
-        nome: 'Redes',
+  {
+    nome: 'Redes',
 
-        imgUrl: 'modulo-redes.png',
+    imgUrl: 'modulo-redes.png',
 
-        resumo: `
+    resumo: `
 <p>
   Nesse módulo, o aluno é apresentado ao funcionamento de redes de computadores, 
   explorando tanto os conceitos fundamentais quanto os equipamentos essenciais, como hubs, 
@@ -295,7 +295,7 @@ const slideObj = [
 </p>
 
         `,
-        c_pragmatico: `
+    c_pragmatico: `
 <li>Introdução a Rede</li>
 <li>Modems, Roteadores e Switches</li>
 <li>Equipamentos Secundários</li>
@@ -313,13 +313,13 @@ const slideObj = [
 
         `
 
-    },
-    {
-        nome: 'Internet',
+  },
+  {
+    nome: 'Internet',
 
-        imgUrl: 'modulo-internet.png',
+    imgUrl: 'modulo-internet.png',
 
-        resumo: `
+    resumo: `
 <p>
   Neste módulo, o aluno aprenderá boas práticas e terminologias essenciais sobre a internet, 
   incluindo conceitos como download, upload, e-mails, cookies e o protocolo HTTP, 
@@ -330,7 +330,7 @@ const slideObj = [
 
 
 `,
-        c_pragmatico: `
+    c_pragmatico: `
     <li>Introdução a Terminologias</li>
 <li>Navegadores</li>
 <li>Email</li>
@@ -355,20 +355,20 @@ const slideObj = [
 <li>Acesso Remoto</li>
 
         `
-    },
-    {
-        nome: 'Hardware',
+  },
+  {
+    nome: 'Hardware',
 
-        imgUrl: 'modulo-hardware.png',
+    imgUrl: 'modulo-hardware.png',
 
-        resumo: `
+    resumo: `
 <p>
   Nesse módulo, entenderemos as funções específicas de cada componente de hardware, explorando quais são recomendados para upgrades. Discutiremos também funcionalidades mais avançadas, como a troca de peças e a detecção de mau funcionamento dos componentes. O objetivo é capacitar os alunos a diagnosticar problemas, realizar manutenções eficazes e otimizar o desempenho do computador. Além disso, abordaremos normas de segurança essenciais para garantir que os alunos realizem essas tarefas de forma segura e eficiente.
 </p>>
 
 
       `,
-        c_pragmatico: `
+    c_pragmatico: `
         
 <li>Introdução a Hardware</li>
 <li>Instalação de Dispositivos</li>
@@ -389,7 +389,7 @@ const slideObj = [
 
         `
 
-    },
+  },
 
 ]
 

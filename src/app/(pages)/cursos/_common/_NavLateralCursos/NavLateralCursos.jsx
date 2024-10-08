@@ -5,7 +5,7 @@ import style from "./nav_lateral_cursos.module.scss"
 
 import Link from 'next/link'
 
-function NavLateralCursos({ itemsNav }) {
+function NavLateralCursos({ itemsNav, title }) {
     const [pathPagina, setPathPagina] = useState('')
 
     const pathname = window.location.href;
@@ -40,7 +40,7 @@ function NavLateralCursos({ itemsNav }) {
     return (
 
         <nav id='bg-nav-cursos-lateral' className={style.bg_nav_cursos_lateral}>
-            <h4>CURSOS DE INFORMÁTICA</h4>
+            <h4>{title ? title : "CURSOS"}</h4>
 
             <ul>
                 {

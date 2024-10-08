@@ -6,7 +6,7 @@ import Image from "next/image"
 import Modulo from "../_modulosSlide/Modulos"
 // import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
-import Planos from "./planos/_planos"
+import Planos from "./_planos/_planos"
 
 export default function Page() {
     return (
@@ -17,7 +17,7 @@ export default function Page() {
             <div className={style.content}>
 
                 <h1>Informática Jovem</h1>
-                <figure className={style.bg_img_destaque}>
+                <figure className={style.bg_img_destaque} data-aos='fade-right'>
                     <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
                 </figure>
                 <div className={style.resumo}>
