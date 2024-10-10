@@ -1,0 +1,241 @@
+@import "../../../../../../styles/includes.module.scss";
+
+.bg_planos {
+    position: relative;
+    //border: 2px solid rgb(0, 195, 255);
+    // display: flex;
+    padding: 40px;
+    //padding-top: 100px;
+
+    width: 100%;
+    //justify-content: left;
+    background: #ffffff;
+    border-radius: 5px;
+
+
+    .icon {
+        max-width: 25px;
+        margin: 0px;
+    }
+
+
+    min-height: 300px;
+    gap: 20px;
+
+    h2 {
+        text-align: center;
+    }
+
+
+    .planos {
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        //border: 20px solid #ffffff;
+        display: flex;
+        padding-top: 0px;
+        border-radius: 5px;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-between;
+
+        // box-shadow: 0px 3px 2px #272727;
+        max-width: 100%;
+        min-width: 340px;
+        background-color: #ffffff;
+        background: #222883 url('/assets/images/cursos/ingles/curso-ingles-seta-cursos-bg.png');
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+
+
+        figure {
+            position: relative;
+            // position: absolute;
+
+            z-index: 2;
+            // border: 1px solid rgb(0, 255, 76);
+            flex-grow: 1;
+
+            img {
+                object-fit: contain;
+                width: 110%;
+                height: auto;
+                position: absolute;
+                bottom: 0px;
+                margin-left: -40px;
+
+
+            }
+        }
+
+
+        .bg_background {
+            // display: none;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            background-color: #00010241;
+            // background: #000000a8 url('/assets/images/cursos/ingles/plano-ingles-completo.png');
+            //background: #000000a8 url('https://static.tildacdn.com/tild3831-3239-4664-b461-613834663638/speak_3____1.jpg');
+
+
+            background-size: 65% auto;
+            background-repeat: no-repeat;
+            background-position-x: 0px;
+            background-position-y: bottom;
+            z-index: 1;
+        }
+
+
+        h3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            text-align: center;
+
+            margin: 0px;
+            top: 0px;
+            z-index: 2;
+            position: absolute;
+            width: 100%;
+            color: #fff;
+            align-items: baseline;
+            background-color: #ff0040c4;
+            //padding: 20px;
+            //  padding-right: 40px;
+            height: 140px;
+            font-size: 28px;
+            //max-width: 50%;
+            flex-shrink: 1;
+
+            &>span {
+
+                justify-content: center;
+                align-items: center;
+                //border: 1px solid rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                //max-width: 50%;
+                height: 100%;
+
+                span {
+                    font-size: 16px;
+                    margin-top: 8px;
+                    color: #fdfb79;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        p {
+            z-index: 2;
+            color: #050505;
+            text-align: center;
+            //font-weight: bold;
+            margin-bottom: 0px;
+            // background-color: #0011ff;
+
+        }
+
+        &>ul {
+            border-radius: 0px 20px 0px 20px;
+            z-index: 2;
+            width: 360px;
+            //flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            border: 3px solid #ffffff;
+            background-color: #1644a7f3;
+            padding: 15px;
+            padding-top: 20px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            li {
+                text-decoration: none;
+                list-style: none;
+
+
+                padding: 5px;
+                color: #ffffff;
+
+                font-size: 18px;
+                text-align: center;
+            }
+
+            span.txt_pequeno {
+                color: #fdf07c;
+                font-size: 14px;
+                display: block;
+                font-weight: normal;
+            }
+
+            .li_vantagens {
+                border-radius: 8px 0px 10px 0px;
+                margin-bottom: 3px;
+                padding: 10px 5px;
+                width: 250px;
+                font-size: 14px;
+                color: rgb(0, 0, 0);
+                background-color: #ffffff;
+                //border-bottom: 2px solid #ff002b;
+                //border-left: 1px solid blue;
+                //border-top: 1px solid blue;
+                box-shadow: 0px 1px 1px #333;
+                // font-weight: bold;
+
+
+
+            }
+
+
+            .preco {
+                span.valor_destaque {
+                    font-size: 38px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+
+            ul:nth-child(1) {
+                // border-bottom: 2px solid red;
+                margin-top: 10px;
+                width: 80%;
+                margin-bottom: 10px;
+
+                // background-color: #fcffe4d0;
+                li {
+                    //border-bottom: 1px solid rgb(156, 156, 156);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (max-width:700px) {
+
+
+
+    .bg_planos {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .planos {
+            // padding: 0px;
+            width: 400px;
+        }
+    }
+
+}

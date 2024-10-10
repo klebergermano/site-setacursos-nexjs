@@ -39,19 +39,27 @@ export default function Page() {
                     <li>
 
                         <Icon name="calendar" className={style.icon} />
-                        Tempo de Duração: 12 meses (Por etapa)</li>
+                        Tempo de Duração: 12 meses (Por etapa)
+                    </li>
                     <li>
 
                         <Icon name="class2" className={style.icon} />
-                        Aulas por Semana: 2 (2 horas p/ aula)</li>
+                        Aulas por Semana: 2 (1 horas p/ aula)
+                    </li>
+
                     <li>
 
+                        <Icon name="class2" className={style.icon} />
+                        + 1 Aula Extra por Semana <br /> &nbsp; (para prática e reposição)
+                    </li>
+                    <li>
                         <Icon name="time-duration" className={style.icon} />
 
-                        Carga Horária:  192 horas </li>
+                        Carga Horária:  96 horas
+                    </li>
                     <li>
                         <Icon name="certificate" className={style.icon} />
-                        Certificado de qualificação profissional incluso!</li>
+                        Certificado Incluso!</li>
                     {/* <li>
                                 <Icon name="books" className={style.icon} />
                                 Material didático incluso!
@@ -59,7 +67,7 @@ export default function Page() {
                             </li> */}
                     <li>
                         <Icon name="moeda-real" className={style.icon} />
-                        Investimento: R$ 180,00 (mensal)
+                        Investimento: R$ 159,00 (mensal)
                     </li>
 
                 </div>
