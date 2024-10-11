@@ -6,7 +6,7 @@ import Image from "next/image"
 import Icon from "@/../public/assets/icons/index"
 
 // import Contato from "@/components/Contato/Contato"
-
+import Planos from "./_planos/_planos"
 
 import _itemsNav from "../_itemsNavCursos"
 import ModulosRoboticaMaker from "./modulos/ModulosRoboticaMaker"
@@ -34,48 +34,12 @@ export default function Page() {
                     </p>
                 </div>
 
-                <div className={style.visao_geral_curso}>
-                    <h4>VISÃO GERAL </h4>
-                    <li>
 
-                        <Icon name="calendar" className={style.icon} />
-                        Tempo de Duração: 12 meses (Por etapa)
-                    </li>
-                    <li>
-
-                        <Icon name="class2" className={style.icon} />
-                        Aulas por Semana: 2 (1 horas p/ aula)
-                    </li>
-
-                    <li>
-
-                        <Icon name="class2" className={style.icon} />
-                        + 1 Aula Extra por Semana <br /> &nbsp; (para prática e reposição)
-                    </li>
-                    <li>
-                        <Icon name="time-duration" className={style.icon} />
-
-                        Carga Horária:  96 horas
-                    </li>
-                    <li>
-                        <Icon name="certificate" className={style.icon} />
-                        Certificado Incluso!</li>
-                    {/* <li>
-                                <Icon name="books" className={style.icon} />
-                                Material didático incluso!
-
-                            </li> */}
-                    <li>
-                        <Icon name="moeda-real" className={style.icon} />
-                        Investimento: R$ 159,00 (mensal)
-                    </li>
-
-                </div>
             </div>{/*content */}
 
             <h3>Módulos do Curso</h3>
             <ModulosRoboticaMaker />
-
+            <Planos />
         </main>
 
     )

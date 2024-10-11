@@ -4,7 +4,7 @@ import style from "../../pages-cursos.module.scss"
 
 
 import Image from "next/image"
-
+import Planos from "./_planos/_planos"
 import Icon from "@/../public/assets/icons/index"
 
 
@@ -56,7 +56,7 @@ export default function Page() {
                     </p>
                 </div>
 
-                <div className={style.visao_geral_curso}>
+                {/* <div className={style.visao_geral_curso}>
                     <h4>VISÃO GERAL </h4>
                     <li>
 
@@ -74,19 +74,18 @@ export default function Page() {
                     <li>
                         <Icon name="certificate" className={style.icon} />
                         Certificado de qualificação profissional incluso!</li>
-                    {/* <li>
-                                <Icon name="books" className={style.icon} />
-                                Material didático incluso!
-
-                            </li> */}
+                
                     <li>
                         <Icon name="moeda-real" className={style.icon} />
                         Investimento: R$ 180,00 (mensal)
                     </li>
 
-                </div>
+                </div> */}
+
+
             </div>{/* content */}
             <ModulosInglesKids />
+            <Planos />
 
 
         </main>

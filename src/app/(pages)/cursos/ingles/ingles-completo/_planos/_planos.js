@@ -6,15 +6,7 @@ export default function Planos() {
     <div className={style.bg_planos}>
       <h2>Planos Disponíveis</h2>
       <div className={style.planos}>
-        <h3>
-          <span>
-
-          </span>
-          <span>
-            Inglês Completo
-            <span>do Básico ao Avançado</span>
-          </span>
-        </h3>
+        <span className={style.red_block}></span>
         <ul>
           {/* <p>Básico, Intermediário e Avançado</p> */}
 
@@ -60,10 +52,19 @@ export default function Planos() {
             ✓  LIVRE de Taxas e Multas!
           </li>
         </ul>
-        <figure>
+        <div>
+          <h3 className={style.title}>
 
-          <Image width={500} height={200} src={"/assets/images/cursos/ingles/plano-ingles-completo.png"} />
-        </figure>
+            Inglês Completo
+            <span>do Básico ao Avançado</span>
+
+          </h3>
+          <figure>
+
+            <Image width={400} height={500} src={"/assets/images/cursos/ingles/plano-ingles-completo.png"} />
+          </figure>
+        </div>
+
 
         <div className={style.bg_background}></div>
 
