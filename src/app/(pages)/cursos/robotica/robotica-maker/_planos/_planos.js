@@ -16,7 +16,7 @@ export default function Planos() {
               <span className={style.txt_pequeno}>(1 horas p/ aula)</span>
             </li>
             <li className={style.preco}>
-              R$ <b><span className={style.valor_destaque}>169</span>,00</b><br />
+              R$ <b><span className={style.valor_destaque}>159</span>,00</b><br />
               <span className={style.txt_pequeno}>(mensalidade)</span>
             </li>
             <li>
@@ -55,13 +55,13 @@ export default function Planos() {
         <div>
           <h3 className={style.title}>
 
-            Inglês Kids
-            <span>O Inglês de uma forma divertida!</span>
+            Robótica Maker
+            <span>Despertando mentes criativas com tecnologia!</span>
 
           </h3>
           <figure>
 
-            <Image width={400} height={500} src={"/assets/images/cursos/ingles/plano-ingles-kids.png"} />
+            <Image width={400} height={500} src={"/assets/images/cursos/robotica/plano-robotica-maker.webp"} />
           </figure>
         </div>
 
