@@ -5,6 +5,8 @@ import NavCursos from "../_common/_NavCursos/NavCursos"
 import VantagensCurso from "./Lateral/VantagensCurso";
 import NavLateralCursos from "../_common/_NavLateralCursos/NavLateralCursos";
 
+import Link from "next/link";
+import Image from "next/image";
 export const metadata = {
     title: "Create Next App",
     description: "Seta home page",
@@ -23,7 +25,17 @@ export default function Layout({ children }) {
                 {children}
 
                 <aside className={style.aside}>
-                    <VantagensCurso />
+                    <div className={style.promo}>
+                        <Link href={'/cursos/ingles/ingles-completo'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/ingles-01.png'} />
+                        </Link>
+                        <Link href={'/cursos/informatica/informatica-jovem'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/informatica-01.png'} />
+                        </Link>
+                        <Link href={'/cursos/robotica/robotica-maker'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/robotica-01.png'} />
+                        </Link>
+                    </div>
 
                     {/* <NavLateralCursos itemsNav={_itemsNav} /> */}
                 </aside>

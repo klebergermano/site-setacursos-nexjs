@@ -2,7 +2,8 @@ import style from "../pages-cursos.module.scss"
 import NavCursos from "../_common/_NavCursos/NavCursos"
 import _itemsNav from "./_itemsNavCursos";
 import VantagensCurso from "./Lateral/VantagensCurso";
-
+import Image from "next/image";
+import Link from "next/link";
 import NavLateralCursos from "../_common/_NavLateralCursos/NavLateralCursos";
 export const metadata = {
     title: "Create Next App",
@@ -27,9 +28,20 @@ export default function Layout({ children }) {
                 {children}
 
                 <aside className={style.aside}>
+                    <div className={style.promo}>
+                        <Link href={'/cursos/ingles/ingles-completo'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/ingles-01.png'} />
+                        </Link>
+                        <Link href={'/cursos/informatica/informatica-jovem'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/informatica-01.png'} />
+                        </Link>
+                        <Link href={'/cursos/informatica/informatica-jovem'}>
+                            <Image width={300} height={300} src={'/assets/images/promos/robotica-01.png'} />
+                        </Link>
+                    </div>
                     <NavLateralCursos itemsNav={_itemsNav} title={"Cursos de Informática"} />
 
-                    <VantagensCurso />
+                    {/* <VantagensCurso /> */}
 
                 </aside>
             </div>

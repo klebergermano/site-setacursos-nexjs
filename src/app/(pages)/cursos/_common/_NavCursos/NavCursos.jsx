@@ -44,7 +44,9 @@ function NavCursos({ itemsNav }) {
         setPathPagina(lastItemUrl)
         navVisibility('bg-nav-cursos-por-categoria')
 
-
+        const nav = document.getElementById("bg-nav-cursos-lateral")
+        const valorHeight = (75 + (50 * numItemsNav)) + "px";
+        nav.style.height = valorHeight;
 
     }, [pathname])
 
@@ -79,10 +81,12 @@ function NavCursos({ itemsNav }) {
                 } else {
                     nav.style.opacity = "1"
                     nav.style.marginBottom = "0px";
-                    const valorHeight = (60 + (50 * numItemsNav)) + "px";
+                    const valorHeight = (75 + (50 * numItemsNav)) + "px";
                     nav.style.height = valorHeight;
-                    console.log("valorHeight:", valorHeight);
+
                     nav.style.padding = "10px"
+                    nav.style.paddingBottom = "20px"
+
                     nav.children[0].style.opacity = '1'
                     nav.children[1].style.opacity = '1'
 
@@ -92,7 +96,7 @@ function NavCursos({ itemsNav }) {
         });
 
         // Start observing the target element
-        observer.observe(targetElement);
+        //  observer.observe(targetElement);
 
     }
 

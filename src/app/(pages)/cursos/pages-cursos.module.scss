@@ -9,13 +9,49 @@
 
 .aside {
     flex-grow: 0;
-    // border: 1px solid red;
-    mAX-height: 600px;
+    //border: 1px solid red;
+    /// max-height: 800px;
     position: relative;
-    position: sticky;
-    top: 80px;
+    max-width: 250px;
+    min-width: 250px;
+
+    // position: sticky;
+    // top: 80px;
+
     // width: auto;
     //padding: 10px;
+    .promo {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+
+        a {
+            // border: 1px solid rgb(0, 255, 157);
+            //height: 200px;
+            width: 100%;
+            flex-shrink: 1;
+            //  display: block;
+            // background-color: #ffffff;
+            // padding: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+
+
+            img {
+                margin: 0px;
+                border-radius: 10px;
+                // border: 2px solid red;
+                //width: 100%;
+                max-width: 100%;
+                height: auto;
+                // object-fit: contain;
+            }
+        }
+    }
 
 
 
