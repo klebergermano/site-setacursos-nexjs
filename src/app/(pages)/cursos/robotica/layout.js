@@ -27,13 +27,13 @@ export default function Layout({ children }) {
                 <aside className={style.aside}>
                     <div className={style.promo}>
                         <Link href={'/cursos/ingles/ingles-completo'}>
-                            <Image width={300} height={300} src={'/assets/images/promos/ingles-01.png'} />
+                            <Image width={300} height={300} src={'/assets/images/promos/ingles-01.webp'} />
                         </Link>
                         <Link href={'/cursos/informatica/informatica-jovem'}>
-                            <Image width={300} height={300} src={'/assets/images/promos/informatica-01.png'} />
+                            <Image width={300} height={300} src={'/assets/images/promos/informatica-01.webp'} />
                         </Link>
                         <Link href={'/cursos/robotica/robotica-maker'}>
-                            <Image width={300} height={300} src={'/assets/images/promos/robotica-01.png'} />
+                            <Image width={300} height={300} src={'/assets/images/promos/robotica-01.webp'} />
                         </Link>
                     </div>
 
