@@ -9,7 +9,7 @@ const cursosList = [
   {
     nome: "Informática",
     imgUrl: 'img_painel_cursos-assets/curso-informatica-seta-cursos.webp',
-    linkPage: 'cursos/informatica/informatica-essencial',
+    linkPage: 'cursos/informatica/informatica-jovem',
     alt: 'Cursos de Informática',
 
     descrição: `Aprenda desde o básico até habilidades avançadas em um curso prático e abrangente.`
