@@ -19,7 +19,7 @@ export default function InformáticaAvancada() {
 
                 <h1>Informática Rápida</h1>
                 <figure className={style.bg_img_destaque} data-aos='fade-right'>
-                    <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-rapida.png'} />
+                    <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-rapida.webp'} />
                 </figure>
                 <div className={style.resumo}>
                     <p>

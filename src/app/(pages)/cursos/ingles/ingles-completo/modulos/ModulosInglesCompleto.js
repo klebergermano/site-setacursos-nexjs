@@ -7,7 +7,7 @@ const modulosInfo = [
 
   {
     nome: 'Listening (Escuta)',
-    imgUrl: 'curso-ingles-listening-seta-cursos.png',
+    imgUrl: 'curso-ingles-listening-seta-cursos.webp',
     resumo: `
     
         <p>
@@ -28,7 +28,7 @@ const modulosInfo = [
 
   {
     nome: 'Reading (Leitura)',
-    imgUrl: 'curso-ingles-reading-seta-cursos.png',
+    imgUrl: 'curso-ingles-reading-seta-cursos.webp',
     resumo: `
     <p>
           A <strong>compreensão de leitura em inglês</strong> é crucial para aprofundar o entendimento do idioma.
@@ -45,7 +45,7 @@ const modulosInfo = [
 
   {
     nome: 'Talking (Conversação)',
-    imgUrl: 'curso-ingles-talking-seta-cursos.png',
+    imgUrl: 'curso-ingles-talking-seta-cursos.webp',
     resumo: `
      <p>No tópico de conversação <em>Talking (conversação)</em> do curso de <strong>inglês completo</strong>,
           visamos desenvolver a <em>confiança</em> e a <em>fluência oral</em> dos alunos em inglês. Através de atividades interativas,
@@ -58,7 +58,7 @@ const modulosInfo = [
 
   {
     nome: 'Writing (Escrita)',
-    imgUrl: 'curso-ingles-writing-seta-cursos.png',
+    imgUrl: 'curso-ingles-writing-seta-cursos.webp',
     resumo: `
 
           <p>

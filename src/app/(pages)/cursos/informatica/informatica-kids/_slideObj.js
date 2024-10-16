@@ -2,7 +2,7 @@ const slideObj = [
 
   {
     nome: 'Intro Tec Kids',
-    imgUrl: 'modulo-intro-kids.png',
+    imgUrl: 'modulo-intro-kids.webp',
     resumo: `
     <p>
           Nesse módulo introduzimos a criança ao fascinante universo da tecnologia de forma vibrante e educativa.
@@ -17,7 +17,7 @@ const slideObj = [
 
   {
     nome: 'Windows Kids',
-    imgUrl: 'modulo-windows-kids.png',
+    imgUrl: 'modulo-windows-kids.webp',
     resumo: `
 
 <p>
@@ -54,7 +54,7 @@ const slideObj = [
 
   {
     nome: 'Componentes Kids',
-    imgUrl: 'modulo-componentes-kids.png',
+    imgUrl: 'modulo-componentes-kids.webp',
     resumo: `
     <p>
 Nesse módulos buscamos uma abordagem acessível e
@@ -69,7 +69,7 @@ Nesse módulos buscamos uma abordagem acessível e
 
   {
     nome: 'Jogos Educativos',
-    imgUrl: 'modulo-jogos-educativos.png',
+    imgUrl: 'modulo-jogos-educativos.webp',
     resumo: `
 <p>
     O módulo "Jogos Educativos" em nosso curso apresenta uma abordagem envolvente,
@@ -86,7 +86,7 @@ Nesse módulos buscamos uma abordagem acessível e
 
   {
     nome: 'Internet com Segurança',
-    imgUrl: 'modulo-internet-kids.png',
+    imgUrl: 'modulo-internet-kids.webp',
     resumo: `
     <p>
 No módulo "Internet Kids", as crianças são guiadas em uma jornada sobre a navegação segura na internet.

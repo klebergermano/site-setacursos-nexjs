@@ -18,7 +18,7 @@ export default function Page() {
 
                 <h1>Informática Jovem</h1>
                 <figure className={style.bg_img_destaque} data-aos='fade-right'>
-                    <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.png'} />
+                    <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.webp'} />
                 </figure>
                 <div className={style.resumo}>
                     <p>

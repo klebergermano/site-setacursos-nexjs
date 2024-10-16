@@ -42,7 +42,7 @@ export default function Page() {
 
                 <h1>Inglês Kids</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={'/assets/images/cursos/ingles/curso-ingles-kids-seta-cursos.png'} />
+                    <Image width={800} height={300} src={'/assets/images/cursos/ingles/curso-ingles-kids-seta-cursos.webp'} />
                 </figure>
                 <div className={style.resumo}>
                     <p>

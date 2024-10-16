@@ -4,7 +4,7 @@ export default function Planos() {
 
   return (
     <div className={style.bg_planos}>
-      <h2>Planos Disponíveis</h2>
+      <h2>Plano Disponível</h2>
       <div className={style.planos}>
         <span className={style.red_block}></span>
         <ul>

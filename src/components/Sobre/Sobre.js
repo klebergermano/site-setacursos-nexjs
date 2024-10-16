@@ -32,7 +32,7 @@ const Sobre = () => {
 
           <p data-aos='zoom-in-left' data-aos-duration='1000'>
             Nossa missão é levar conhecimento de qualidade, de maneira prática e acessível, buscando oferecer uma educação que atenda às necessidades individuais de cada aluno,
-            contribuindo para o crescimento pessoal e profissional de todos
+            contribuindo para o crescimento pessoal e profissional de todos.
             <b />
           </p>
 

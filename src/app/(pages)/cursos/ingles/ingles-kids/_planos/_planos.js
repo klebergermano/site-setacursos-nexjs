@@ -61,7 +61,7 @@ export default function Planos() {
           </h3>
           <figure>
 
-            <Image width={400} height={500} src={"/assets/images/cursos/ingles/plano-ingles-kids.png"} />
+            <Image width={400} height={500} src={"/assets/images/cursos/ingles/plano-ingles-kids.webp"} />
           </figure>
         </div>
 

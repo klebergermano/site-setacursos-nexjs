@@ -2,7 +2,7 @@ const slideObj = [
   {
     nome: 'Autonomia em escritório',
 
-    imgUrl: 'modulo-escritorio.avif',
+    imgUrl: 'modulo-escritorio.webp',
 
     resumo: `
 <p>
@@ -28,7 +28,7 @@ const slideObj = [
   {
     nome: 'Office',
 
-    imgUrl: 'modulo-office.png',
+    imgUrl: 'modulo-office.webp',
 
     resumo: `
 <p>
@@ -84,7 +84,7 @@ const slideObj = [
   {
     nome: 'Windows',
 
-    imgUrl: 'modulo-windows.png',
+    imgUrl: 'modulo-windows.webp',
 
     resumo: `
 <p>

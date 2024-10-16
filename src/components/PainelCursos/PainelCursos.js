@@ -20,18 +20,18 @@ const cursosList = [
     linkPage: 'cursos/ingles/ingles-completo',
     alt: 'Cursos de Inglês',
 
-    descrição: `Domine o idioma inglês com cursos que vão do início ao 
-    avançado, com uma didática dinâmica, completa.`
+    descrição: `Domine o idioma inglês em um curso completo que vai do básico ao 
+    avançado`
   },
 
 
   {
     nome: "Robótica",
-    imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.png',
+    imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.webp',
     linkPage: 'cursos/robotica/robotica-maker',
     alt: 'Cursos de Robótica',
 
-    descrição: `Aprenda a linguagem da robótica desde os conceitos básicos até níveis mais avançados.`
+    descrição: `Aprenda a linguagem da robótica e conceitos fundamentais e práticos de róbotica`
   },
 
   {
@@ -53,13 +53,14 @@ const cursosList = [
     linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Excel Avançado',
 
-    descrição: `Curso de excel avançado focado nas ferramentas mais avançadas do mercado, ideal para impulsionar a sua expertise e oportunidades! 
+    descrição: `Curso de excel avançado focado nas ferramentas mais utilizadas do mercado, 
+    ideal para impulsionar a sua expertise e oportunidades! 
   `
   },
 
   {
     nome: "Web Design",
-    imgUrl: 'img_painel_cursos-assets/curso-web-design-seta-cursos.png',
+    imgUrl: 'img_painel_cursos-assets/curso-web-design-seta-cursos.webp',
     linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Web Design',
 

@@ -77,7 +77,7 @@ function Contato(props) {
                 <div className={style.bg_map}>
                   <figure>
 
-                    <Image width='200' height='0' src={"/assets/images/empresa-local.png"} />
+                    <Image width='200' height='0' src={"/assets/images/empresa-local.webp"} />
                   </figure>
                   <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58433.24167226776!2d-46.72758612692002!3d-23.74461187340801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce49ce5dd65215%3A0x8dcca9f16e4895c1!2sSeta%20Cursos!5e0!3m2!1spt-BR!2sbr!4v1706311605598!5m2!1spt-BR!2sbr"

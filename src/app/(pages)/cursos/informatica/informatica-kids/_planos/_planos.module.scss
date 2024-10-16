@@ -1,7 +1,7 @@
 @import "../../../../../../styles/includes.module.scss";
 
 .bg_trilha {
-    background: #ffffff url("/assets/images/cursos/informatica/bg-trilha.png");
+    background: #ffffff url("/assets/images/cursos/informatica/bg-trilha.webp");
     padding: 20px 40px;
     padding-top: 0px;
     position: relative;
@@ -190,14 +190,14 @@
     }
 
     .planos:nth-child(2) {
-        background: url('/assets/images/cursos/informatica/plano-inf-kids-01.png');
+        background: url('/assets/images/cursos/informatica/plano-inf-kids-01.webp');
         background-size: auto 100%;
         background-position: center;
     }
 
     ///assets/images/cursos/informatica/plano-02.png
     .planos:nth-child(3) {
-        background: url('/assets/images/cursos/informatica/plano-inf-kids-02.png');
+        background: url('/assets/images/cursos/informatica/plano-inf-kids-02.webp');
         background-size: auto 100%;
         background-position: center;
     }
