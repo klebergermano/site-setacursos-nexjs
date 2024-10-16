@@ -34,7 +34,9 @@ const modulosInfo = [
           A <strong>compreensão de leitura em inglês</strong> é crucial para aprofundar o entendimento do idioma.
           Assim temos o módulo <em>Reading (leitura)</em> no nosso curso de <strong>inglês completo</strong>, onde abraçamos a leitura
           abrangendo textos de diferentes gêneros, desde artigos jornalísticos até literatura
-          contemporânea do idioma inglês. Nesse módulo os alunos aprimoram suas habilidades de <strong>interpretação em inglês</strong>,
+          contemporânea do idioma inglês. 
+          </p>
+          <p>Nesse módulo os alunos aprimoram suas habilidades de <strong>interpretação em inglês</strong>,
           e ampliam seu <em>vocabulário</em>, passando a compreender diferentes estilos de escrita,
           onde incentivamos a leitura crítica e analítica,
           promovendo a capacidade de compreender ideias expressas nas mais diferentes formas no idioma inglês.
@@ -49,7 +51,9 @@ const modulosInfo = [
     resumo: `
      <p>No tópico de conversação <em>Talking (conversação)</em> do curso de <strong>inglês completo</strong>,
           visamos desenvolver a <em>confiança</em> e a <em>fluência oral</em> dos alunos em inglês. Através de atividades interativas,
-          discussões, debates e simulações, os alunos terão a oportunidade de aplicar o que aprenderam nas outras áreas. Esse módulo enfatiza a
+          discussões, debates e simulações, os alunos terão a oportunidade de aplicar o que aprenderam nas outras áreas.
+          </p><p>
+          Esse módulo enfatiza a
           comunicação eficaz em situações cotidianas e profissionais, preparando os alunos para interagirem de forma
           natural e fluida ao <strong>falar inglês</strong>.</p>
 `,
@@ -66,7 +70,8 @@ const modulosInfo = [
           são guiados para desenvolver suas
           habilidades de expressão escrita. Desde a construção de frases simples
           até a redação de ensaios mais complexos, os exercícios práticos abordam <em>gramática</em>,
-          <em>vocabulário</em> e <em>estrutura textual</em>. A ênfase está na <strong>clareza</strong>,
+          <em>vocabulário</em> e <em>estrutura textual</em>. 
+          </p><p> Nosso foco é a <strong>clareza</strong>,
           <strong> coesão</strong> e desenvolvimento de <strong>argumentos</strong>,
           preparando os alunos para se comunicarem efetivamente por meio da
           <strong> escrita</strong> em diversos contextos.
