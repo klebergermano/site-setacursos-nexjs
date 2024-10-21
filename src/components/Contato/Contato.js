@@ -44,7 +44,7 @@ function Contato(props) {
               </div>{/*---- div row ----*/}
 
               <div className={style.row}>
-                <h4>Conheça também nossas redes sociais!</h4>
+                <p className={style.txt_redes_sociais}>Conheça também nossas redes sociais!</p>
 
                 <a className={`${style.btn_redesocial} ${style.btn_facebook}`} id={style.btn_facebook} target="_blank" href={Info.facebook}>
                   <Icon name="facebook" className="icon facebook" />
