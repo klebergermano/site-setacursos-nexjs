@@ -27,7 +27,7 @@ export const metadata = {
                 alt: "Imagem do curso Inglês Kids",
             },
         ],
-        siteName: "Seu Site",
+        siteName: "Seta Cursos",
     },
 
 

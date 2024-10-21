@@ -1,24 +1,8 @@
-
-
 import style from "../../pages-cursos.module.scss"
-
-
 import Image from "next/image"
-
-import Icon from "@/../public/assets/icons/index"
-
-
 import Planos from "./_planos/_planos"
-
-
-import VantagensCurso from "../Lateral/VantagensCurso"
-
 import ModulosInglesCompleto from "./modulos/ModulosInglesCompleto"
-// import Reading from "./modulos-ingles-completo/_Reading"
-// import Writing from "./modulos-ingles-completo/_Writing"
-// import Listening from "./modulos-ingles-completo/_Listening"
-// import Talking from "./modulos-ingles-completo/_Talking"
-
+import imgPrincipal from "@/../public/assets/images/cursos/ingles/curso-ingles-completo-seta-cursos.webp"
 
 
 export const metadata = {
@@ -30,13 +14,14 @@ export const metadata = {
         url: "https://setacursos/cursos/ingles/ingles-completo",
         images: [
             {
-                url: "https://setacursos-nextjs.netlify.app/_next/image?url=%2Fassets%2Fimages%2Fcursos%2Fingles%2Fcurso-ingles-kids-seta-cursos.png&w=828&q=75",
+                url: `${imgPrincipal}`,
                 width: 1200,
                 height: 630,
                 alt: "Imagem do curso Inglês Completo",
             },
         ],
-        siteName: "Seu Site",
+
+        siteName: "Seta Cursos",
     },
 
 };
@@ -50,7 +35,7 @@ export default function Page() {
 
                 <h1>Inglês Completo</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={'/assets/images/cursos/ingles/curso-ingles-completo-seta-cursos.webp'} />
+                    <Image width={800} height={300} src={imgPrincipal} />
                 </figure>
                 <div className={style.resumo}>
                     <p>

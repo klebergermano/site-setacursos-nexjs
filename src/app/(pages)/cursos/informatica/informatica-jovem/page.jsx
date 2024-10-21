@@ -8,6 +8,30 @@ import Modulo from "../_modulosSlide/Modulos"
 import slideObj from "./_slideObj"
 import Planos from "./_planos/_planos"
 
+
+export const metadata = {
+    title: "Informática Jovem",
+    description: `Desperte seu potencial digital com o nosso curso "Informática Jovem"! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.
+    `,
+    openGraph: {
+        title: "Informática Jovem",
+        description: `Desperte seu potencial digital com o nosso curso "Informática Jovem"! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.`,
+        url: "https://setacursos/cursos/informatica/informatica-jovem",
+        images: [
+            {
+                url: `${imgPrincipal}`,
+                width: 1200,
+                height: 630,
+                alt: "Imagem do curso Informática Jovem",
+            },
+        ],
+
+        siteName: "Seta Cursos",
+    },
+
+};
+
+
 export default function Page() {
     return (
 
