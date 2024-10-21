@@ -1,6 +1,7 @@
 @import "../../../../../styles/includes.module.scss";
 
 .bg_nav_cursos_lateral {
+    interpolate-size: allow keywords;
 
     margin-top: 20px;
     // margin-bottom: 0px;

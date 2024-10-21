@@ -6,7 +6,7 @@ import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
 import Planos from "./_planos/_planos"
 import Icon from "@/../public/assets/icons/index"
-
+import imgPrincipal from "@/../public/assets/images/cursos/ingles/curso-ingles-kids-seta-cursos.webp"
 
 
 
@@ -18,10 +18,10 @@ export const metadata = {
     openGraph: {
         title: "Inglês Kids",
         description: `Dê ao seu filho a oportunidade de aprender inglês de forma divertida e eficaz!`,
-        url: "https://setacursos-nextjs.netlify.app/cursos/ingles/ingles-kids", // Substitua pela URL da sua postagem
+        url: "https://setacursos.com.br/cursos/ingles/ingles-kids", // Substitua pela URL da sua postagem
         images: [
             {
-                url: "https://setacursos-nextjs.netlify.app/_next/image?url=%2Fassets%2Fimages%2Fcursos%2Fingles%2Fcurso-ingles-kids-seta-cursos.png&w=828&q=75", // Substitua pela URL da sua imagem
+                url: `${imgPrincipal}`,
                 width: 1200,
                 height: 630,
                 alt: "Imagem do curso Inglês Kids",
@@ -42,7 +42,7 @@ export default function Page() {
 
                 <h1>Inglês Kids</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={'/assets/images/cursos/ingles/curso-ingles-kids-seta-cursos.webp'} />
+                    <Image width={800} height={300} src={imgPrincipal} />
                 </figure>
                 <div className={style.resumo}>
                     <p>
