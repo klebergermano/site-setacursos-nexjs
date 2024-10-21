@@ -38,7 +38,10 @@ export default function InformáticaKids() {
 
                 <h1>Informática Kids</h1>
                 <figure className={style.bg_img_destaque} data-aos='fade-right'>
-                    <Image width={800} height={300} src={imgPrincipal} />
+                    <Image width={800} height={300} src={imgPrincipal}
+                        alt="Imagem do curso Informática Kids"
+                        title="Curso de Informática Kids feito sob medida para crianças!"
+                    />
                 </figure>
                 <div className={style.resumo}>
                     <p>

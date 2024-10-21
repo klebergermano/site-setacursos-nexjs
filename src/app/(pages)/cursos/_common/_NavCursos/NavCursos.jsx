@@ -105,7 +105,7 @@ function NavCursos({ itemsNav }) {
         <>
 
             <nav id='bg-nav-cursos-por-categoria' className={style.bg_nav_cursos_por_categoria}>
-                <h2>ACURSOS DE INFORMÁTICA</h2>
+                <h2>CURSOS DE INFORMÁTICA</h2>
                 {
                     itemsNav.map((item) => {
                         const itemPath = (item.link).split('/')
