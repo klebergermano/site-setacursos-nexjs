@@ -1,4 +1,4 @@
-'use client'
+
 
 import style from "../../pages-cursos.module.scss"
 import Image from "next/image"
@@ -7,15 +7,15 @@ import Modulo from "../_modulosSlide/Modulos"
 // import Contato from "@/components/Contato/Contato"
 import slideObj from "./_slideObj"
 import Planos from "./_planos/_planos"
+import imgPrincipal from "@/../public/assets/images/cursos/informatica/img-curso-informatica-01.webp"
 
 
 export const metadata = {
     title: "Informática Jovem",
-    description: `Desperte seu potencial digital com o nosso curso "Informática Jovem"! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.
-    `,
+    description: `Desperte seu potencial digital com o nosso curso Informática Jovem! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.`,
     openGraph: {
         title: "Informática Jovem",
-        description: `Desperte seu potencial digital com o nosso curso "Informática Jovem"! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.`,
+        description: `Desperte seu potencial digital com o nosso curso Informática Jovem! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.`,
         url: "https://setacursos/cursos/informatica/informatica-jovem",
         images: [
             {
@@ -25,21 +25,14 @@ export const metadata = {
                 alt: "Imagem do curso Informática Jovem",
             },
         ],
-
         siteName: "Seta Cursos",
     },
-
 };
-
 
 export default function Page() {
     return (
-
-
         <main className={style.main}>
-
             <div className={style.content}>
-
                 <h1>Informática Jovem</h1>
                 <figure className={style.bg_img_destaque} data-aos='fade-right'>
                     <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.webp'} />
