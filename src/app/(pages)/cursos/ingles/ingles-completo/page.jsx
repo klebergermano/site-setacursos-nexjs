@@ -35,7 +35,10 @@ export default function Page() {
 
                 <h1>Inglês Completo</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={imgPrincipal} />
+                    <Image width={800} height={300} src={imgPrincipal}
+                        alt="Imagem do curso Inglês Completo"
+                        title="Curso de Inglês Completo para jovens e adultos!"
+                    />
                 </figure>
                 <div className={style.resumo}>
                     <p>

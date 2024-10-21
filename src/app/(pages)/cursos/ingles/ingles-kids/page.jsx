@@ -42,7 +42,11 @@ export default function Page() {
 
                 <h1>Inglês Kids</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={imgPrincipal} />
+                    <Image width={800} height={300} src={imgPrincipal}
+                        alt="Imagem do curso Inglês Kids"
+                        title="Curso de Inglês Kids, feito sob medida para crianças!"
+
+                    />
                 </figure>
                 <div className={style.resumo}>
                     <p>

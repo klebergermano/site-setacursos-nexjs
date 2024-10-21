@@ -15,7 +15,7 @@ export const metadata = {
         title: "Informática Kids",
         description: `Descubra o fascinante mundo da robótica! Junte-se a nós neste curso dinâmico e envolvente, projetado especialmente para jovens.`,
 
-        url: "https://setacursos/cursos/informatica/informatica-kids",
+        url: "https://setacursos/cursos/robotica/robotica-maker",
         images: [
             {
                 url: `${imgPrincipal}`,
@@ -42,7 +42,11 @@ export default function Page() {
 
                 <h1>Robótica Maker</h1>
                 <figure className={style.bg_img_destaque}>
-                    <Image width={800} height={300} src={imgPrincipal} />
+                    <Image width={800} height={300} src={imgPrincipal}
+                        alt="Imagem do curso Robótica Maker"
+                        title="Curso de Robótica, feito sob medida para crianças e jovens!"
+
+                    />
                 </figure>
                 <div className={style.resumo}>
                     <p>
