@@ -20,7 +20,7 @@ const LinkLiCursosPage = ({ callback }) => {
             >Robótica</Link> </li>
 
 
-            <li> <Link className="link-cursos" href="/cursos/pagina-em-manutencao"
+            <li> <Link className="link-cursos" href="/cursos/excel/excel-avancado"
                 onClick={callback}
             >Excel Avançado</Link> </li>
 

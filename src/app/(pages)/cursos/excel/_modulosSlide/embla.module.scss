@@ -185,7 +185,7 @@ h3.title {
 
 
 .embla__controls {
-  background-color: rgb(19, 20, 26);
+  background-color: rgb(0, 95, 36);
   display: flex;
 
   justify-content: space-between;
@@ -237,7 +237,7 @@ h3.title {
   align-items: center;
   margin-left: 5px;
   cursor: pointer;
-  border: 1px solid #333;
+  border: 0px solid #ffffff;
   border-radius: 2px;
   padding: 5px;
   font-size: 14px;
@@ -253,7 +253,7 @@ h3.title {
 
 
 #embla__dot__selected {
-  background-color: $color-secondary;
+  background-color: #001610;
   color: rgb(255, 255, 255) !important;
 
 

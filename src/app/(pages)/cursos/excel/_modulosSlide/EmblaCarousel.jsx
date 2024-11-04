@@ -80,7 +80,7 @@ const EmblaCarousel = (props) => {
                     </p> */}
                     </div>
                     <figure>
-                      <Image width={300} height={220} src={`/assets/images/cursos/informatica/${item.imgUrl}`} />
+                      <Image width={300} height={220} src={`/assets/images/cursos/excel/${item.imgUrl}`} />
                     </figure>
                   </div>
 

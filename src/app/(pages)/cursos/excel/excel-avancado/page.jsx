@@ -1,6 +1,8 @@
 
 
 import style from "../../pages-cursos.module.scss"
+import style_page from "./page.module.scss"
+
 import Image from "next/image"
 
 import Modulo from "../_modulosSlide/Modulos"
@@ -8,7 +10,7 @@ import Modulo from "../_modulosSlide/Modulos"
 import slideObj from "./_slideObj"
 import Planos from "./_planos/_planos"
 
-import imgPrincipal from "@/../public/assets/images/cursos/informatica/img-curso-informatica-01.webp"
+import imgPrincipal from "@/../public/assets/images/cursos/excel/img-principal-excel-avancado.webp"
 export const metadata = {
     title: "Excel Avançado",
     description: `Desperte seu potencial digital com o nosso curso Excel Avançado! Este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.`,
@@ -32,19 +34,20 @@ export default function Page() {
     return (
         <main className={style.main}>
             <div className={style.content}>
-                <h1>Excel Avançado</h1>
+                <h1 className={style_page.title}>Excel Avançado</h1>
                 <figure className={style.bg_img_destaque} data-aos='fade-right'>
-                    <Image width={800} height={300} src={'/assets/images/cursos/informatica/img-curso-informatica-01.webp'} />
+                    <Image width={800} height={300} src={imgPrincipal} />
                 </figure>
                 <div className={style.resumo}>
                     <p>
-                        Desperte seu potencial digital com o nosso curso "Excel Avançado"! Se você está apenas começando ou já possui algum conhecimento e deseja se aprofundar, este curso foi cuidadosamente estruturado para guiá-lo desde os fundamentos até técnicas avançadas.
+
+                        Aprenda a transformar dados em insights estratégicos com o Curso de Excel Avançado! Em seis meses,
+                        você desenvolverá habilidades essenciais para dominar desde funções complexas e tabelas dinâmicas até automação de processos.
+                        O curso é voltado para quem buscam otimizar suas atividades diárias, aprofundar-se em análise de dados e criar relatórios eficientes.
                     </p>
                     <p>
-                        Voltado para jovens e jovens adultos, oferecemos dois planos: o "Informática Essencial", que abrange do básico ao intermediário em 12 meses (6 meses por etapa), e o "Informática Completa", que vai do básico ao avançado em 18 meses, também dividido em 6 meses por etapa.
-                    </p>
-                    <p>
-                        Nosso ambiente de aprendizado é dinâmico e acolhedor, repleto de atividades práticas e dicas valiosas. Você ganhará a confiança necessária para navegar no universo da tecnologia, dominando desde as ferramentas básicas até as mais sofisticadas. Ao longo do curso, terá a oportunidade de aplicar o que aprendeu, preparando-se para enfrentar os desafios do mundo digital com segurança e competência.
+                        Com uma abordagem prática e conteúdo atualizado, você sairá preparado para enfrentar desafios do mercado e se destacar
+                        em qualquer área que envolva gestão de informações. Invista em você e eleve seu conhecimento para o próximo nível!
                     </p>
 
 

@@ -1,4 +1,5 @@
 import style from "../pages-cursos.module.scss"
+
 import NavCursos from "../_common/_NavCursos/NavCursos"
 import _itemsNav from "./_itemsNavCursos";
 import VantagensCurso from "./Lateral/VantagensCurso";
@@ -21,8 +22,7 @@ export default function Layout({ children }) {
 
     return (
         <div className={`${style.pages_informatica} pages`}>
-            {/* <TestComp /> */}
-            <NavCursos itemsNav={_itemsNav} />
+            {/* <NavCursos itemsNav={_itemsNav} /> */}
             <div className={style.bg_content_page}>
 
                 {children}
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
                             <Image width={300} height={300} src={'/assets/images/promos/robotica-01.webp'} />
                         </Link>
                     </div>
-                    <NavLateralCursos itemsNav={_itemsNav} title={"Cursos de Informática"} />
+                    {/* <NavLateralCursos itemsNav={_itemsNav} title={"Cursos de Informática"} /> */}
 
                     {/* <VantagensCurso /> */}
 
