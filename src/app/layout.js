@@ -28,16 +28,7 @@ export default function RootLayout({ children }) {
                 </head>
 
                 <div>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <h1>ABRAKADABRA</h1>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
+
 
                     {children}
 
